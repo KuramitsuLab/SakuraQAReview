@@ -1,6 +1,6 @@
 # セットアップガイド
 
-食べ物クイズレビューアプリケーションのセットアップ手順を説明します。
+レビューアプリケーションのセットアップ手順を説明します。
 
 ## 前提条件
 
@@ -85,8 +85,8 @@ qareview_notimg/
 │   ├── app.js             ✓ メインロジック
 │   ├── github.js          ✓ データ取得
 │   └── storage.js         ✓ データ保存
-├── food_quiz/
-│   └── questions.json     ✓ 問題データ（108問）
+├── quiz/
+│   └── questions.json     ✓ 問題データ
 └── README.md              ✓ 使用方法
 ```
 
@@ -95,9 +95,9 @@ qareview_notimg/
 ### 1. ホーム画面
 
 - ブラウザでアクセス
-- 「食べ物クイズレビュー」のタイトルが表示される
+- 「SakuraQA レビューツール」のタイトルが表示される
 - レビューアー名入力欄が表示される
-- 問題セットカード（108問）が表示される
+- 問題セットカードが表示される
 
 ### 2. レビュー画面
 
@@ -128,12 +128,12 @@ qareview_notimg/
 
 ### 問題: 問題データが表示されない
 
-**原因**: `food_quiz/questions.json`が存在しない、または形式が不正
+**原因**: `quiz/questions.json`が存在しない、または形式が不正
 
 **確認**:
 ```bash
-ls -la food_quiz/questions.json
-cat food_quiz/questions.json | head -n 20
+ls -la quiz/questions.json
+cat quiz/questions.json | head -n 20
 ```
 
 **解決策**:
@@ -171,7 +171,7 @@ cat food_quiz/questions.json | head -n 20
    python3 convert_csv_to_json.py
    ```
 
-2. 生成された`questions.json`を`food_quiz/`フォルダに配置
+2. 生成された`questions.json`を`quiz/`フォルダに配置
 
 3. ブラウザをリロードして動作確認
 
@@ -208,7 +208,7 @@ A: エクスポート機能でJSON/CSV形式でダウンロードして共有で
 
 **Q: 問題を追加できますか？**
 
-A: はい。`questions.json`形式で問題を作成し、`food_quiz/`フォルダに配置してください。
+A: はい。`questions.json`形式で問題を作成し、`quiz/`フォルダに配置してください。
 
 ## サポート
 
@@ -222,4 +222,4 @@ A: はい。`questions.json`形式で問題を作成し、`food_quiz/`フォル�
 
 - [README.md](README.md) - 使用方法を確認
 - [Claude_food_review.md](Claude_food_review.md) - 詳細な仕様を確認
-- レビューを開始して食べ物の知識を深めよう！
+- レビューを開始しよう！

@@ -7,7 +7,7 @@
 import { S3Client, GetObjectCommand, PutObjectCommand } from '@aws-sdk/client-s3';
 
 const s3Client = new S3Client({ region: process.env.AWS_REGION || 'ap-northeast-1' });
-const BUCKET_NAME = process.env.S3_BUCKET_NAME || 'sakuraqa-food-review-results';
+const BUCKET_NAME = process.env.S3_BUCKET_NAME || 'sakuraqa-review-results';
 const FILE_KEY = 'review.json';
 
 export const handler = async (event) => {

@@ -1,24 +1,24 @@
-# 食べ物クイズレビューアプリケーション
+# SakuraQA レビューアプリケーション
 
 ## プロジェクト概要
-4選択肢形式の食べ物クイズに解答できるWebアプリケーション。ローカルまたはGitHub Pagesに保存された問題データ(JSON)を読み込み、レビューアが1人ずつレビューを行い、結果をローカルストレージに保存する。
+4選択肢形式のクイズに解答できるWebアプリケーション。ローカルまたはGitHub Pagesに保存された問題データ(JSON)を読み込み、レビューアが1人ずつレビューを行い、結果をローカルストレージに保存する。
 
 **現在の実装状況**:
 - ✅ 実装済み: 1人ずつのレビュー形式
-- ✅ 実装済み: 食べ物カテゴリに特化した問題セット
+- ✅ 実装済み: カテゴリ別の問題セット
 
 ## 目的
-- 食べ物に関する4選択肢のクイズに回答
+- 4選択肢のクイズに回答
 - 正解/不正解の即座なフィードバック
 - レビュー結果の記録と分析
 
 ## システム構成
 
 ### データソース
-- **GitHub リポジトリ** または **ローカルフォルダ**: 食べ物クイズデータ
+- **GitHub リポジトリ** または **ローカルフォルダ**: クイズデータ
   - フォルダ構成:
-    - `food_quiz/` (問題セット)
-      - `questions.json`: 食べ物クイズ問題データ
+    - `quiz/` (問題セット)
+      - `questions.json`: クイズ問題データ
 
 ### アーキテクチャ
 1. **フロントエンド**: HTML/CSS/JavaScript (静的サイト)
@@ -31,7 +31,7 @@
 - **レビューア名入力欄** (1つのみ)
   - 必須入力。入力されるまで開始できない
 - **問題セット選択**
-  - プリセット: food_quiz（カード形式で表示）
+  - プリセット: quiz（カード形式で表示）
   - カスタムURL: GitHubリポジトリURLを直接入力可能
 - **入力検証とエラー表示**
   - 未入力の場合はエラーメッセージ表示
@@ -75,12 +75,12 @@
   - タイムスタンプ（ISO 8601形式）
   - コメント（任意）
 - **保存先**: ブラウザのlocalStorage
-  - キー: `food_review_results`
+  - キー: `review_results`
   - 形式: JSON配列（追加形式）
 - **エクスポート機能**
   - JSON形式でダウンロード
   - CSV形式でダウンロード（Excel対応、BOM付きUTF-8）
-  - ファイル名: `food_review_results_YYYYMMDD_HHMMSS.json/csv`
+  - ファイル名: `review_results_YYYYMMDD_HHMMSS.json/csv`
 - **統計機能**
   - 全体の統計情報取得
   - カテゴリごとの統計
@@ -127,17 +127,17 @@
 {
   "review_id": "review_1729651234567_abc123xyz",
   "question_id": "Q001",
-  "question_set": "food_quiz",
+  "question_set": "quiz",
   "question_index": 0,
-  "keyword": "バスクチーズケーキ",
-  "category": "スイーツ",
-  "question_text": "バスクチーズケーキの名前にもなっているバスク地方がある国はどこ？",
+  "keyword": "キーワード例",
+  "category": "カテゴリ名",
+  "question_text": "問題文の例",
   "reviewer_name": "山田太郎",
   "answer": 0,
   "correct_answer": 0,
   "is_correct": true,
   "timestamp": "2025-10-31T10:30:45.123Z",
-  "comment": "スペインの有名な地域"
+  "comment": "コメント例"
 }
 ```
 
@@ -149,7 +149,7 @@
   - review.html: レビュー画面
 - **CSS3**: レスポンシブデザイン、モダンなUI
   - css/style.css: 統合スタイルシート
-  - カラースキーム: 食べ物テーマに合わせた暖色系配色
+  - カラースキーム: 暖色系配色
   - ボタンの状態管理: selected, correct, incorrect
 - **JavaScript (Vanilla ES6+)**:
   - js/app.js: メインロジック（問題表示、回答管理、ナビゲーション）
@@ -162,7 +162,7 @@
 
 1. **ローカルファイル取得** (デフォルト)
    - 相対パスで直接アクセス
-   - `food_quiz/questions.json`
+   - `quiz/questions.json`
    - GitHub Pagesまたはローカルサーバーで動作
    - 認証不要、最もシンプル
 
@@ -177,7 +177,7 @@
 
 - **localStorage API**
   - ブラウザ内で完結、追加設定不要
-  - `food_review_results`キーに全データ保存
+  - `review_results`キーに全データ保存
   - JSON配列形式で追加保存
 
 - **エクスポート機能**
@@ -193,7 +193,7 @@
 ## ディレクトリ構成
 
 ```
-food_quiz_app/
+review_app/
 ├── index.html              # ホーム画面
 ├── review.html             # レビュー画面
 ├── css/
@@ -202,8 +202,8 @@ food_quiz_app/
 │   ├── app.js             # メインロジック
 │   ├── github.js          # データ取得
 │   └── storage.js         # データ保存・統計
-├── food_quiz/             # 問題セット
-│   └── questions.json     # 食べ物クイズデータ
+├── quiz/                  # 問題セット
+│   └── questions.json     # クイズデータ
 ├── Claude.md              # プロジェクト仕様書（このファイル）
 ├── README.md              # 使用方法説明
 └── SETUP.md               # セットアップガイド
@@ -323,11 +323,11 @@ food_quiz_app/
 ### GitHub Pagesでの公開
 1. GitHubリポジトリの Settings → Pages
 2. Source: `main`ブランチ、`/ (root)`
-3. 公開URLにアクセス（例: `https://username.github.io/food_quiz_app/`）
+3. 公開URLにアクセス（例: `https://username.github.io/review_app/`）
 
 ### レビューの実行
 1. ホーム画面でレビューア名を入力（1人）
-2. 問題セット（food_quiz）を選択
+2. 問題セットを選択
 3. レビュー画面で回答を選択
 4. 必要に応じてコメントを追加
 5. 「回答を提出」をクリックして結果確認

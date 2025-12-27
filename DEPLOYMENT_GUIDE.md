@@ -1,6 +1,6 @@
 # デプロイメントガイド
 
-このガイドでは、SakuraQA foodレビューアプリケーションをGitHub Pagesにデプロイし、レビュー結果をAWS S3に保存する環境を構築する手順を説明します。
+このガイドでは、SakuraQA レビューアプリケーションをGitHub Pagesにデプロイし、レビュー結果をAWS S3に保存する環境を構築する手順を説明します。
 
 ## 目次
 
@@ -63,7 +63,7 @@ https://<username>.github.io/<repository-name>/
 3. **バケットを作成** をクリック
 
 **バケット設定**：
-- **バケット名**: `sakuraqa-food-review-results`（任意のユニークな名前）
+- **バケット名**: `sakuraqa-review-results`（任意のユニークな名前）
 - **リージョン**: `ap-northeast-1`（東京リージョン推奨）
 - **パブリックアクセスをブロック**: すべてチェック（セキュリティのため）
 
@@ -102,7 +102,7 @@ https://<username>.github.io/<repository-name>/
 
 | キー | 値 |
 |------|-----|
-| `S3_BUCKET_NAME` | `sakuraqa-food-review-results`（作成したバケット名） |
+| `S3_BUCKET_NAME` | `sakuraqa-review-results`（作成したバケット名） |
 
 **注意**: `AWS_REGION`は予約済み環境変数のため、手動で設定する必要はありません。Lambda関数は自動的に実行中のリージョンを取得します。
 
@@ -125,14 +125,14 @@ Lambda関数がS3にアクセスできるよう権限を設定します。
                 "s3:GetObject",
                 "s3:PutObject"
             ],
-            "Resource": "arn:aws:s3:::sakuraqa-food-review-results/*"
+            "Resource": "arn:aws:s3:::sakuraqa-review-results/*"
         },
         {
             "Effect": "Allow",
             "Action": [
                 "s3:ListBucket"
             ],
-            "Resource": "arn:aws:s3:::sakuraqa-food-review-results"
+            "Resource": "arn:aws:s3:::sakuraqa-review-results"
         }
     ]
 }
@@ -226,7 +226,7 @@ cp js/aws-config.example.js js/aws-config.js
 ```javascript
 const AWS_CONFIG = {
     region: 'ap-northeast-1',
-    bucketName: 'sakuraqa-food-review-results', // 実際のバケット名に置き換え
+    bucketName: 'sakuraqa-review-results', // 実際のバケット名に置き換え
     apiEndpoint: 'https://xxxxxxxxxx.execute-api.ap-northeast-1.amazonaws.com/review', // 実際のAPI GatewayのURLに置き換え
     enableS3Upload: true
 };

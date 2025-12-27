@@ -4,8 +4,8 @@
  */
 
 const StorageManager = {
-    STORAGE_KEY: 'food_review_results',
-    PROGRESS_KEY: 'food_review_progress',
+    STORAGE_KEY: 'review_results',
+    PROGRESS_KEY: 'review_progress',
     s3: null, // S3クライアント（初期化後に設定）
 
     /**
@@ -211,7 +211,7 @@ const StorageManager = {
         const results = this.getAllResults();
         const dataStr = JSON.stringify(results, null, 2);
         const blob = new Blob([dataStr], { type: 'application/json' });
-        const filename = `food_review_results_${this.getTimestamp()}.json`;
+        const filename = `review_results_${this.getTimestamp()}.json`;
 
         this.downloadFile(blob, filename);
         console.log('JSONファイルをエクスポートしました:', filename);
@@ -270,7 +270,7 @@ const StorageManager = {
         // BOM付きUTF-8でエンコード（Excel対応）
         const bom = '\uFEFF';
         const blob = new Blob([bom + csvContent], { type: 'text/csv;charset=utf-8;' });
-        const filename = `food_review_results_${this.getTimestamp()}.csv`;
+        const filename = `review_results_${this.getTimestamp()}.csv`;
 
         this.downloadFile(blob, filename);
         console.log('CSVファイルをエクスポートしました:', filename);
