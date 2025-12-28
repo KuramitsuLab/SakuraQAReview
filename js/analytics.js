@@ -116,6 +116,14 @@ const Analytics = {
             questionMap.set(q.questionID, q);
         });
 
+        // レビュー結果をquestions.jsonに存在する問題のみに絞る
+        this.reviews = this.reviews.filter(review => {
+            const questionId = review.question_id || review.questionId;
+            return questionMap.has(questionId);
+        });
+
+        console.log(`フィルタリング後のレビュー数: ${this.reviews.length}件`);
+
         // レビュー結果と問題データを結合
         this.enrichedReviews = this.reviews.map(review => {
             const question = questionMap.get(review.question_id || review.questionId);
@@ -143,7 +151,7 @@ const Analytics = {
      */
     calculateOverallStats() {
         const correct = this.reviews.filter(r => r.is_correct || r.isCorrect).length;
-        const total = this.reviews.length;
+        const total = this.questions.length; // 総問題数はquestions.jsonの問題数
         const accuracy = total > 0 ? ((correct / total) * 100).toFixed(1) : 0;
 
         return { correct, total, accuracy };
@@ -156,7 +164,12 @@ const Analytics = {
         const stats = {};
 
         this.enrichedReviews.forEach(review => {
-            const author = review.question.authored_by || 'Unknown';
+            const author = review.question.authored_by;
+
+            // Unknownまたはauthored_byがない場合はスキップ
+            if (!author || author === 'Unknown') {
+                return;
+            }
 
             if (!stats[author]) {
                 stats[author] = { correct: 0, total: 0 };
