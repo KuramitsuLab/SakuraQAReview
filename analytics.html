@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SakuraQA レビューツール - 分析</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <style>
+        .analytics-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .analytics-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .analytics-section {
+            background: white;
+            border-radius: 8px;
+            padding: 24px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .analytics-section h2 {
+            margin-top: 0;
+            margin-bottom: 20px;
+            color: #333;
+            border-bottom: 2px solid #FF6B9D;
+            padding-bottom: 10px;
+        }
+
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .stat-value {
+            font-size: 48px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .stat-label {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+
+        .chart-container {
+            position: relative;
+            height: 400px;
+            margin: 20px 0;
+        }
+
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .data-table th,
+        .data-table td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .data-table th {
+            background: #f5f5f5;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .data-table tr:hover {
+            background: #f9f9f9;
+        }
+
+        .accuracy-bar {
+            display: inline-block;
+            height: 20px;
+            background: linear-gradient(90deg, #4CAF50, #8BC34A);
+            border-radius: 4px;
+            margin-left: 10px;
+        }
+
+        .button-group {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .loading-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.9);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .loading-content {
+            text-align: center;
+        }
+
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #FF6B9D;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .error-message {
+            background: #ffebee;
+            color: #c62828;
+            padding: 16px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="analytics-container">
+        <div class="analytics-header">
+            <h1>📊 レビュー結果分析</h1>
+            <button class="btn btn-secondary" onclick="window.location.href='index.html'">ホームに戻る</button>
+        </div>
+
+        <!-- ローディング -->
+        <div id="loading" class="loading-overlay">
+            <div class="loading-content">
+                <div class="spinner"></div>
+                <p>データを読み込んでいます...</p>
+            </div>
+        </div>
+
+        <!-- エラー表示 -->
+        <div id="error-container" style="display: none;"></div>
+
+        <!-- 全体統計 -->
+        <div class="analytics-section" id="overall-stats" style="display: none;">
+            <h2>全体統計</h2>
+            <div class="stat-card">
+                <div class="stat-label">全体正答率</div>
+                <div class="stat-value" id="overall-accuracy">--%</div>
+                <div class="stat-label">
+                    <span id="overall-correct">0</span> / <span id="overall-total">0</span> 問
+                </div>
+            </div>
+        </div>
+
+        <!-- authored_by別正答率 -->
+        <div class="analytics-section" id="by-author-section" style="display: none;">
+            <h2>問題作成者別正答率</h2>
+            <div class="chart-container">
+                <canvas id="authorChart"></canvas>
+            </div>
+            <table class="data-table" id="authorTable">
+                <thead>
+                    <tr>
+                        <th>作成者</th>
+                        <th>正答数</th>
+                        <th>総問題数</th>
+                        <th>正答率</th>
+                    </tr>
+                </thead>
+                <tbody id="authorTableBody"></tbody>
+            </table>
+        </div>
+
+        <!-- reviewer別正答率 -->
+        <div class="analytics-section" id="by-reviewer-section" style="display: none;">
+            <h2>レビュアー別正答率</h2>
+            <div class="chart-container">
+                <canvas id="reviewerChart"></canvas>
+            </div>
+            <table class="data-table" id="reviewerTable">
+                <thead>
+                    <tr>
+                        <th>レビュアー</th>
+                        <th>正答数</th>
+                        <th>総回答数</th>
+                        <th>正答率</th>
+                    </tr>
+                </thead>
+                <tbody id="reviewerTableBody"></tbody>
+            </table>
+        </div>
+
+        <!-- 問題ごとの正答率 -->
+        <div class="analytics-section" id="by-question-section" style="display: none;">
+            <h2>問題別難易度（正答率順）</h2>
+            <table class="data-table" id="questionTable">
+                <thead>
+                    <tr>
+                        <th>問題ID</th>
+                        <th>問題文</th>
+                        <th>作成者</th>
+                        <th>正答数</th>
+                        <th>回答数</th>
+                        <th>正答率</th>
+                    </tr>
+                </thead>
+                <tbody id="questionTableBody"></tbody>
+            </table>
+        </div>
+
+        <!-- ダウンロードボタン -->
+        <div class="analytics-section" id="download-section" style="display: none;">
+            <h2>データダウンロード</h2>
+            <div class="button-group">
+                <button class="btn btn-primary" id="downloadAllBtn">全データ (JSONL)</button>
+                <button class="btn btn-secondary" id="downloadSummaryBtn">集計結果 (JSON)</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- AWS設定ファイル -->
+    <script src="js/aws-config.js"></script>
+    <script src="js/github.js"></script>
+    <script src="js/storage.js"></script>
+    <script src="js/analytics.js"></script>
+</body>
+</html>
