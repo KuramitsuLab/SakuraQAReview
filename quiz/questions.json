@@ -3,6 +3,1926 @@
     "questionID": "Q001",
     "keyword": "",
     "category": "ディズニー",
+    "question": "映画『リトル・マーメイド』で、アリエルの姉は全部で何人？",
+    "choice": [
+      "5人",
+      "6人",
+      "7人",
+      "8人"
+    ],
+    "answer": "7人",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "GPT"
+  },
+  {
+    "questionID": "Q002",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "映画『塔の上のラプンツェル』で、ラプンツェルの髪の長さは約何メートル？",
+    "choice": [
+      "約10m",
+      "約15m",
+      "約21m",
+      "約30m"
+    ],
+    "answer": "約21m",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "GPT"
+  },
+  {
+    "questionID": "Q003",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "映画『アラジン』で、ジャスミンが飼っている虎の名前は？",
+    "choice": [
+      "ラジャー",
+      "シンバ",
+      "カーン",
+      "タイガー"
+    ],
+    "answer": "ラジャー",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "GPT"
+  },
+  {
+    "questionID": "Q004",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ウォルト・ディズニーが「ディズニーランドを作るきっかけ」になった出来事はどれ？",
+    "choice": [
+      "映画会社との契約トラブル",
+      "娘と遊園地に行った経験",
+      "ミッキー誕生",
+      "世界博覧会の視察"
+    ],
+    "answer": "娘と遊園地に行った経験",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "GPT"
+  },
+  {
+    "questionID": "Q005",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "東京ディズニーシーの「プロメテウス火山」は、どの高さに設定されている？",
+    "choice": [
+      "約45m",
+      "約51m",
+      "約60m",
+      "約70m"
+    ],
+    "answer": "約51m",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "GPT"
+  },
+  {
+    "questionID": "Q006",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "映画『モンスターズ・インク』で、サリーの正式なフルネームは？",
+    "choice": [
+      "ジェームズ・P・サリバン",
+      "ジョン・L・サリバン",
+      "ジェームズ・L・サリバン",
+      "ジョン・P・サリバン"
+    ],
+    "answer": "ジェームズ・P・サリバン",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "GPT"
+  },
+  {
+    "questionID": "Q007",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "映画『シンデレラ』で、ガラスの靴が脱げた理由は？",
+    "choice": [
+      "魔法が解けかけたから",
+      "サイズが合っていなかったから",
+      "急いで階段を降りたから",
+      "王子が引き止めたから"
+    ],
+    "answer": "急いで階段を降りたから",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "GPT"
+  },
+  {
+    "questionID": "Q008",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ミッキーマウスの誕生日とされている日はいつ？",
+    "choice": [
+      "7月17日",
+      "9月15日",
+      "11月18日",
+      "12月25日"
+    ],
+    "answer": "11月18日",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "GPT"
+  },
+  {
+    "questionID": "Q009",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "東京ディズニーランドの「シンデレラ城」は、どの城をモチーフにしている？",
+    "choice": [
+      "ノイシュヴァンシュタイン城",
+      "シャンボール城",
+      "ベルサイユ宮殿",
+      "ウィンザー城"
+    ],
+    "answer": "ノイシュヴァンシュタイン城",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "GPT"
+  },
+  {
+    "questionID": "Q010",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "映画『ライオン・キング』で、スカーの本名はどれ？",
+    "choice": [
+      "スカーレット",
+      "タカ",
+      "ムファサ",
+      "コブ"
+    ],
+    "answer": "タカ",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "GPT"
+  },
+  {
+    "questionID": "Q011",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "映画『アナと雪の女王』で、エルサが作り出した氷の城の正式名称は？",
+    "choice": [
+      "アイス・キャッスル",
+      "スノー・パレス",
+      "アイス・パレス",
+      "ノース・マウンテン・キャッスル"
+    ],
+    "answer": "アイス・パレス",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "GPT"
+  },
+  {
+    "questionID": "Q012",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "映画『ピーター・パン』で、ピーターパンの影が縫い付けられるのに使われたものは？",
+    "choice": [
+      "糸と針",
+      "魔法",
+      "のり",
+      "ホッチキス"
+    ],
+    "answer": "糸と針",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "GPT"
+  },
+  {
+    "questionID": "Q013",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "映画『モアナと伝説の海』で、マウイが持つ武器の名前は？",
+    "choice": [
+      "マナ・フック",
+      "フィッシュ・フック",
+      "デミゴッド・フック",
+      "マウイ・フック"
+    ],
+    "answer": "フィッシュ・フック",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "GPT"
+  },
+  {
+    "questionID": "Q014",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ディズニー映画で初めて「完全なカラー長編アニメーション」として公開された作品はどれ？",
+    "choice": [
+      "ピノキオ",
+      "ファンタジア",
+      "白雪姫",
+      "バンビ"
+    ],
+    "answer": "白雪姫",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "GPT"
+  },
+  {
+    "questionID": "Q015",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ミッキーマウスの手袋が白くなった理由として最も有力な説はどれ？",
+    "choice": [
+      "冬の寒さ対策",
+      "キャラクターデザインの差別化",
+      "労働者設定の名残",
+      "表情と手の動きを見やすくするため"
+    ],
+    "answer": "表情と手の動きを見やすくするため",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "GPT"
+  },
+  {
+    "questionID": "Q016",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "映画『ノートルダムの鐘』で、カジモドが住んでいる場所はどこ？",
+    "choice": [
+      "鐘楼",
+      "地下牢",
+      "王宮",
+      "市街地の屋根裏"
+    ],
+    "answer": "鐘楼",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "GPT"
+  },
+  {
+    "questionID": "Q017",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "映画『ズートピア』で、ニックが子どもの頃に着ていたボーイスカウトの衣装の色は？",
+    "choice": [
+      "緑",
+      "青",
+      "赤",
+      "黄色"
+    ],
+    "answer": "緑",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "GPT"
+  },
+  {
+    "questionID": "Q018",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "映画『プリンセスと魔法のキス』で、ティアナの夢は何？",
+    "choice": [
+      "王女になること",
+      "自分のレストランを持つこと",
+      "世界一のシェフになること",
+      "家族と旅をすること"
+    ],
+    "answer": "自分のレストランを持つこと",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "GPT"
+  },
+  {
+    "questionID": "Q019",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "映画『トイ・ストーリー2』で、ジェシーが恐れているものはどれ？",
+    "choice": [
+      "犬",
+      "雷",
+      "捨てられること",
+      "火"
+    ],
+    "answer": "捨てられること",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "GPT"
+  },
+  {
+    "questionID": "Q020",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "東京ディズニーランドの「カントリーベア・シアター」で、リバー・リップス・マックグロウの担当楽器は？",
+    "choice": [
+      "ギター",
+      "ピアノ",
+      "バンジョー",
+      "ハーモニカ"
+    ],
+    "answer": "ギター",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "GPT"
+  },
+  {
+    "questionID": "Q021",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "映画『バンビ』で、バンビの母親が撃たれた季節はいつ？",
+    "choice": [
+      "春",
+      "夏",
+      "秋",
+      "冬"
+    ],
+    "answer": "冬",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "GPT"
+  },
+  {
+    "questionID": "Q022",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "映画『ピノキオ』で、ピノキオの鼻が伸びる条件として正しいものはどれ？",
+    "choice": [
+      "嘘をついたとき",
+      "悪いことを考えたとき",
+      "約束を破ったとき",
+      "良心に反した行動をしたとき"
+    ],
+    "answer": "嘘をついたとき",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "GPT"
+  },
+  {
+    "questionID": "Q023",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "映画『ムーラン』で、ムーランが父の代わりに徴兵に応じた理由として最も正しいものは？",
+    "choice": [
+      "名誉を得るため",
+      "戦いに憧れていたため",
+      "父を戦死させないため",
+      "皇帝に仕えるため"
+    ],
+    "answer": "父を戦死させないため",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "GPT"
+  },
+  {
+    "questionID": "Q024",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "東京ディズニーシー「レイジングスピリッツ」の舞台設定で、呪われた像の名前は？",
+    "choice": [
+      "クリスタルスカル",
+      "スピリットスカル",
+      "クリムゾンスカル",
+      "アンシェントスカル"
+    ],
+    "answer": "クリスタルスカル",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "GPT"
+  },
+  {
+    "questionID": "Q025",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "映画『ベイマックス』で、ヒロが最初に発明したロボットは何？",
+    "choice": [
+      "ベイマックス",
+      "マイクロボット",
+      "フライトロボット",
+      "バトルロボット"
+    ],
+    "answer": "マイクロボット",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "GPT"
+  },
+  {
+    "questionID": "Q026",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ディズニー映画『ファンタジア』で、ミッキーが魔法使いの弟子として登場する楽曲はどれ？",
+    "choice": [
+      "交響曲第5番",
+      "禿山の一夜",
+      "魔法使いの弟子",
+      "トッカータとフーガ"
+    ],
+    "answer": "魔法使いの弟子",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "GPT"
+  },
+  {
+    "questionID": "Q027",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "映画『ターザン』で、ターザンを育てたゴリラの母親の名前は？",
+    "choice": [
+      "カーラ",
+      "サビーナ",
+      "ナラ",
+      "ターラ"
+    ],
+    "answer": "カーラ",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "GPT"
+  },
+  {
+    "questionID": "Q028",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "東京ディズニーシー「海底2万マイル」で、ネモ船長が乗っている潜水艦の名前は？",
+    "choice": [
+      "アルゴ号",
+      "ノーチラス号",
+      "アトランティス号",
+      "カリプソ号"
+    ],
+    "answer": "ノーチラス号",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "GPT"
+  },
+  {
+    "questionID": "Q029",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "映画『リメンバー・ミー』で、ミゲルが死者の国へ行くきっかけとなった出来事は？",
+    "choice": [
+      "呪われたギターを弾いた",
+      "家族に追い出された",
+      "墓地で迷子になった",
+      "死者の日の祝福を受けた"
+    ],
+    "answer": "呪われたギターを弾いた",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "GPT"
+  },
+  {
+    "questionID": "Q030",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ディズニー映画『バグズ・ライフ』で、主人公フリックの種族はどれ？",
+    "choice": [
+      "バッタ",
+      "アリ",
+      "ハチ",
+      "カマキリ"
+    ],
+    "answer": "アリ",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "GPT"
+  },
+  {
+    "questionID": "Q031",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "映画『シュガー・ラッシュ』で、ヴァネロペが登場するレースゲームの名前は？",
+    "choice": [
+      "カート・クラッシュ",
+      "シュガー・スピード",
+      "スウィート・レース",
+      "シュガー・ラッシュ"
+    ],
+    "answer": "シュガー・ラッシュ",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "GPT"
+  },
+  {
+    "questionID": "Q032",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "映画『アラジン』で、ジーニーが最初に現れたときに名乗った肩書きはどれ？",
+    "choice": [
+      "魔法界の王",
+      "ランプの精",
+      "万能の精霊",
+      "願いを叶える精"
+    ],
+    "answer": "ランプの精",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "GPT"
+  },
+  {
+    "questionID": "Q033",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "映画『リロ＆スティッチ』で、スティッチの試作品番号は？",
+    "choice": [
+      "621",
+      "624",
+      "626",
+      "628"
+    ],
+    "answer": "626",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "GPT"
+  },
+  {
+    "questionID": "Q034",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ディズニー映画『ポカホンタス』で、ジョン・スミスが属している国はどこ？",
+    "choice": [
+      "フランス",
+      "スペイン",
+      "イギリス",
+      "ポルトガル"
+    ],
+    "answer": "イギリス",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "GPT"
+  },
+  {
+    "questionID": "Q035",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "東京ディズニーランド「ミッキーのフィルハーマジック」で流れる楽曲に含まれない作品はどれ？",
+    "choice": [
+      "美女と野獣",
+      "アラジン",
+      "リトル・マーメイド",
+      "塔の上のラプンツェル"
+    ],
+    "answer": "塔の上のラプンツェル",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "GPT"
+  },
+  {
+    "questionID": "Q036",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "映画『インサイド・ヘッド』で、ライリーの中で最初に生まれた感情はどれ？",
+    "choice": [
+      "ヨロコビ",
+      "カナシミ",
+      "イカリ",
+      "ムカムカ"
+    ],
+    "answer": "ヨロコビ",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "GPT"
+  },
+  {
+    "questionID": "Q037",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "東京ディズニーシー「シンドバッド・ストーリーブック・ヴォヤッジ」で、シンドバッドと一緒に旅をする子トラの名前は？",
+    "choice": [
+      "チャンドゥ",
+      "ラジャー",
+      "カーラ",
+      "サルタン"
+    ],
+    "answer": "チャンドゥ",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "GPT"
+  },
+  {
+    "questionID": "Q038",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "映画『ズートピア』で、ズートピアに存在しないエリアはどれ？",
+    "choice": [
+      "サハラ・スクエア",
+      "ツンドラタウン",
+      "レインフォレスト地区",
+      "リトル・ローデンシア"
+    ],
+    "answer": "レインフォレスト地区",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "GPT"
+  },
+  {
+    "questionID": "Q039",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "東京ディズニーシー「タートル・トーク」で、クラッシュが話題にしない内容はどれ？",
+    "choice": [
+      "海の仲間",
+      "家族",
+      "サーフィン",
+      "数学"
+    ],
+    "answer": "数学",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "GPT"
+  },
+  {
+    "questionID": "Q040",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "映画『美女と野獣』で、ベルが城に来てから野獣に最初に贈ったものは何？",
+    "choice": [
+      "花",
+      "本",
+      "食事",
+      "笑顔"
+    ],
+    "answer": "本",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "GPT"
+  },
+  {
+    "questionID": "Q041",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "世界初の長編カラーアニメーション映画『白雪姫』がアメリカでプレミア公開された正確な年はいつですか？",
+    "choice": [
+      "1934年",
+      "1939年",
+      "1937年",
+      "1941年"
+    ],
+    "answer": "1937年",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Claude"
+  },
+  {
+    "questionID": "Q042",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ウォルト・ディズニーがミッキーマウスを考案した際、最初に付けようとしていた名前は何ですか？",
+    "choice": [
+      "モーティマー・マウス",
+      "ウィリー・マウス",
+      "オズワルド・マウス",
+      "クラシック・マウス"
+    ],
+    "answer": "モーティマー・マウス",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Claude"
+  },
+  {
+    "questionID": "Q043",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "東京ディズニーランドの「ホーンテッドマンション」に住んでいる幽霊の数は何人と設定されていますか？",
+    "choice": [
+      "100人",
+      "1313人",
+      "666人",
+      "999人"
+    ],
+    "answer": "999人",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Claude"
+  },
+  {
+    "questionID": "Q044",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "映画『眠れる森の美女』に登場する3人の妖精のうち、緑色の服を着て、オーロラ姫に「歌の才能」を贈ったのは誰ですか？",
+    "choice": [
+      "フォーナ",
+      "ブルーム",
+      "フローラ",
+      "メリーウェザー"
+    ],
+    "answer": "フォーナ",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Claude"
+  },
+  {
+    "questionID": "Q045",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "映画『ライオン・キング』で、シンバの父ムファサと、2019年の超実写版でも同役の声を担当した俳優は誰ですか？",
+    "choice": [
+      "ジェレミー・アイアンズ",
+      "マシュー・ブロデリック",
+      "ジェームズ・アール・ジェーンズ",
+      "ネイサン・レイン"
+    ],
+    "answer": "ジェームズ・アール・ジェーンズ",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Claude"
+  },
+  {
+    "questionID": "Q046",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ウォルト・ディズニーが構想し、現在のフロリダのパークの一部となった「EPCOT」の本来の略称の意味は何ですか？",
+    "choice": [
+      "Environment Prototype Center Of Tomorrow",
+      "Educational Project for Community Organization",
+      "Experimental Prototype Community of Tomorrow",
+      "Every Person Can Own Technology"
+    ],
+    "answer": "Experimental Prototype Community of Tomorrow",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Claude"
+  },
+  {
+    "questionID": "Q047",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ウォルト・ディズニーが生前に最後に見届けた（公開された）長編アニメーション映画は何ですか？",
+    "choice": [
+      "ジャングル・ブック",
+      "メリー・ポピンズ",
+      "王様の剣",
+      "101匹わんちゃん"
+    ],
+    "answer": "ジャングル・ブック",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Claude"
+  },
+  {
+    "questionID": "Q048",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ディズニーが開発した、セル画を使わずにデジタルで彩色や合成を行うシステム「CAPS」を、全編を通して初めて採用した長編アニメーション映画は何ですか？",
+    "choice": [
+      "リトル・マーメイド",
+      "美女と野獣",
+      "トイ・ストーリー",
+      "ビアンカの大冒険 ゴールデン・イーグルを救え！"
+    ],
+    "answer": "ビアンカの大冒険 ゴールデン・イーグルを救え！",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Claude"
+  },
+  {
+    "questionID": "Q049",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "映画『バンビ』の制作において、それまでのディズニー作品にはなかった「東洋的な水墨画風の背景」を取り入れ、作品の芸術性に大きく貢献した中国系アメリカ人のアーティストは誰ですか？",
+    "choice": [
+      "タイラス・ウォン",
+      "メアリー・ブレア",
+      "ジョー・グラント",
+      "アイヴァインド・アール"
+    ],
+    "answer": "タイラス・ウォン",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Claude"
+  },
+  {
+    "questionID": "Q050",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "1991年、アニメーション映画として史上初めて「アカデミー作品賞」にノミネートされるという快挙を成し遂げた作品は何ですか？",
+    "choice": [
+      "白雪姫",
+      "美女と野獣",
+      "ライオン・キング",
+      "ファンタジア"
+    ],
+    "answer": "美女と野獣",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Claude"
+  },
+  {
+    "questionID": "Q051",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ディズニーランドの「カリブの海賊」は、開発当初はボートに乗るライド型アトラクションではなく、どのような形式で計画されていましたか？",
+    "choice": [
+      "水族館",
+      "歩いて鑑賞する蝋人形館",
+      "舞台演劇型のショー",
+      "ジェットコースター"
+    ],
+    "answer": "歩いて鑑賞する蝋人形館",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Claude"
+  },
+  {
+    "questionID": "Q052",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "1955年のカリフォルニア・ディズニーランド開園当日、あるトラブルのために多くの女性の靴がメインストリートUSAに埋まってしまいました。その原因は何ですか？",
+    "choice": [
+      "人が多すぎて踏まれたから",
+      "地面の舗装がまだ乾いていなかったから",
+      "排水溝の隙間が広すぎたから",
+      "強力な接着剤が漏れたから"
+    ],
+    "answer": "地面の舗装がまだ乾いていなかったから",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Claude"
+  },
+  {
+    "questionID": "Q053",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "映画『リトル・マーメイド』のヴィラン、アースラの外見や立ち振る舞いのモデルとなった、実在のドラァグクイーンは誰ですか？",
+    "choice": [
+      "レディ・バニー",
+      "ディヴァイン",
+      "ジャッキー・ビート",
+      "ル・ポール"
+    ],
+    "answer": "ディヴァイン",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Claude"
+  },
+  {
+    "questionID": "Q054",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ディズニー長編映画『ふしぎの国のアリス』のアリス役と、『ピーター・パン』のウェンディ役の両方で、声と実写モデルを担当した女優は誰ですか？",
+    "choice": [
+      "アイリーン・ウッズ",
+      "メアリー・コスタ",
+      "アドリアナ・カセロッティ",
+      "キャサリン・ボーモント"
+    ],
+    "answer": "キャサリン・ボーモント",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Claude"
+  },
+  {
+    "questionID": "Q055",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ミッキーマウスのデビュー作は『蒸気船ウィリー』として知られていますが、それよりも前に「サイレント映画」として最初に製作（公開ではなく製作）された短編アニメーションは何ですか？",
+    "choice": [
+      "しあわせウサギのオズワルド",
+      "バーン・ダンス",
+      "プレーン・クレイジー（飛行機狂）",
+      "ギャロッピン・ガウチョ"
+    ],
+    "answer": "プレーン・クレイジー（飛行機狂）",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Claude"
+  },
+  {
+    "questionID": "Q056",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ディズニーが開発し、アニメーションに奥行きを与えた「マルチプレーン・カメラ」を、短編映画として初めて全編で使用した作品は何ですか？",
+    "choice": [
+      "白雪姫",
+      "風車小屋の火事（老いた水車小屋）",
+      "花と木",
+      "三匹の子ぶた"
+    ],
+    "answer": "風車小屋の火事（老いた水車小屋）",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Claude"
+  },
+  {
+    "questionID": "Q057",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "映画『眠れる森の美女』において、中世のタペストリーのような独特の美術スタイルを確立し、背景画を担当したアーティストは誰ですか？",
+    "choice": [
+      "マーク・デイヴィス",
+      "アイヴァインド・アール",
+      "タイラス・ウォン",
+      "メアリー・ブレア"
+    ],
+    "answer": "アイヴァインド・アール",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Claude"
+  },
+  {
+    "questionID": "Q058",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "映画『ピーター・パン』に登場するティンカー・ベルのモデル（実写リファレンス・モデル）を務めた女優は誰ですか？",
+    "choice": [
+      "マーガレット・ケリー",
+      "マリリン・モンロー",
+      "オードリー・ヘップバーン",
+      "ジュリー・アンドリュース"
+    ],
+    "answer": "マーガレット・ケリー",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Claude"
+  },
+  {
+    "questionID": "Q059",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ウォルト・ディズニーは1928年に自身のキャラクター「オズワルド・ザ・ラッキー・ラビット」の権利を失いましたが、その交渉相手であった配給業者はどこですか？",
+    "choice": [
+      "ワーナー・ブラザース",
+      "メトロ・ゴールドウィン・メイヤー (MGM)",
+      "パラマウント・ピクチャーズ",
+      "ユニバーサル・ピクチャーズ"
+    ],
+    "answer": "ユニバーサル・ピクチャーズ",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Claude"
+  },
+  {
+    "questionID": "Q060",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "アニメーション制作において、手書きのインク入れ作業を省く「ゼログラフィ（静電複写）」技術を、長編映画として初めて全編にわたって採用した作品は何ですか？",
+    "choice": [
+      "わんわん物語",
+      "101匹わんちゃん",
+      "リトル・マーメイド",
+      "眠れる森の美女"
+    ],
+    "answer": "眠れる森の美女",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Claude"
+  },
+  {
+    "questionID": "Q061",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "映画『ファンタジア』の最終章「はげ山の一夜」に登場し、強烈な印象を残す巨大な悪魔の名前は何ですか？",
+    "choice": [
+      "ハデス",
+      "イェン・シッド",
+      "バルログ",
+      "チェルナボーグ"
+    ],
+    "answer": "チェルナボーグ",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Claude"
+  },
+  {
+    "questionID": "Q062",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "1964年のニューヨーク万博に出展された際、世界で初めて「人間型」のオーディオ・アニマトロニクスとして注目を集めたのは、誰を再現したロボットですか？",
+    "choice": [
+      "トーマス・エジソン",
+      "ウォルト・ディズニー",
+      "ジョージ・ワシントン",
+      "エイブラハム・リンカーン"
+    ],
+    "answer": "エイブラハム・リンカーン",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Claude"
+  },
+  {
+    "questionID": "Q063",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "「ナイン・オールド・メン」の一員で、蒸気機関車のマニアとしても知られ、ジミニー・クリケットやチェシャ猫をデザインした伝説のアニメーターは誰ですか？",
+    "choice": [
+      "ミルト・カール",
+      "フランク・トーマス",
+      "ウォード・キンボール",
+      "オリー・ジョンストン"
+    ],
+    "answer": "ウォード・キンボール",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Claude"
+  },
+  {
+    "questionID": "Q064",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "『メリー・ポピンズ』の楽曲や、世界中のパークで流れる『小さな世界（It's a Small World）』を手掛けた、ディズニーを代表する兄弟作曲家は誰ですか？",
+    "choice": [
+      "メンケン＆アシュマン",
+      "ロペス夫妻",
+      "ニューマン兄弟",
+      "シャーマン兄弟"
+    ],
+    "answer": "シャーマン兄弟",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Claude"
+  },
+  {
+    "questionID": "Q065",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "カリフォルニアのディズニーランドに今も残る、ウォルトが家族と過ごすために作った「秘密のアパート」は、どのアトラクション・施設の2階にありますか？",
+    "choice": [
+      "消防車庫（ファイアハウス）",
+      "カリブの海賊",
+      "シティ・ホール",
+      "眠れる森の美女の城"
+    ],
+    "answer": "消防車庫（ファイアハウス）",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Claude"
+  },
+  {
+    "questionID": "Q066",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ウォルト・ディズニー・ワールド（フロリダ）の地下にある広大なトンネル「ユーティリドール」。ウォルトがこれを作る決意をした「きっかけ」は何ですか？",
+    "choice": [
+      "突然の豪雨からキャストを守るため",
+      "スタッフ専用の駐車場を作るため",
+      "ゴミの回収をゲストに見せないため",
+      "トゥモローランドにカウボーイがいるのを見たから"
+    ],
+    "answer": "トゥモローランドにカウボーイがいるのを見たから",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Claude"
+  },
+  {
+    "questionID": "Q067",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ウォルト・ディズニーが個人的に最も愛し、毎週金曜日の午後にシャーマン兄弟に弾かせていたと言われる曲は何ですか？",
+    "choice": [
+      "星に願いを",
+      "チム・チム・チェリー",
+      "小さな世界",
+      "2ペンスを鳩に (Feed the Birds)"
+    ],
+    "answer": "2ペンスを鳩に (Feed the Birds)",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Claude"
+  },
+  {
+    "questionID": "Q068",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "世界中のディズニー・リゾートの中で、唯一「ディズニー社が直接所有・運営していない」パークはどこですか？",
+    "choice": [
+      "香港ディズニーランド・リゾート",
+      "東京ディズニーリゾート",
+      "ディズニーランド・パリ",
+      "アウラニ・ディズニー・リゾート"
+    ],
+    "answer": "東京ディズニーリゾート",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Claude"
+  },
+  {
+    "questionID": "Q069",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "映画『眠れる森の美女』は、当時の最新技術で非常に横長の画面で製作されました。そのフィルム規格の名称は何ですか？",
+    "choice": [
+      "シネマスコープ 35",
+      "スーパー・テクニラマ 70",
+      "アイマックス (IMAX)",
+      "ヴィスタビジョン"
+    ],
+    "answer": "スーパー・テクニラマ 70",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Claude"
+  },
+  {
+    "questionID": "Q070",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "映画『ピーター・パン』で、悪役のフック船長とウェンディの父親ジョージ・ダーリングの両方の声を担当した俳優は誰ですか？",
+    "choice": [
+      "ビル・トンプソン",
+      "ポール・フリーズ",
+      "ハンス・コンリード",
+      "ボビー・ドリスコール"
+    ],
+    "answer": "ハンス・コンリード",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Claude"
+  },
+  {
+    "questionID": "Q071",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "カリフォルニアのディズニーランドにある消防車庫の2階には、ウォルトが過ごした秘密のアパートがあります。彼の「在宅」を示すために現在も窓際で守られている習慣は何ですか？",
+    "choice": [
+      "星条旗を掲げる",
+      "音楽を流し続ける",
+      "ランプの灯りを点け続ける",
+      "窓を開けておく"
+    ],
+    "answer": "ランプの灯りを点け続ける",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Claude"
+  },
+  {
+    "questionID": "Q072",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ミッキーマウス誕生以前、ウォルトが最初に成功を収めた、実写の少女がアニメーションの世界に入り込む短編シリーズの名前は何ですか？",
+    "choice": [
+      "オズワルド・シリーズ",
+      "アリス・コメディ",
+      "ラフォグラム",
+      "シリー・シンフォニー"
+    ],
+    "answer": "アリス・コメディ",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Claude"
+  },
+  {
+    "questionID": "Q073",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "カリフォルニアのディズニーランド、ニューオーリンズ・スクエアにある、一般ゲストは入ることができない秘密の会員制クラブ（レストラン）の名前は何ですか？",
+    "choice": [
+      "クラブ21",
+      "スイート21",
+      "プレジデント・ルーム",
+      "クラブ33"
+    ],
+    "answer": "クラブ33",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Claude"
+  },
+  {
+    "questionID": "Q074",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "1932年に公開され、アニメーションとして初めてアカデミー賞を受賞した、世界初のフルカラー（3色法テクニカラー）作品は何ですか？",
+    "choice": [
+      "花と木",
+      "三匹の子ぶた",
+      "みにくいアヒルの子",
+      "赤ずきんちゃん"
+    ],
+    "answer": "赤ずきんちゃん",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Claude"
+  },
+  {
+    "questionID": "Q075",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "アトラクション『ホーンテッドマンション』の開発中、「怖いものにしたい」というクロード・コーツと、「コミカルなものにしたい」というマーク・デイヴィスの間で意見が対立しました。最終的にどのような解決策が取られましたか？",
+    "choice": [
+      "1年ごとに演出を怖いバージョンとコミカルバージョンで入れ替えた",
+      "ウォルトがクロードの「怖い」案を全面的に採用した",
+      "完全にランダムに二人のアイデアを混ぜ合わせた",
+      "前半をクロード、後半をマークのコンセプトで構成した"
+    ],
+    "answer": "前半をクロード、後半をマークのコンセプトで構成した",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Claude"
+  },
+  {
+    "questionID": "Q076",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "1986年公開の『オリビアちゃんの大冒険』において、ディズニーの長編アニメーションとして初めて「本格的な3DCG」が背景に使用されたシーンはどこですか？",
+    "choice": [
+      "ロンドンの夜景を空から眺めるシーン",
+      "ビッグ・ベンの時計塔内部の歯車",
+      "おもちゃ屋さんのからくり人形",
+      "ラストシーンの飛行船の爆発"
+    ],
+    "answer": "ビッグ・ベンの時計塔内部の歯車",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Claude"
+  },
+  {
+    "questionID": "Q077",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "映画『白雪姫』の制作時、アニメーターたちが人間の滑らかな動きを研究するために、モデルとなって実際に踊り、その動きをフィルムに記録した女性は誰ですか？",
+    "choice": [
+      "アドリアナ・カセロッティ",
+      "ヴィヴィアン・リー",
+      "ヘレン・スタンレー",
+      "マージ・チャンピョン"
+    ],
+    "answer": "マージ・チャンピョン",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Claude"
+  },
+  {
+    "questionID": "Q078",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ディズニー・パークのシンボルである城（シンデレラ城など）を実物よりも高く見せるために、上に行くほど窓や石垣を小さく作る技法を何と呼びますか？",
+    "choice": [
+      "スカイ・スケーリング",
+      "アイ・レベル・トリック",
+      "フォースド・パースペクティブ（強化遠近法）",
+      "アナモルフォーシス"
+    ],
+    "answer": "フォースド・パースペクティブ（強化遠近法）",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Claude"
+  },
+  {
+    "questionID": "Q079",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "1964年のニューヨーク万博で、ディズニーは4つの主要アトラクションを制作しました。『イッツ・ア・スモールワールド』『リンカーン大統領とのひととき』『カルーセル・オブ・プログレス』、あと1つは何ですか？",
+    "choice": [
+      "ピープルムーバー",
+      "マジック・スカイウェイ",
+      "フライト・トゥ・ザ・ムーン",
+      "アドベンチャー・スルー・インナースペース"
+    ],
+    "answer": "マジック・スカイウェイ",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Claude"
+  },
+  {
+    "questionID": "Q080",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "1987年に創設された、ディズニー社に多大な貢献をした人物を称える「ディズニー・レジェンド」。その記念すべき第1号の受賞者は誰ですか？",
+    "choice": [
+      "フランク・トーマス",
+      "ジュリー・アンドリュース",
+      "アブ・アイワークス",
+      "フレッド・マクマレイ"
+    ],
+    "answer": "フレッド・マクマレイ",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Claude"
+  },
+  {
+    "questionID": "Q081",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ウォルト・ディズニー・カンパニーが設立されたのは何年",
+    "choice": [
+      "1923年",
+      "1928年",
+      "1937年",
+      "1955年"
+    ],
+    "answer": "1923年",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Gemini"
+  },
+  {
+    "questionID": "Q082",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ディズニー長編アニメーション第1作「白雪姫」の制作費は当時いくらだった？",
+    "choice": [
+      "約50万ドル",
+      "約150万ドル",
+      "約500万ドル",
+      "約1000万ドル"
+    ],
+    "answer": "約150万ドル",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Gemini"
+  },
+  {
+    "questionID": "Q083",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ディズニーが製作した実写とアニメーションの合成映画「メリー・ポピンズ」でアカデミー賞を受賞したのは何部門？",
+    "choice": [
+      "3部門",
+      "5部門",
+      "7部門",
+      "9部門"
+    ],
+    "answer": "5部門",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Gemini"
+  },
+  {
+    "questionID": "Q084",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ウォルト・ディズニー・ワールドのエプコットにある「スペースシップ・アース」の高さは約何メートル？",
+    "choice": [
+      "約50メートル",
+      "約55メートル",
+      "約60メートル",
+      "約65メートル"
+    ],
+    "answer": "約55メートル",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Gemini"
+  },
+  {
+    "questionID": "Q085",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ディズニー映画「ファンタジア」で指揮者として実際に出演した著名な指揮者は誰？",
+    "choice": [
+      "レナード・バーンスタイン",
+      "レオポルド・ストコフスキー",
+      "ヘルベルト・フォン・カラヤン",
+      "アルトゥーロ・トスカニーニ"
+    ],
+    "answer": "レオポルド・ストコフスキー",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Gemini"
+  },
+  {
+    "questionID": "Q086",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ディズニーランド・パリ（当初の名称：ユーロディズニーランド）がオープンしたのは何年？",
+    "choice": [
+      "1988年",
+      "1990年",
+      "1992年",
+      "1995年"
+    ],
+    "answer": "1992年",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Gemini"
+  },
+  {
+    "questionID": "Q087",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ピクサー・アニメーション・スタジオがディズニーに買収されたのは何年？",
+    "choice": [
+      "2001年",
+      "2003年",
+      "2006年",
+      "2009年"
+    ],
+    "answer": "2006年",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Gemini"
+  },
+  {
+    "questionID": "Q088",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ディズニー映画「ライオン・キング」でスカーの声を演じた俳優は？",
+    "choice": [
+      "ジェレミー・アイアンズ",
+      "ジェームズ・アール・ジョーンズ",
+      "ネイサン・レイン",
+      "ローワン・アトキンソン"
+    ],
+    "answer": "ジェレミー・アイアンズ",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Gemini"
+  },
+  {
+    "questionID": "Q089",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "東京ディズニーシーにある火山「プロメテウス火山」の高さは約何メートル？",
+    "choice": [
+      "約40メートル",
+      "約50メートル",
+      "約60メートル",
+      "約70メートル"
+    ],
+    "answer": "約50メートル",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Gemini"
+  },
+  {
+    "questionID": "Q090",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ディズニーランドで最初にできたテーマランドではないものはどれ？",
+    "choice": [
+      "メインストリートUSA",
+      "アドベンチャーランド",
+      "ニューオーリンズ・スクエア",
+      "フロンティアランド"
+    ],
+    "answer": "ニューオーリンズ・スクエア",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Gemini"
+  },
+  {
+    "questionID": "Q091",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ミッキーマウスの手の指は何本？",
+    "choice": [
+      "3本",
+      "4本",
+      "5本",
+      "作品によって異なる"
+    ],
+    "answer": "4本",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Gemini"
+  },
+  {
+    "questionID": "Q092",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ディズニーが製作したアニメーション映画で、アカデミー長編アニメ映画賞を初めて受賞した作品は？",
+    "choice": [
+      "美女と野獣",
+      "ライオン・キング",
+      "モンスターズ・インク",
+      "ファインディング・ニモ"
+    ],
+    "answer": "ファインディング・ニモ",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Gemini"
+  },
+  {
+    "questionID": "Q093",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "東京ディズニーランドで「シンデレラ城」の高さが51メートルに設定された理由は？",
+    "choice": [
+      "黄金比に基づいた美的理由",
+      "航空法の規制による",
+      "ウォルトの誕生日に由来",
+      "風水的な理由"
+    ],
+    "answer": "航空法の規制による",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Gemini"
+  },
+  {
+    "questionID": "Q094",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ディズニー映画「アラジン」でジーニーの声を演じた俳優は？",
+    "choice": [
+      "ロビン・ウィリアムズ",
+      "エディ・マーフィー",
+      "トム・ハンクス",
+      "ビリー・クリスタル"
+    ],
+    "answer": "ロビン・ウィリアムズ",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Gemini"
+  },
+  {
+    "questionID": "Q095",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ウォルト・ディズニー・ワールドの総面積は約何平方キロメートル？",
+    "choice": [
+      "約50平方キロメートル",
+      "約110平方キロメートル",
+      "約200平方キロメートル",
+      "約300平方キロメートル"
+    ],
+    "answer": "約110平方キロメートル",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Gemini"
+  },
+  {
+    "questionID": "Q096",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ディズニー・アニメーション史上、初めてズボンを履いたプリンセスは？",
+    "choice": [
+      "ムーラン",
+      "ジャスミン",
+      "メリダ",
+      "アナ"
+    ],
+    "answer": "ジャスミン",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Gemini"
+  },
+  {
+    "questionID": "Q097",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "東京ディズニーシーの「センター・オブ・ジ・アース」の最高落下速度は時速約何キロ？",
+    "choice": [
+      "約50キロ",
+      "約60キロ",
+      "約75キロ",
+      "約90キロ"
+    ],
+    "answer": "約75キロ",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Gemini"
+  },
+  {
+    "questionID": "Q098",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ディズニーが2019年に買収を完了した21世紀フォックスの買収額は約いくら？",
+    "choice": [
+      "約350億ドル",
+      "約510億ドル",
+      "約713億ドル",
+      "約900億ドル"
+    ],
+    "answer": "約713億ドル",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Gemini"
+  },
+  {
+    "questionID": "Q099",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ディズニー映画「トイ・ストーリー」でウッディの声を演じた俳優は？",
+    "choice": [
+      "ティム・アレン",
+      "トム・ハンクス",
+      "ビリー・クリスタル",
+      "スティーブ・ブシェミ"
+    ],
+    "answer": "トム・ハンクス",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Gemini"
+  },
+  {
+    "questionID": "Q100",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "東京ディズニーリゾートで最初に導入されたファストパスシステムは何年から？",
+    "choice": [
+      "1999年",
+      "2000年",
+      "2001年",
+      "2003年"
+    ],
+    "answer": "2000年",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Gemini"
+  },
+  {
+    "questionID": "Q101",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ディズニー映画「リトル・マーメイド」のアリエルのモデルとなった女優は？",
+    "choice": [
+      "アリッサ・ミラノ",
+      "ドリュー・バリモア",
+      "アリエル・アンダーソン（無名）",
+      "シャーリー・テンプル"
+    ],
+    "answer": "アリッサ・ミラノ",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Gemini"
+  },
+  {
+    "questionID": "Q102",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "東京ディズニーシーの7つのテーマポートに含まれないのはどれ？",
+    "choice": [
+      "マーメイドラグーン",
+      "アラビアンコースト",
+      "トゥモローポート",
+      "ロストリバーデルタ"
+    ],
+    "answer": "トゥモローポート",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Gemini"
+  },
+  {
+    "questionID": "Q103",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ウォルト・ディズニーが亡くなった年は？",
+    "choice": [
+      "1964年",
+      "1966年",
+      "1968年",
+      "1971年"
+    ],
+    "answer": "1966年",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Gemini"
+  },
+  {
+    "questionID": "Q104",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ディズニー映画「塔の上のラプンツェル」の原題は？",
+    "choice": [
+      "Rapunzel",
+      "Tangled",
+      "The Princess",
+      "Long Hair Princess"
+    ],
+    "answer": "Tangled",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Gemini"
+  },
+  {
+    "questionID": "Q105",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "東京ディズニーランドの「ホーンテッドマンション」に登場する「999人の亡霊」のうち、あと何人で1000人になると言われている？",
+    "choice": [
+      "あなた（ゲスト）",
+      "もう1000人に達している",
+      "まだ募集中",
+      "カウントされていない"
+    ],
+    "answer": "あなた（ゲスト）",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Gemini"
+  },
+  {
+    "questionID": "Q106",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ディズニーが製作に関わったスタジオジブリ作品の配給を手がけたのは何年から？",
+    "choice": [
+      "1996年",
+      "1999年",
+      "2003年",
+      "2006年"
+    ],
+    "answer": "1996年",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Gemini"
+  },
+  {
+    "questionID": "Q107",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ディズニー映画「ズートピア」の主人公ジュディ・ホップスの職業は？",
+    "choice": [
+      "探偵",
+      "警察官",
+      "弁護士",
+      "ジャーナリスト"
+    ],
+    "answer": "警察官",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Gemini"
+  },
+  {
+    "questionID": "Q108",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "東京ディズニーシーが開園したのは何年？",
+    "choice": [
+      "1999年",
+      "2000年",
+      "2001年",
+      "2002年"
+    ],
+    "answer": "2001年",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Gemini"
+  },
+  {
+    "questionID": "Q109",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ディズニー・アニメーション映画「アナと雪の女王」の主題歌\"Let It Go\"を歌ったのは誰？",
+    "choice": [
+      "クリスティン・ベル",
+      "イディナ・メンゼル",
+      "デミ・ロヴァート",
+      "セリーヌ・ディオン"
+    ],
+    "answer": "イディナ・メンゼル",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Gemini"
+  },
+  {
+    "questionID": "Q110",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ディズニーランドで最も長く運行されているアトラクションの一つ「ダンボ」は、開園時から何年間ほぼ変わらず運営されている？",
+    "choice": [
+      "約50年",
+      "約60年",
+      "約70年",
+      "約80年"
+    ],
+    "answer": "約70年",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Gemini"
+  },
+  {
+    "questionID": "Q111",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ディズニー映画「モアナと伝説の海」の舞台となっている地域は？",
+    "choice": [
+      "カリブ海",
+      "地中海",
+      "ポリネシア",
+      "東南アジア"
+    ],
+    "answer": "東南アジア",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Gemini"
+  },
+  {
+    "questionID": "Q112",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "東京ディズニーランドの「スプラッシュ・マウンテン」の最大落下角度は約何度？",
+    "choice": [
+      "約35度",
+      "約45度",
+      "約55度",
+      "約65度"
+    ],
+    "answer": "約45度",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Gemini"
+  },
+  {
+    "questionID": "Q113",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ウォルト・ディズニー・ワールドにある4つのテーマパークに含まれないのはどれ？",
+    "choice": [
+      "マジックキングダム",
+      "エプコット",
+      "ディズニーランド・パーク",
+      "アニマルキングダム"
+    ],
+    "answer": "ディズニーランド・パーク",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Gemini"
+  },
+  {
+    "questionID": "Q114",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ディズニー映画「シュガー・ラッシュ」の主人公ラルフの職業（ゲーム内での役割）は？",
+    "choice": [
+      "ヒーロー",
+      "悪役",
+      "レーサー",
+      "兵士"
+    ],
+    "answer": "悪役",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Gemini"
+  },
+  {
+    "questionID": "Q115",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ディズニー映画「くまのプーさん」の原作者は？",
+    "choice": [
+      "A・A・ミルン",
+      "ルイス・キャロル",
+      "C・S・ルイス",
+      "ロアルド・ダール"
+    ],
+    "answer": "A・A・ミルン",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Gemini"
+  },
+  {
+    "questionID": "Q116",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "東京ディズニーランドの「カリブの海賊」のライド時間は約何分？",
+    "choice": [
+      "約8分",
+      "約10分",
+      "約15分",
+      "約20"
+    ],
+    "answer": "約15分",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Gemini"
+  },
+  {
+    "questionID": "Q117",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ディズニー・ピクサー映画「カーズ」の主人公ライトニング・マックィーンのゼッケン番号は？",
+    "choice": [
+      "43",
+      "86",
+      "95",
+      "51"
+    ],
+    "answer": "95",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Gemini"
+  },
+  {
+    "questionID": "Q118",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ディズニー映画「ヘラクレス」でヘラクレスをトレーニングする半人半獣の師匠の名前は？",
+    "choice": [
+      "フィル",
+      "ペガサス",
+      "ゼウス",
+      "ハデス"
+    ],
+    "answer": "フィル",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Gemini"
+  },
+  {
+    "questionID": "Q119",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ディズニー・アニメーション映画「ムーラン」で、ムーランが男装して名乗った名前は？",
+    "choice": [
+      "リー",
+      "ピン",
+      "チャン",
+      "ウェイ"
+    ],
+    "answer": "ピン",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Gemini"
+  },
+  {
+    "questionID": "Q120",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "東京ディズニーランドで「エレクトリカルパレード・ドリームライツ」に使用されている電球の数は約何個？",
+    "choice": [
+      "約50万個",
+      "約80万個",
+      "約100万個",
+      "約120万個"
+    ],
+    "answer": "約100万個",
+    "year": "",
+    "reference_url": "",
+    "authored_by": "Gemini"
+  },
+  {
+    "questionID": "Q121",
+    "keyword": "",
+    "category": "ディズニー",
     "question": "ザンビーニ・ブラザーズの長男の名前は何？",
     "choice": [
       "プリモ",
@@ -10,12 +1930,13 @@
       "エンリコ",
       "カルメロ"
     ],
+    "answer": "プリモ",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q002",
+    "questionID": "Q122",
     "keyword": "",
     "category": "ディズニー",
     "question": "ザンビーニ・ブラザーズの次男の名前は何？",
@@ -25,12 +1946,13 @@
       "エンリコ",
       "カルメロ"
     ],
+    "answer": "アントニオ",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q003",
+    "questionID": "Q123",
     "keyword": "",
     "category": "ディズニー",
     "question": "ザンビーニ・ブラザーズの三男の名前は何？",
@@ -40,12 +1962,13 @@
       "エンリコ",
       "カルメロ"
     ],
+    "answer": "エンリコ",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q004",
+    "questionID": "Q124",
     "keyword": "",
     "category": "ディズニー",
     "question": "ザンビーニ・ブラザーズ・リストランテは元々何と何の製造所？",
@@ -55,12 +1978,13 @@
       "ワインと生ハム",
       "ワインとオリーブオイル"
     ],
+    "answer": "ワインとオリーブオイル",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q005",
+    "questionID": "Q125",
     "keyword": "",
     "category": "ディズニー",
     "question": "ドックサイドダイナーは何を改装して作られたレストラン？",
@@ -70,12 +1994,13 @@
       "倉庫",
       "工場"
     ],
+    "answer": "貨物ターミナル",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q006",
+    "questionID": "Q126",
     "keyword": "",
     "category": "ディズニー",
     "question": "グランマ・サラのキッチンのさらおばあちゃんの動物の種類は何？",
@@ -85,12 +2010,13 @@
       "ハツカネズミ",
       "クマネズミ"
     ],
+    "answer": "ジャコウネズミ",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q007",
+    "questionID": "Q127",
     "keyword": "",
     "category": "ディズニー",
     "question": "グランマ・サラのキッチンを建てたのは誰？",
@@ -100,12 +2026,13 @@
       "スクワロルーズ",
       "ビーバーブラザーズ"
     ],
+    "answer": "ビーバーブラザーズ",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q008",
+    "questionID": "Q128",
     "keyword": "",
     "category": "ディズニー",
     "question": "ヴォルケイニア・レストランは何を利用して料理を作っている？",
@@ -115,12 +2042,13 @@
       "地熱",
       "風力"
     ],
+    "answer": "地熱",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q009",
+    "questionID": "Q129",
     "keyword": "",
     "category": "ディズニー",
     "question": "ザンビーニ・ブラザーズ・リストランテの近くにある葡萄畑を通る小道の名前「ヴィア・デッレ・ヴィティ」はどういう意味？",
@@ -130,12 +2058,13 @@
       "阿列布道",
       "橄欖油"
     ],
+    "answer": "葡萄蔓",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q010",
+    "questionID": "Q130",
     "keyword": "",
     "category": "ディズニー",
     "question": "“OUR PRICES WON’T BLOW YOU AWAY”と書かれている建築会社は誰が運営する会社？",
@@ -145,12 +2074,13 @@
       "三人の騎士",
       "三匹のこぶた"
     ],
+    "answer": "三匹のこぶた",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q011",
+    "questionID": "Q131",
     "keyword": "",
     "category": "ディズニー",
     "question": "パン・ギャラティック・ピザ・ポートのマネージャーは誰？",
@@ -160,12 +2090,13 @@
       "トニー・リクロー二",
       "トニー・ヤマローニ"
     ],
+    "answer": "トニー・ソラローニ",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q012",
+    "questionID": "Q132",
     "keyword": "",
     "category": "ディズニー",
     "question": "トニー・ソラローニが操作しているPZ-5000 ピザ製造マシンの5000はどこで1日に作れるピザの枚数を表している？",
@@ -175,12 +2106,13 @@
       "土星",
       "木星"
     ],
+    "answer": "土星",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q013",
+    "questionID": "Q133",
     "keyword": "",
     "category": "ディズニー",
     "question": "グリブ・グロブレーターは何を作る機械？",
@@ -190,12 +2122,13 @@
       "ピザ生地",
       "具材"
     ],
+    "answer": "ピザ生地",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q014",
+    "questionID": "Q134",
     "keyword": "",
     "category": "ディズニー",
     "question": "送風機でピザ生地を丸く平らな形に整え、厚さが均一になるようにトスする機械の名前は何？",
@@ -205,12 +2138,13 @@
       "ファン・フロブレーター",
       "フリップ・フロブレーター"
     ],
+    "answer": "フリップ・フロブレーター",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q015",
+    "questionID": "Q135",
     "keyword": "",
     "category": "ディズニー",
     "question": "カリブの海賊のアトラクションでゲストがボートに乗り込む乗船場の名前は何？",
@@ -220,12 +2154,13 @@
       "デイヴィ・ジョーンズ",
       "アダム・ボールドリッジ"
     ],
+    "answer": "ジャン・ラフィート",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q016",
+    "questionID": "Q136",
     "keyword": "",
     "category": "ディズニー",
     "question": "ファンタスティック・フライト・ミュージアムの初代館長は誰？",
@@ -235,12 +2170,13 @@
       "ジュリアーナ・ファルコ",
       "アレッタ・ファルコ"
     ],
+    "answer": "チェッリーノ・ファルコ",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q017",
+    "questionID": "Q137",
     "keyword": "",
     "category": "ディズニー",
     "question": "メディテレーニアンハーバーとアメリカンヲーターフロントを結ぶ橋の名前は何？",
@@ -250,12 +2186,13 @@
       "ポンテ・ヴェッキオ",
       "ポンテ・デイ・ベンヴェーヌティ"
     ],
+    "answer": "ポンテ・デイ・ベンヴェーヌティ",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q018",
+    "questionID": "Q138",
     "keyword": "",
     "category": "ディズニー",
     "question": "リストランテ・ディ・カナレットのカナレットの名前の由来になった人物は誰？",
@@ -265,12 +2202,13 @@
       "ジョバンニ・カンティ",
       "ニッコロ・カッサーナ"
     ],
+    "answer": "ジョヴァンニ・アントニオ・カナル",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q019",
+    "questionID": "Q139",
     "keyword": "",
     "category": "ディズニー",
     "question": "ホーンテッドマンションのすべての亡霊が記録されている本の名前は何？",
@@ -280,12 +2218,13 @@
       "ゴーストストーリー",
       "ゴーストタイトル"
     ],
+    "answer": "ゴーストレジストリー",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q020",
+    "questionID": "Q140",
     "keyword": "",
     "category": "ディズニー",
     "question": "ホーンテッドマンションの乗り物の名前は何？",
@@ -295,12 +2234,13 @@
       "ドゥームバギー",
       "ドリーミングバギー"
     ],
+    "answer": "ドゥームバギー",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q021",
+    "questionID": "Q141",
     "keyword": "",
     "category": "ディズニー",
     "question": "ホーンテッドマンションの建設社は誰？",
@@ -310,12 +2250,13 @@
       "ブルガリアマイスター",
       "ブルガスター"
     ],
+    "answer": "ブルガマイスター",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q022",
+    "questionID": "Q142",
     "keyword": "",
     "category": "ディズニー",
     "question": "アラビアンコーストは誰の願いによってジーニーが作った街？",
@@ -325,12 +2266,13 @@
       "サルタン王",
       "ジャファー"
     ],
+    "answer": "サルタン王",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q023",
+    "questionID": "Q143",
     "keyword": "",
     "category": "ディズニー",
     "question": "アラビアンコーストにあるジャスミンのタイル絵は誰が作ったもの？",
@@ -340,12 +2282,13 @@
       "サルタン王",
       "ジーニー"
     ],
+    "answer": "住民",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q024",
+    "questionID": "Q144",
     "keyword": "",
     "category": "ディズニー",
     "question": "東京ディズニーランドのエインエントランスの建築様式は何？",
@@ -355,12 +2298,13 @@
       "ジョージ王朝様式",
       "ヴィクトリア朝様式"
     ],
+    "answer": "ヴィクトリア朝様式",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q025",
+    "questionID": "Q145",
     "keyword": "",
     "category": "ディズニー",
     "question": "スプラッシュ・マウンテンのかつての呼び名は何？",
@@ -370,12 +2314,13 @@
       "チカヒンヒル",
       "チカピンヒル"
     ],
+    "answer": "チカピンヒル",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q026",
+    "questionID": "Q146",
     "keyword": "",
     "category": "ディズニー",
     "question": "ロストリバーデルタのジャングルに物資を運んでいたパイロットたちは自分たちをなんと呼んでいた？",
@@ -385,12 +2330,13 @@
       "オラウータン航空",
       "コウモリ航空"
     ],
+    "answer": "ピラニア航空",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q027",
+    "questionID": "Q147",
     "keyword": "",
     "category": "ディズニー",
     "question": "ウエスタンランドにある自然保護区行きのキャンプ場、キャンプ・ウッドチャックに生息している非常に珍しい鳥の名前は何？",
@@ -400,12 +2346,13 @@
       "テイタートゥーイル・バード",
       "ティッタ・トーイル・バード"
     ],
+    "answer": "ティッタートゥイル・バード",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q028",
+    "questionID": "Q148",
     "keyword": "",
     "category": "ディズニー",
     "question": "ミッキーマウスが宇宙探査中に発見した小さな惑星の名前は何？",
@@ -415,12 +2362,13 @@
       "プラネットM",
       "プラネットN"
     ],
+    "answer": "プラネットM",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q029",
+    "questionID": "Q149",
     "keyword": "",
     "category": "ディズニー",
     "question": "キャラバンカルーセルのジーニーの色にない色はどれ？",
@@ -430,12 +2378,13 @@
       "緑",
       "赤"
     ],
+    "answer": "赤",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q030",
+    "questionID": "Q150",
     "keyword": "",
     "category": "ディズニー",
     "question": "豪華客船S.S.コロンビア号を所有、運航する船会社U.S.スチームシップカンパニーのオーナーは誰？",
@@ -445,12 +2394,13 @@
       "コーネリアス・エンディコット二世",
       "コーネリアス・エンディコット一世"
     ],
+    "answer": "コーネリアス・エンディコット三世",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q031",
+    "questionID": "Q151",
     "keyword": "",
     "category": "ディズニー",
     "question": "ネモ船長が海底探査の際に使用する専用の小型潜水艇の名前は何？",
@@ -460,12 +2410,13 @@
       "アルバトロス号",
       "ネモ号"
     ],
+    "answer": "ネプチューン号",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q032",
+    "questionID": "Q152",
     "keyword": "",
     "category": "ディズニー",
     "question": "ネモ船長のモットーである「モビリス、イン、モビリ」はどういう意味？",
@@ -475,12 +2426,13 @@
       "変化を持って変化する。",
       "変化を持って発展する。"
     ],
+    "answer": "変化を持って変化する。",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q033",
+    "questionID": "Q153",
     "keyword": "",
     "category": "ディズニー",
     "question": "トゥーンタウン・ベビーセンターは誰が作った？",
@@ -490,12 +2442,13 @@
       "スクルージー・マクダック",
       "デイジー"
     ],
+    "answer": "エルヴァイラ",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q034",
+    "questionID": "Q154",
     "keyword": "",
     "category": "ディズニー",
     "question": "ボン・ヴォヤージュは何の形？",
@@ -505,12 +2458,13 @@
       "リュックサック",
       "ポシェット"
     ],
+    "answer": "スーツケース",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q035",
+    "questionID": "Q155",
     "keyword": "",
     "category": "ディズニー",
     "question": "アラビアンコーストの海辺近くに作られた、ジャスミンのお気に入りの宮殿の庭園そっくりな庭園の名前は何？",
@@ -520,12 +2474,13 @@
       "ゴールドガーデン",
       "ロイヤルガーデン"
     ],
+    "answer": "ロイヤルガーデン",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q036",
+    "questionID": "Q156",
     "keyword": "",
     "category": "ディズニー",
     "question": "アメリカンウォーターフロントの地面にあるレールは何が走る？",
@@ -535,12 +2490,13 @@
       "汽車",
       "船"
     ],
+    "answer": "トロリー",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q037",
+    "questionID": "Q157",
     "keyword": "",
     "category": "ディズニー",
     "question": "アメリカンウォーターフロントで直接見ることは出来ないが、走っている乗り物は何？",
@@ -550,12 +2506,13 @@
       "地下鉄",
       "トラック"
     ],
+    "answer": "地下鉄",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q038",
+    "questionID": "Q158",
     "keyword": "",
     "category": "ディズニー",
     "question": "東京ディズニーランドにある美女と野獣のお城の煙突の先にある希望を象徴するかのようにある彫刻は何？",
@@ -565,12 +2522,13 @@
       "梟",
       "龍"
     ],
+    "answer": "鳩",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q039",
+    "questionID": "Q159",
     "keyword": "",
     "category": "ディズニー",
     "question": "れすとらん北齋に飾られている葛飾北齋の代表作は何？",
@@ -580,12 +2538,13 @@
       "尾州不二見原",
       "駿州江尻"
     ],
+    "answer": "神奈川沖浪裏",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q040",
+    "questionID": "Q160",
     "keyword": "",
     "category": "ディズニー",
     "question": "レストラン櫻のオーナーは誰？",
@@ -595,12 +2554,13 @@
       "タナカさん",
       "ヤマダさん"
     ],
+    "answer": "タナカさん",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q041",
+    "questionID": "Q161",
     "keyword": "",
     "category": "ディズニー",
     "question": "S.S.コロンビア号のタグボートの名前は何？",
@@ -610,12 +2570,13 @@
       "ピート",
       "ミスター・インクレディブル"
     ],
+    "answer": "ヘラクレス",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q042",
+    "questionID": "Q162",
     "keyword": "",
     "category": "ディズニー",
     "question": "アメリカンウォーターフロントのニューヨーク・デリへと続く小さな遠オリの名前は何？",
@@ -625,12 +2586,13 @@
       "アリーガッセ",
       "ティンパンアリー"
     ],
+    "answer": "ティンパンアリー",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q043",
+    "questionID": "Q163",
     "keyword": "",
     "category": "ディズニー",
     "question": "シンドバッド・ストーリーブック・ヴォヤッジの巨大な鳥の名前は何？",
@@ -640,12 +2602,13 @@
       "ルク",
       "レク"
     ],
+    "answer": "ルク",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q044",
+    "questionID": "Q164",
     "keyword": "",
     "category": "ディズニー",
     "question": "シンドバッドの故郷はどこ？",
@@ -655,12 +2618,13 @@
       "パズラ",
       "バズラ"
     ],
+    "answer": "バズラ",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q045",
+    "questionID": "Q165",
     "keyword": "",
     "category": "ディズニー",
     "question": "トイ・ステーションでヒューイ、デューイ、ルーイが乗っている乗り物は何？",
@@ -670,12 +2634,13 @@
       "電車",
       "一輪車"
     ],
+    "answer": "ボート",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q046",
+    "questionID": "Q166",
     "keyword": "",
     "category": "ディズニー",
     "question": "トイ・ステーションでプルートが乗っている乗り物は何？",
@@ -685,12 +2650,13 @@
       "電車",
       "一輪車"
     ],
+    "answer": "ロケット",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q047",
+    "questionID": "Q167",
     "keyword": "",
     "category": "ディズニー",
     "question": "トイ・ステーションでグーフィーが乗っている乗り物は何？",
@@ -700,12 +2666,13 @@
       "電車",
       "一輪車"
     ],
+    "answer": "一輪車",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q048",
+    "questionID": "Q168",
     "keyword": "",
     "category": "ディズニー",
     "question": "ケープコッドのエリアには風見鶏ならぬ風見〇〇がある。その生き物は何？",
@@ -715,12 +2682,13 @@
       "ネコ",
       "ウサギ"
     ],
+    "answer": "ネコ",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q049",
+    "questionID": "Q169",
     "keyword": "",
     "category": "ディズニー",
     "question": "レイジングスピリッツは元々どんな場所だった？",
@@ -730,12 +2698,13 @@
       "道具置き場",
       "休憩所"
     ],
+    "answer": "祭祀場",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q050",
+    "questionID": "Q170",
     "keyword": "",
     "category": "ディズニー",
     "question": "東京ディズニーランドのオムニバスは元々の大きさのどれぐらいのサイズ感で再現されている？",
@@ -745,12 +2714,13 @@
       "8分の7",
       "8分の8"
     ],
+    "answer": "8分の5",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q051",
+    "questionID": "Q171",
     "keyword": "",
     "category": "ディズニー",
     "question": "東京ディズニーシー20周年を記念して期間限定で販売されたミッキー型のドーナットの中身のメインは何？",
@@ -760,12 +2730,13 @@
       "ピーチ",
       "メロン"
     ],
+    "answer": "ピーチ",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q052",
+    "questionID": "Q172",
     "keyword": "",
     "category": "ディズニー",
     "question": "パン・ギャラクティック・ピザ・ポートのマネージャーのトニー・ソラローニは過去に何店舗お店を潰した？",
@@ -775,12 +2746,13 @@
       "100",
       "1000"
     ],
+    "answer": "10",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q053",
+    "questionID": "Q173",
     "keyword": "",
     "category": "ディズニー",
     "question": "ディズニー映画「ピノキオ」でなまけものの子どもたちをロバに変えてしまう遊園地の名前は？",
@@ -790,12 +2762,13 @@
       "プレジャーアミューズメント",
       "プレジャーアイランド"
     ],
+    "answer": "プレジャーアイランド",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q054",
+    "questionID": "Q174",
     "keyword": "",
     "category": "ディズニー",
     "question": "東京ディズニーシーのアメリカーウォーターフロントにある遊園地の名前は何？",
@@ -805,12 +2778,13 @@
       "トイ・トロリーパーク",
       "トイ・トロパーク"
     ],
+    "answer": "トイビル・トロリーパーク",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q055",
+    "questionID": "Q175",
     "keyword": "",
     "category": "ディズニー",
     "question": "東京ディズニーランドのクリッターカントリーで暮らすクリッターの子供たちの間で使われている合言葉「フート」と聞こえたらなんと返す？",
@@ -820,12 +2794,13 @@
       "マラー",
       "タラー"
     ],
+    "answer": "ハラー",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q056",
+    "questionID": "Q176",
     "keyword": "",
     "category": "ディズニー",
     "question": "トゥーンタウンにあるロジャーラビットの噴水はどういう経緯で建てられた物？",
@@ -835,12 +2810,13 @@
       "ロジャーラビットを祟るため",
       "ロジャーラビットを忘れないため"
     ],
+    "answer": "ロジャーラビットを称えるため",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q057",
+    "questionID": "Q177",
     "keyword": "",
     "category": "ディズニー",
     "question": "ホライズンベイ・レストランの入り口に吊るされているマンボウの形の潜水艇の名前は何？",
@@ -850,12 +2826,13 @@
       "サンフィッシュ・サブ",
       "サンフィッシュ・ザブ"
     ],
+    "answer": "サンフィッシュ・サブ",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q058",
+    "questionID": "Q178",
     "keyword": "",
     "category": "ディズニー",
     "question": "タウンセンターファッションの裁縫エリアは誰専用？",
@@ -865,27 +2842,29 @@
       "クララベル",
       "ミニー"
     ],
+    "answer": "ミニー",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q059",
+    "questionID": "Q179",
     "keyword": "",
     "category": "ディズニー",
-    "question": "タウンセンターファッションでデイジーが制作中の帽子は誰と誰の帽子？",
+    "question": "タウンんセンターファッションでデイジーが制作中の帽子は誰と誰の帽子？",
     "choice": [
       "ドナルドとデイジー",
       "ミッキーとミニー",
       "アリエルとアリス",
       "ベルとシンデレラ"
     ],
+    "answer": "アリエルとアリス",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q060",
+    "questionID": "Q180",
     "keyword": "",
     "category": "ディズニー",
     "question": "東京ディズニーシーにあるミッキーとウォルトの象のウォルトは何歳の時を表している？",
@@ -895,12 +2874,13 @@
       "21歳",
       "22歳"
     ],
+    "answer": "22歳",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q061",
+    "questionID": "Q181",
     "keyword": "",
     "category": "ディズニー",
     "question": "ディズニーの短編アニメーション『三匹の子ぶた』の長男の名前は何？",
@@ -910,12 +2890,13 @@
       "プラクティカル",
       "ビッグ・バッド・ウルフ"
     ],
+    "answer": "ファイファー",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q062",
+    "questionID": "Q182",
     "keyword": "",
     "category": "ディズニー",
     "question": "ディズニーの短編アニメーション『三匹の子ぶた』の次男の名前は何？",
@@ -925,12 +2906,13 @@
       "プラクティカル",
       "ビッグ・バッド・ウルフ"
     ],
+    "answer": "フィドラー",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q063",
+    "questionID": "Q183",
     "keyword": "",
     "category": "ディズニー",
     "question": "ディズニーの短編アニメーション『三匹の子ぶた』の三男の名前は何？",
@@ -940,12 +2922,13 @@
       "プラクティカル",
       "ビッグ・バッド・ウルフ"
     ],
+    "answer": "プラクティカル",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q064",
+    "questionID": "Q184",
     "keyword": "",
     "category": "ディズニー",
     "question": "東京ディズニーランドのトゥーンタウンにあるドナルドのおうち「ドナルドのボート」の名前は何？",
@@ -955,12 +2938,13 @@
       "プリンス号",
       "キング号"
     ],
+    "answer": "ミス・デイジー号",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q065",
+    "questionID": "Q185",
     "keyword": "",
     "category": "ディズニー",
     "question": "ドナルドのおうち「ドナルドのボート」が浮いている湖の名前は何？",
@@ -970,12 +2954,13 @@
       "タウン池",
       "トゥーンレイク"
     ],
+    "answer": "トゥーンレイク",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q066",
+    "questionID": "Q186",
     "keyword": "",
     "category": "ディズニー",
     "question": "フォートレスを本拠地として活動する\"探検家・冒険家学会\"の通称は何？",
@@ -985,12 +2970,13 @@
       "A.S.E",
       "S.A.E"
     ],
+    "answer": "S.E.A",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q067",
+    "questionID": "Q187",
     "keyword": "",
     "category": "ディズニー",
     "question": "ウエスタンリバー鉄道のコロラド号の車体番号は何番？",
@@ -1000,12 +2986,13 @@
       "53",
       "54"
     ],
+    "answer": "53",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q068",
+    "questionID": "Q188",
     "keyword": "",
     "category": "ディズニー",
     "question": "ウエスタンリバー鉄道のミズーリ号の車体番号は何番？",
@@ -1015,12 +3002,13 @@
       "27",
       "28"
     ],
+    "answer": "28",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q069",
+    "questionID": "Q189",
     "keyword": "",
     "category": "ディズニー",
     "question": "ウエスタンリバー鉄道のリオ・グランデ号の車体番号は何番？",
@@ -1030,12 +3018,13 @@
       "27",
       "28"
     ],
+    "answer": "25",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q070",
+    "questionID": "Q190",
     "keyword": "",
     "category": "ディズニー",
     "question": "ウエスタンリバー鉄道のミシシッピ号に書かれている動物は何？",
@@ -1045,12 +3034,13 @@
       "雄ジカ",
       "雌ジカ"
     ],
+    "answer": "バッファロー",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q071",
+    "questionID": "Q191",
     "keyword": "",
     "category": "ディズニー",
     "question": "スター・ツアーズ：ザ・アドベンチャーズ・コンティニューでゲストが乗る乗り物の名前は何？",
@@ -1060,12 +3050,13 @@
       "スタースピーダー100",
       "スタースピーダー1000"
     ],
+    "answer": "スタースピーダー1000",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q072",
+    "questionID": "Q192",
     "keyword": "",
     "category": "ディズニー",
     "question": "1975年にフロリダのウォルト・ディズニー・ワールド・リゾートに誕生した「スペース・マウンテン」は、アメリカ人宇宙飛行士の誰がコンサルタントとしてプロジェクトに参加していたか？",
@@ -1075,12 +3066,13 @@
       "ウイリアム・ボーグ",
       "サリー・ライド"
     ],
+    "answer": "ゴードン・クーパー",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q073",
+    "questionID": "Q193",
     "keyword": "",
     "category": "ディズニー",
     "question": "アリスのティーパーティーは昔どこにあった？",
@@ -1090,12 +3082,13 @@
       "ファンタジーランドとトゥモローランドの境",
       "ウエスタンランドとファンタジーランドの境"
     ],
+    "answer": "ファンタジーランドとトゥモローランドの境",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q074",
+    "questionID": "Q194",
     "keyword": "",
     "category": "ディズニー",
     "question": "モンスターズ・インク・カンパニーストアのサリーの写真の下にあるピンクの縁のメガネにある逸話は何？",
@@ -1105,12 +3098,13 @@
       "ただのおしゃれ",
       "ロズがボウリングの時だけかけるメガネ"
     ],
+    "answer": "倒すべきピンがよく見えるよう、球にかけさせたメガネ",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q075",
+    "questionID": "Q195",
     "keyword": "",
     "category": "ディズニー",
     "question": "東京ディズニーシーのフォトグラフィカのオーナーは誰？",
@@ -1120,12 +3114,13 @@
       "ロレンゾ・カルデローネ",
       "ロレゾン・カルデローネ"
     ],
+    "answer": "ロレンゾ・カルデローネ",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q076",
+    "questionID": "Q196",
     "keyword": "",
     "category": "ディズニー",
     "question": "トムソーヤのツリーハウスの裏手にある沼の名前は何？",
@@ -1135,12 +3130,13 @@
       "ハックルペリー沼",
       "バックルペリー沼"
     ],
+    "answer": "ハックルベリー沼",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q077",
+    "questionID": "Q197",
     "keyword": "",
     "category": "ディズニー",
     "question": "トムソーヤ島にあるお城のような形の岩の名前は何？",
@@ -1150,12 +3146,13 @@
       "キャッスルイワ",
       "シロロック"
     ],
+    "answer": "キャッスルロック",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q078",
+    "questionID": "Q198",
     "keyword": "",
     "category": "ディズニー",
     "question": "アメリカンウォーターフロントにあるウォーターフロントパークの水しぶきの出所の名前は何？",
@@ -1165,12 +3162,13 @@
       "ウォーターパーク・ファウンテン",
       "ウォーターフロントパーク・ファウンテン"
     ],
+    "answer": "ウォーターフロントパーク・ファウンテン",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q079",
+    "questionID": "Q199",
     "keyword": "",
     "category": "ディズニー",
     "question": "東京ディズニーランドのグランドオープン当時のアトラクションの数はいくつ？",
@@ -1180,12 +3178,13 @@
       "31",
       "32"
     ],
+    "answer": "32",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q080",
+    "questionID": "Q200",
     "keyword": "",
     "category": "ディズニー",
     "question": "ウォルト・ディズニー自身が監修した最後のアトラクションは何？",
@@ -1195,12 +3194,13 @@
       "白雪姫と七人の小人",
       "蒸気船マークトウェイン号"
     ],
+    "answer": "カリブの海賊",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q081",
+    "questionID": "Q201",
     "keyword": "",
     "category": "ディズニー",
     "question": "アメリカンウォーターフロントのホテルハイタワーの特徴である建物の側面に見られる２つの張り出し部分は何を連想させるためにこの形にした？",
@@ -1210,12 +3210,13 @@
       "釘",
       "手"
     ],
+    "answer": "ハンマー",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q082",
+    "questionID": "Q202",
     "keyword": "",
     "category": "ディズニー",
     "question": "マンマ・ビスコッティーズ・ベーカリーで腕を振るっている夫人の名前は何？",
@@ -1225,12 +3226,13 @@
       "オリアーナ・ビスコッティー",
       "オリアナ・ビスコッティー"
     ],
+    "answer": "オリアーナ・ビスコッティー",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q083",
+    "questionID": "Q203",
     "keyword": "",
     "category": "ディズニー",
     "question": "S.S.コロンビア号の前にある広場の名前は何？",
@@ -1240,12 +3242,13 @@
       "ホワイトショースクエア",
       "アルジャースクエア"
     ],
+    "answer": "ホレイショースクエア",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q084",
+    "questionID": "Q204",
     "keyword": "",
     "category": "ディズニー",
     "question": "蒸気船マークトウェイン号の船着場の建物の様式は何？",
@@ -1255,12 +3258,13 @@
       "アーリー・アメリカン様式",
       "クイーンアンスタイル様式"
     ],
+    "answer": "フェデラル様式",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q085",
+    "questionID": "Q205",
     "keyword": "",
     "category": "ディズニー",
     "question": "カニのセバスチャンがこよなく愛する\"カリプソ\"のお長くは何拍子の音楽？",
@@ -1270,12 +3274,13 @@
       "4分の2拍子",
       "4分の4拍子"
     ],
+    "answer": "4分の2拍子",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q086",
+    "questionID": "Q206",
     "keyword": "",
     "category": "ディズニー",
     "question": "ロストリバーデルタにある「トロピック・アルズ」の日除に書かれている鳥のニックネームは何？",
@@ -1285,12 +3290,13 @@
       "アルズ",
       "アル"
     ],
+    "answer": "アル",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q087",
+    "questionID": "Q207",
     "keyword": "",
     "category": "ディズニー",
     "question": "リトルグリーンメンの言葉で、「うれしい！」という意味の言葉は何？",
@@ -1300,12 +3306,13 @@
       "オオオオ！",
       "ウォウォウォウォ！"
     ],
+    "answer": "ウウウウ！",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q088",
+    "questionID": "Q208",
     "keyword": "",
     "category": "ディズニー",
     "question": "「イッツ・ア・スモールワールド」が、初めてお披露目された場所はどこ？",
@@ -1315,12 +3322,13 @@
       "ニューヨーク世界博覧会",
       "ロサンゼルス"
     ],
+    "answer": "ニューヨーク世界博覧会",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q089",
+    "questionID": "Q209",
     "keyword": "",
     "category": "ディズニー",
     "question": "バンビが初めて話した言葉は何？",
@@ -1330,12 +3338,13 @@
       "お母さん",
       "雨"
     ],
+    "answer": "とり",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q090",
+    "questionID": "Q210",
     "keyword": "",
     "category": "ディズニー",
     "question": "「おしゃれキャット」の中でマリーが話した日本語は何？",
@@ -1345,12 +3354,13 @@
       "こんばんは",
       "さよなら"
     ],
+    "answer": "さよなら",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q091",
+    "questionID": "Q211",
     "keyword": "",
     "category": "ディズニー",
     "question": "スティッチが犬のふりをしているときに体内にどの部分を隠している",
@@ -1360,12 +3370,13 @@
       "触覚と中足２本",
       "牙と触覚"
     ],
+    "answer": "触覚と中足２本",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q092",
+    "questionID": "Q212",
     "keyword": "",
     "category": "ディズニー",
     "question": "グーフィーの奥さんは誰？",
@@ -1375,12 +3386,13 @@
       "ミス・グーフィー",
       "ミセス・グーフィー"
     ],
+    "answer": "ミセス・グーフィー",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q093",
+    "questionID": "Q213",
     "keyword": "",
     "category": "ディズニー",
     "question": "ベルが友情出演しているディズニー映画は何？",
@@ -1390,12 +3402,13 @@
       "プリンセスと魔法のキス",
       "アナと雪の女王"
     ],
+    "answer": "ノートルダムの鐘",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q094",
+    "questionID": "Q214",
     "keyword": "",
     "category": "ディズニー",
     "question": "モンスターズインクでサリーがブーをモンスターに変装させるために使った材料は何？",
@@ -1405,12 +3418,13 @@
       "マフラー",
       "毛布"
     ],
+    "answer": "椅子のカバー",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q095",
+    "questionID": "Q215",
     "keyword": "",
     "category": "ディズニー",
     "question": "「トイ・ストーリー２」に登場する、ペンギン人形のウィージーがヤード・セールで付けられた値段はいくら？",
@@ -1420,12 +3434,13 @@
       "25セント",
       "50セント"
     ],
+    "answer": "25セント",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q096",
+    "questionID": "Q216",
     "keyword": "",
     "category": "ディズニー",
     "question": "ピーターパンのダーリング家の長女、ウェンディのフルネームは何？",
@@ -1435,12 +3450,13 @@
       "ウェンディ・モイラ・キャサリン・ダーリング",
       "ウェンディ・モイラ・ジェシー・ダーリング"
     ],
+    "answer": "ウェンディ・モイラ・アンジェラ・ダーリング",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q097",
+    "questionID": "Q217",
     "keyword": "",
     "category": "ディズニー",
     "question": "プーさんの家の表札に書かれている名前は何？",
@@ -1450,12 +3466,13 @@
       "ロバーツ",
       "サンダース"
     ],
+    "answer": "サンダース",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q098",
+    "questionID": "Q218",
     "keyword": "",
     "category": "ディズニー",
     "question": "ピグレットが住んでいる木の種類は何？",
@@ -1465,12 +3482,13 @@
       "柳",
       "ブナ"
     ],
+    "answer": "ブナ",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q099",
+    "questionID": "Q219",
     "keyword": "",
     "category": "ディズニー",
     "question": "ビッグサンダー・マウンテンの鉱山で落盤事故に合い、愛犬のディガーに助けられた人物の名前は何？",
@@ -1480,12 +3498,13 @@
       "アダム・サム",
       "ホワイト・サム"
     ],
+    "answer": "セドナ・サム",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q100",
+    "questionID": "Q220",
     "keyword": "",
     "category": "ディズニー",
     "question": "インディ・ジョーンズアドベンチャーのアトラクションの待ち列にある新聞に載ってる日本人の名前は何？",
@@ -1495,12 +3514,13 @@
       "松下幸之助",
       "井畑田一"
     ],
+    "answer": "松下幸之助",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q101",
+    "questionID": "Q221",
     "keyword": "",
     "category": "ディズニー",
     "question": "蒸気船マークトウェイン号のマークトウェインはどんな意味？",
@@ -1510,12 +3530,13 @@
       "小説家の名前",
       "川の名前"
     ],
+    "answer": "小説家の名前",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q102",
+    "questionID": "Q222",
     "keyword": "",
     "category": "ディズニー",
     "question": "シンデレラ城の中央にある時計は何を示している？",
@@ -1525,12 +3546,13 @@
       "カリフォルニアのディズニーランドの場所",
       "日付"
     ],
+    "answer": "星座",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q103",
+    "questionID": "Q223",
     "keyword": "",
     "category": "ディズニー",
     "question": "アメリカンウォーターフロントにある赤い橋の名前は何？",
@@ -1540,12 +3562,13 @@
       "レッド・リバー・ブリッジ",
       "レッド・ブリッジ"
     ],
+    "answer": "ハドソン・リバー・ブリッジ",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q104",
+    "questionID": "Q224",
     "keyword": "",
     "category": "ディズニー",
     "question": "海底2万マイルのアトラクションの待ち列で聞こえる楽器は何？",
@@ -1555,12 +3578,13 @@
       "フルート",
       "パイプオルガン"
     ],
+    "answer": "パイプオルガン",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q105",
+    "questionID": "Q225",
     "keyword": "",
     "category": "ディズニー",
     "question": "ケープコッドから見たプロメテウス火山の特徴は何？",
@@ -1570,12 +3594,13 @@
       "草が生い茂っている",
       "溶岩が流れている"
     ],
+    "answer": "花崗岩がある",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q106",
+    "questionID": "Q226",
     "keyword": "",
     "category": "ディズニー",
     "question": "ポートディスカバリーから見たプロメテウス火山の特徴は何？",
@@ -1585,12 +3610,13 @@
       "草が生い茂っている",
       "溶岩が流れている"
     ],
+    "answer": "草が生い茂っている",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q107",
+    "questionID": "Q227",
     "keyword": "",
     "category": "ディズニー",
     "question": "ハイタワー3世がアジアを探検したのはいつ？",
@@ -1600,12 +3626,13 @@
       "1922年",
       "1963年"
     ],
+    "answer": "1875年",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q108",
+    "questionID": "Q228",
     "keyword": "",
     "category": "ディズニー",
     "question": "シリキ・ウトゥンドゥの所有者はいくつのルールを守る必要がある？",
@@ -1615,12 +3642,13 @@
       "7つ",
       "8つ"
     ],
+    "answer": "8つ",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q109",
+    "questionID": "Q229",
     "keyword": "",
     "category": "ディズニー",
     "question": "タワー・オブ・テラーのホテルの庭園の2つの名前は何？",
@@ -1630,12 +3658,13 @@
       "瞑想の中庭・インドの中庭",
       "瞑想の庭園・インドの庭園"
     ],
+    "answer": "瞑想の庭園・インドの庭園",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q110",
+    "questionID": "Q230",
     "keyword": "",
     "category": "ディズニー",
     "question": "タワー・オブ・テラーの瞑想の庭園にある書きかけの女性と銅像の絵の女性の名前は何？",
@@ -1645,12 +3674,13 @@
       "ベアト・ロー・エンディ",
       "ベアトリス・ローズ・エンディコ"
     ],
+    "answer": "ベアトリス・ローズ・エンディコット",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q111",
+    "questionID": "Q231",
     "keyword": "",
     "category": "ディズニー",
     "question": "インディ・ジョーンズ・アドベンチャー：クリスタルスカルの魔宮の骸骨が落ちていたり、壁画が崩れている部屋の名前は何？",
@@ -1660,12 +3690,13 @@
       "髑髏の間",
       "呪いの間"
     ],
+    "answer": "生贄の間",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q112",
+    "questionID": "Q232",
     "keyword": "",
     "category": "ディズニー",
     "question": "フローズンキングダムでお店が全て閉まっている理由は何？",
@@ -1675,12 +3706,13 @@
       "パーティーが開かれる",
       "寝ている"
     ],
+    "answer": "パーティーが開かれる",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q113",
+    "questionID": "Q233",
     "keyword": "",
     "category": "ディズニー",
     "question": "トゥーンタウンのミニーの家の冷蔵庫の中身は何？",
@@ -1690,12 +3722,13 @@
       "チーズ",
       "空っぽ"
     ],
+    "answer": "チーズ",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q114",
+    "questionID": "Q234",
     "keyword": "",
     "category": "ディズニー",
     "question": "トゥーンタウンのドナルドの家に飾られているドナルドと2ショットで写っているのは誰？",
@@ -1705,12 +3738,13 @@
       "ミッキー",
       "グーフィー"
     ],
+    "answer": "ウォルト・ディズニー",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q115",
+    "questionID": "Q235",
     "keyword": "",
     "category": "ディズニー",
     "question": "ホーンテッドマンションの風見鶏は実は何の動物？",
@@ -1720,12 +3754,13 @@
       "犬",
       "猫"
     ],
+    "answer": "コウモリ",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q116",
+    "questionID": "Q236",
     "keyword": "",
     "category": "ディズニー",
     "question": "プルートの首輪のネームプレートに書かれている言葉は何？",
@@ -1735,12 +3770,13 @@
       "一緒に遊ぼう",
       "もし見つけたらミッキーまで"
     ],
+    "answer": "もし見つけたらミッキーまで",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q117",
+    "questionID": "Q237",
     "keyword": "",
     "category": "ディズニー",
     "question": "プルートが唯一話したことのある言葉は何？",
@@ -1750,12 +3786,13 @@
       "ご飯ちょうだい",
       "助けて"
     ],
+    "answer": "キスして",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q118",
+    "questionID": "Q238",
     "keyword": "",
     "category": "ディズニー",
     "question": "プルートの名前の由来になったものは何？",
@@ -1765,12 +3802,13 @@
       "星",
       "声優"
     ],
+    "answer": "星",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q119",
+    "questionID": "Q239",
     "keyword": "",
     "category": "ディズニー",
     "question": "ミニーの姪っ子のミリーのリボンの色は何色？",
@@ -1780,12 +3818,13 @@
       "緑",
       "青"
     ],
+    "answer": "青",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   },
   {
-    "questionID": "Q120",
+    "questionID": "Q240",
     "keyword": "",
     "category": "ディズニー",
     "question": "ミニーの姪っ子のメロディのリボンの色は何色？",
@@ -1795,8 +3834,9 @@
       "緑",
       "青"
     ],
+    "answer": "ピンク",
     "year": "",
     "reference_url": "",
-    "authored_by": "disney"
+    "authored_by": "human"
   }
 ]

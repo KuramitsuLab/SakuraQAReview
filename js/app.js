@@ -136,35 +136,39 @@ const QuizApp = {
         document.getElementById('next-btn').style.display = 'none';
         document.getElementById('complete-btn').style.display = 'none';
 
-        // 選択肢の生成（シャッフルされ、correctAnswerIndexが設定される）
-        this.renderChoices(question.choice);
+        // 選択肢の生成（correctAnswerIndexが設定される）
+        this.renderChoices(question.choice, question.answer);
     },
 
     /**
      * 選択肢を描画
-     * @param {Array} choices - 選択肢の配列（正解は常にインデックス0）
+     * @param {Array} choices - 選択肢の配列
+     * @param {string} correctAnswer - 正解の選択肢テキスト（オプション）
      */
-    renderChoices(choices) {
+    renderChoices(choices, correctAnswer) {
         const container = document.getElementById('choices-container');
         container.innerHTML = '';
 
-        // 選択肢を元のインデックスと共に配列化
-        const choicesWithIndex = choices.map((choice, index) => ({
-            text: choice,
-            originalIndex: index
-        }));
+        // 正解の位置を見つける
+        if (correctAnswer) {
+            // answerフィールドがある場合: そのテキストと一致する選択肢を正解とする
+            this.correctAnswerIndex = choices.findIndex(c => c === correctAnswer);
+        } else {
+            // answerフィールドがない場合: インデックス0を正解とする（後方互換性）
+            this.correctAnswerIndex = 0;
+        }
 
-        // 選択肢をシャッフル
-        const shuffledChoices = this.shuffleArray(choicesWithIndex);
+        // 正解が見つからない場合の警告
+        if (this.correctAnswerIndex === -1) {
+            console.warn('正解が見つかりません:', correctAnswer, choices);
+            this.correctAnswerIndex = 0; // フォールバック
+        }
 
-        // 正解の新しい位置を見つける（元のインデックス0が正解）
-        this.correctAnswerIndex = shuffledChoices.findIndex(c => c.originalIndex === 0);
-
-        // シャッフルされた選択肢を表示
-        shuffledChoices.forEach((choiceObj, index) => {
+        // 選択肢をそのまま表示（シャッフルしない）
+        choices.forEach((choice, index) => {
             const button = document.createElement('button');
             button.className = 'choice-btn';
-            button.textContent = choiceObj.text;
+            button.textContent = choice;
             button.dataset.index = index;
 
             button.addEventListener('click', () => this.selectAnswer(index));
