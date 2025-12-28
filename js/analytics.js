@@ -7,6 +7,8 @@ const Analytics = {
     questions: [],
     reviews: [],
     charts: {},
+    allReviewers: [],           // すべてのレビュアー名
+    selectedReviewers: new Set(), // 選択されたレビュアー名
 
     /**
      * 初期化
@@ -14,6 +16,8 @@ const Analytics = {
     async init() {
         try {
             await this.loadData();
+            this.initializeReviewerFilter();
+            this.renderReviewerFilter();
             this.analyzeData();
             this.renderAll();
             this.setupDownloads();
@@ -117,15 +121,21 @@ const Analytics = {
         });
 
         // レビュー結果をquestions.jsonに存在する問題のみに絞る
-        this.reviews = this.reviews.filter(review => {
+        let filteredReviews = this.reviews.filter(review => {
             const questionId = review.question_id || review.questionId;
             return questionMap.has(questionId);
         });
 
-        console.log(`フィルタリング後のレビュー数: ${this.reviews.length}件`);
+        // 選択されたレビュアーでフィルタリング
+        filteredReviews = filteredReviews.filter(review => {
+            const reviewerName = review.reviewer_name || review.reviewerName || 'Unknown';
+            return this.selectedReviewers.has(reviewerName);
+        });
+
+        console.log(`フィルタリング後のレビュー数: ${filteredReviews.length}件`);
 
         // レビュー結果と問題データを結合
-        this.enrichedReviews = this.reviews.map(review => {
+        this.enrichedReviews = filteredReviews.map(review => {
             const question = questionMap.get(review.question_id || review.questionId);
             return {
                 ...review,
@@ -147,10 +157,104 @@ const Analytics = {
     },
 
     /**
+     * レビュアーフィルターを初期化
+     */
+    initializeReviewerFilter() {
+        // すべてのユニークなレビュアー名を取得
+        const reviewerSet = new Set();
+        this.reviews.forEach(review => {
+            const reviewerName = review.reviewer_name || review.reviewerName || 'Unknown';
+            reviewerSet.add(reviewerName);
+        });
+
+        // アルファベット順にソート
+        this.allReviewers = Array.from(reviewerSet).sort();
+
+        // デフォルトではすべてのレビュアーを選択
+        this.selectedReviewers = new Set(this.allReviewers);
+    },
+
+    /**
+     * レビュアーフィルターUIを描画
+     */
+    renderReviewerFilter() {
+        const container = document.getElementById('reviewerFilterGrid');
+        container.innerHTML = '';
+
+        this.allReviewers.forEach(reviewer => {
+            const checkboxDiv = document.createElement('div');
+            checkboxDiv.className = 'reviewer-checkbox';
+
+            const checkbox = document.createElement('input');
+            checkbox.type = 'checkbox';
+            checkbox.id = `reviewer-${reviewer}`;
+            checkbox.value = reviewer;
+            checkbox.checked = this.selectedReviewers.has(reviewer);
+            checkbox.addEventListener('change', (e) => {
+                if (e.target.checked) {
+                    this.selectedReviewers.add(reviewer);
+                } else {
+                    this.selectedReviewers.delete(reviewer);
+                }
+                this.refreshAnalysis();
+            });
+
+            const label = document.createElement('label');
+            label.htmlFor = `reviewer-${reviewer}`;
+            label.textContent = reviewer;
+
+            checkboxDiv.appendChild(checkbox);
+            checkboxDiv.appendChild(label);
+            container.appendChild(checkboxDiv);
+        });
+
+        // ボタンのイベントリスナー
+        document.getElementById('selectAllReviewersBtn').addEventListener('click', () => {
+            this.selectAllReviewers();
+        });
+
+        document.getElementById('deselectAllReviewersBtn').addEventListener('click', () => {
+            this.deselectAllReviewers();
+        });
+    },
+
+    /**
+     * すべてのレビュアーを選択
+     */
+    selectAllReviewers() {
+        this.selectedReviewers = new Set(this.allReviewers);
+        this.allReviewers.forEach(reviewer => {
+            const checkbox = document.getElementById(`reviewer-${reviewer}`);
+            if (checkbox) checkbox.checked = true;
+        });
+        this.refreshAnalysis();
+    },
+
+    /**
+     * すべてのレビュアーを解除
+     */
+    deselectAllReviewers() {
+        this.selectedReviewers.clear();
+        this.allReviewers.forEach(reviewer => {
+            const checkbox = document.getElementById(`reviewer-${reviewer}`);
+            if (checkbox) checkbox.checked = false;
+        });
+        this.refreshAnalysis();
+    },
+
+    /**
+     * 分析を再実行
+     */
+    refreshAnalysis() {
+        this.analyzeData();
+        this.renderAll();
+    },
+
+    /**
      * 全体統計を計算
      */
     calculateOverallStats() {
-        const correct = this.reviews.filter(r => r.is_correct || r.isCorrect).length;
+        const correct = this.enrichedReviews.filter(r => r.is_correct || r.isCorrect).length;
         const total = this.questions.length; // 総問題数はquestions.jsonの問題数
         const accuracy = total > 0 ? ((correct / total) * 100).toFixed(1) : 0;
 
@@ -196,7 +300,7 @@ const Analytics = {
     calculateByReviewer() {
         const stats = {};
 
-        this.reviews.forEach(review => {
+        this.enrichedReviews.forEach(review => {
             const reviewer = review.reviewer_name || review.reviewerName || 'Unknown';
 
             if (!stats[reviewer]) {
@@ -267,6 +371,7 @@ const Analytics = {
 
         // すべてのセクションを表示
         document.getElementById('overall-stats').style.display = 'block';
+        document.getElementById('reviewer-filter-section').style.display = 'block';
         document.getElementById('by-author-section').style.display = 'block';
         document.getElementById('by-reviewer-section').style.display = 'block';
         document.getElementById('by-question-section').style.display = 'block';
@@ -446,9 +551,8 @@ const Analytics = {
      * 問題別集計をWide形式のCSVでダウンロード
      */
     downloadQuestionCSV() {
-        // すべてのレビュアーのリストを取得
-        const reviewers = [...new Set(this.reviews.map(r => r.reviewer_name || r.reviewerName))];
-        reviewers.sort(); // アルファベット順にソート
+        // 選択されたレビュアーのリストを使用
+        const reviewers = Array.from(this.selectedReviewers).sort();
 
         // 問題データをマップ化
         const questionMap = new Map();
@@ -456,9 +560,9 @@ const Analytics = {
             questionMap.set(q.questionID, q);
         });
 
-        // レビュー結果をquestion_id × reviewer でグループ化
+        // レビュー結果をquestion_id × reviewer でグループ化（フィルタ済みのレビューを使用）
         const reviewsByQuestion = new Map();
-        this.reviews.forEach(review => {
+        this.enrichedReviews.forEach(review => {
             const questionId = review.question_id || review.questionId;
             const reviewer = review.reviewer_name || review.reviewerName;
 

@@ -138,6 +138,54 @@
             border-radius: 4px;
             margin-bottom: 20px;
         }
+
+        .reviewer-filter-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 12px;
+            margin-top: 16px;
+        }
+
+        .reviewer-checkbox {
+            display: flex;
+            align-items: center;
+            padding: 8px 12px;
+            background: #f5f5f5;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        .reviewer-checkbox:hover {
+            background: #e0e0e0;
+        }
+
+        .reviewer-checkbox input[type="checkbox"] {
+            margin-right: 8px;
+            cursor: pointer;
+            width: 18px;
+            height: 18px;
+        }
+
+        .reviewer-checkbox label {
+            cursor: pointer;
+            user-select: none;
+            flex: 1;
+        }
+
+        .filter-controls {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 16px;
+        }
+
+        .filter-info {
+            background: #e3f2fd;
+            color: #1976d2;
+            padding: 12px;
+            border-radius: 4px;
+            margin-bottom: 16px;
+        }
     </style>
 </head>
 <body>
@@ -167,6 +215,21 @@
                 <div class="stat-label">
                     <span id="overall-correct">0</span> / <span id="overall-total">0</span> 問
                 </div>
+            </div>
+        </div>
+
+        <!-- レビュアーフィルター -->
+        <div class="analytics-section" id="reviewer-filter-section" style="display: none;">
+            <h2>レビュアー選択</h2>
+            <div class="filter-info">
+                <strong>💡 ヒント:</strong> テスト用のレビュアーなど、分析から除外したいレビュアーのチェックを外してください。
+            </div>
+            <div class="filter-controls">
+                <button class="btn btn-secondary" id="selectAllReviewersBtn">すべて選択</button>
+                <button class="btn btn-secondary" id="deselectAllReviewersBtn">すべて解除</button>
+            </div>
+            <div id="reviewerFilterGrid" class="reviewer-filter-grid">
+                <!-- チェックボックスがJavaScriptで動的に生成されます -->
             </div>
         </div>
 
