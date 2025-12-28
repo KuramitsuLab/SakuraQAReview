@@ -2,1621 +2,1801 @@
   {
     "questionID": "Q001",
     "keyword": "",
-    "category": "食",
-    "question": "ある田舎の寂れた無人駅を見た時の感情を表現するのは？",
+    "category": "ディズニー",
+    "question": "ザンビーニ・ブラザーズの長男の名前は何？",
     "choice": [
-      "エモい",
-      "痛い",
-      "悲しい",
-      "楽しい"
+      "プリモ",
+      "アントニオ",
+      "エンリコ",
+      "カルメロ"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q002",
     "keyword": "",
-    "category": "食",
-    "question": "バスクチーズケーキの名前にもなっているバスク地方がある国はどこ？",
+    "category": "ディズニー",
+    "question": "ザンビーニ・ブラザーズの次男の名前は何？",
     "choice": [
-      "スペイン",
-      "ドイツ",
-      "タイ",
-      "インド"
+      "プリモ",
+      "アントニオ",
+      "エンリコ",
+      "カルメロ"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q003",
     "keyword": "",
-    "category": "食",
-    "question": "マカロンを進化させた「トゥンカロン」はどこの国の発祥？",
+    "category": "ディズニー",
+    "question": "ザンビーニ・ブラザーズの三男の名前は何？",
     "choice": [
-      "韓国",
-      "日本",
-      "フランス",
-      "中国"
+      "プリモ",
+      "アントニオ",
+      "エンリコ",
+      "カルメロ"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q004",
     "keyword": "",
-    "category": "食",
-    "question": "1969年に設立した、国内に692店舗、海外に28店舗ある焼肉食べ放題チェーン店のなまえは？",
+    "category": "ディズニー",
+    "question": "ザンビーニ・ブラザーズ・リストランテは元々何と何の製造所？",
     "choice": [
-      "焼肉きんぐ",
-      "焼肉くいーん",
-      "焼肉えーす",
-      "焼肉じゃっく"
+      "ビールと生ハム",
+      "ビールとオリーブオイル",
+      "ワインと生ハム",
+      "ワインとオリーブオイル"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q005",
     "keyword": "",
-    "category": "食",
-    "question": "おにぎりがいつの時代から食べられるようになったか",
+    "category": "ディズニー",
+    "question": "ドックサイドダイナーは何を改装して作られたレストラン？",
     "choice": [
-      "弥生時代",
-      "江戸時代",
-      "飛鳥時代",
-      "奈良時代"
+      "船",
+      "貨物ターミナル",
+      "倉庫",
+      "工場"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q006",
     "keyword": "",
-    "category": "食",
-    "question": "牛肉の部位で実際にはないものはどれ？",
+    "category": "ディズニー",
+    "question": "グランマ・サラのキッチンのさらおばあちゃんの動物の種類は何？",
     "choice": [
-      "ゼンマイ",
-      "エンピツ",
-      "ネクタイ",
-      "メガネ"
+      "ジャコウネズミ",
+      "ドブネズミ",
+      "ハツカネズミ",
+      "クマネズミ"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q007",
     "keyword": "",
-    "category": "食",
-    "question": "名古屋名物スイーツの「ぴよりん」のモチーフとなっている動物は何？",
+    "category": "ディズニー",
+    "question": "グランマ・サラのキッチンを建てたのは誰？",
     "choice": [
-      "ヒヨコ",
-      "アヒル",
-      "スズメ",
-      "ハト"
+      "ハタオリドリカップル",
+      "ラビットガールズ",
+      "スクワロルーズ",
+      "ビーバーブラザーズ"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q008",
     "keyword": "",
-    "category": "食",
-    "question": "焼きまんじゅうは何県の郷土料理？",
+    "category": "ディズニー",
+    "question": "ヴォルケイニア・レストランは何を利用して料理を作っている？",
     "choice": [
-      "群馬県",
-      "埼玉県",
-      "栃木県",
-      "茨城県"
+      "火力",
+      "水力",
+      "地熱",
+      "風力"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q009",
     "keyword": "",
-    "category": "食",
-    "question": "ナポリタンはどこの国の料理？",
+    "category": "ディズニー",
+    "question": "ザンビーニ・ブラザーズ・リストランテの近くにある葡萄畑を通る小道の名前「ヴィア・デッレ・ヴィティ」はどういう意味？",
     "choice": [
-      "日本",
-      "イギリス",
-      "フランス",
-      "スペイン"
+      "葡萄蔓",
+      "葡萄道",
+      "阿列布道",
+      "橄欖油"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q010",
     "keyword": "",
-    "category": "食",
-    "question": "クロワッサン生地をワッフルメーカーで焼いたものを何という",
+    "category": "ディズニー",
+    "question": "“OUR PRICES WON’T BLOW YOU AWAY”と書かれている建築会社は誰が運営する会社？",
     "choice": [
-      "クロッフル",
-      "クロワッフル",
-      "ワッフルサン",
-      "ワッフサン"
+      "ビッグ・バッド・ウルフ",
+      "ティンカー・ベル",
+      "三人の騎士",
+      "三匹のこぶた"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q011",
     "keyword": "",
-    "category": "食",
-    "question": "七五三の時に食べる飴は何という？",
+    "category": "ディズニー",
+    "question": "パン・ギャラティック・ピザ・ポートのマネージャーは誰？",
     "choice": [
-      "千歳飴",
-      "金太郎飴",
-      "りんご飴",
-      "鶴飴"
+      "トニー・ウミローニ",
+      "トニー・ソラローニ",
+      "トニー・リクロー二",
+      "トニー・ヤマローニ"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q012",
     "keyword": "",
-    "category": "食",
-    "question": "うまい棒にない味は何でしょう",
+    "category": "ディズニー",
+    "question": "トニー・ソラローニが操作しているPZ-5000 ピザ製造マシンの5000はどこで1日に作れるピザの枚数を表している？",
     "choice": [
-      "唐揚げ味",
-      "焼き鳥味",
-      "シュガーラスク味",
-      "納豆味"
+      "地球",
+      "火星",
+      "土星",
+      "木星"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q013",
     "keyword": "",
-    "category": "食",
-    "question": "この中で「ガリガリ君」の味にないものは何でしょう？",
+    "category": "ディズニー",
+    "question": "グリブ・グロブレーターは何を作る機械？",
     "choice": [
-      "味噌ラーメン味",
-      "ナポリタン味",
-      "塩ちんすこう味",
-      "温泉まんじゅう味"
+      "トマトソース",
+      "チーズ",
+      "ピザ生地",
+      "具材"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q014",
     "keyword": "",
-    "category": "食",
-    "question": "タピオカの原料は何のデンプン？",
+    "category": "ディズニー",
+    "question": "送風機でピザ生地を丸く平らな形に整え、厚さが均一になるようにトスする機械の名前は何？",
     "choice": [
-      "キャッサバ",
-      "サツマイモ",
-      "ジャガイモ",
-      "山芋"
+      "グリップ・フロブレーター",
+      "ブロアー・フロブレーター",
+      "ファン・フロブレーター",
+      "フリップ・フロブレーター"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q015",
     "keyword": "",
-    "category": "食",
-    "question": "讃岐うどんのは何県の郷土料理？",
+    "category": "ディズニー",
+    "question": "カリブの海賊のアトラクションでゲストがボートに乗り込む乗船場の名前は何？",
     "choice": [
-      "香川県",
-      "埼玉県",
-      "群馬県",
-      "沖縄県"
+      "ジャック・スパロウ",
+      "ジャン・ラフィート",
+      "デイヴィ・ジョーンズ",
+      "アダム・ボールドリッジ"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q016",
     "keyword": "",
-    "category": "食",
-    "question": "信玄餅を製造しているメーカーがある都道府県は？",
+    "category": "ディズニー",
+    "question": "ファンタスティック・フライト・ミュージアムの初代館長は誰？",
     "choice": [
-      "山梨県",
-      "千葉県",
-      "栃木県",
-      "群馬県"
+      "チェッリーノ・ファルコ",
+      "カメリア・ファルコ",
+      "ジュリアーナ・ファルコ",
+      "アレッタ・ファルコ"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q017",
     "keyword": "",
-    "category": "食",
-    "question": "「彩果の宝石」は何県の銘菓？",
+    "category": "ディズニー",
+    "question": "メディテレーニアンハーバーとアメリカンヲーターフロントを結ぶ橋の名前は何？",
     "choice": [
-      "埼玉県",
-      "長野県",
-      "山梨県",
-      "山形県"
+      "ポンテ・デッラルティスタ",
+      "イソラ・デル・ゴンドリエーレ",
+      "ポンテ・ヴェッキオ",
+      "ポンテ・デイ・ベンヴェーヌティ"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q018",
     "keyword": "",
-    "category": "食",
-    "question": "この中でコメダ珈琲の発祥の地は？",
+    "category": "ディズニー",
+    "question": "リストランテ・ディ・カナレットのカナレットの名前の由来になった人物は誰？",
     "choice": [
-      "愛知県",
-      "東京都",
-      "鳥取県",
-      "神奈川県"
+      "ジョヴァンニ・アントニオ・カナル",
+      "ルカ・カルレヴァリス",
+      "ジョバンニ・カンティ",
+      "ニッコロ・カッサーナ"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q019",
     "keyword": "",
-    "category": "食",
-    "question": "TKGで有名な料理はなんでしょう？",
+    "category": "ディズニー",
+    "question": "ホーンテッドマンションのすべての亡霊が記録されている本の名前は何？",
     "choice": [
-      "卵かけごはん",
-      "卵かけごぼう",
-      "とろろキムチ玄米",
-      "チキンクリームグラタン"
+      "ゴーストヒストリー",
+      "ゴーストレジストリー",
+      "ゴーストストーリー",
+      "ゴーストタイトル"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q020",
     "keyword": "",
-    "category": "食",
-    "question": "出雲そばは何県の郷土料理でしょうか",
+    "category": "ディズニー",
+    "question": "ホーンテッドマンションの乗り物の名前は何？",
     "choice": [
-      "長野県",
-      "新潟県",
-      "島根県",
-      "埼玉県"
+      "ドリームバギー",
+      "ドームバギー",
+      "ドゥームバギー",
+      "ドリーミングバギー"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q021",
     "keyword": "",
-    "category": "食",
-    "question": "料理の「さしすせそ」の「そ」はなんでしょう？",
+    "category": "ディズニー",
+    "question": "ホーンテッドマンションの建設社は誰？",
     "choice": [
-      "味噌",
-      "そばつゆ",
-      "ソース",
-      "醤油"
+      "ブルガリアスター",
+      "ブルガマイスター",
+      "ブルガリアマイスター",
+      "ブルガスター"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q022",
     "keyword": "",
-    "category": "食",
-    "question": "千葉県船橋市で有名なフルーツはなんですか？",
+    "category": "ディズニー",
+    "question": "アラビアンコーストは誰の願いによってジーニーが作った街？",
     "choice": [
-      "なし",
-      "ぶどう",
-      "りんご",
-      "いちご"
+      "アラジン",
+      "ジャスミン",
+      "サルタン王",
+      "ジャファー"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q023",
     "keyword": "",
-    "category": "食",
-    "question": "大根のどの部分を使うと辛みが少ないでしょう？",
+    "category": "ディズニー",
+    "question": "アラビアンコーストにあるジャスミンのタイル絵は誰が作ったもの？",
     "choice": [
-      "葉に近いほう",
-      "先端",
-      "真ん中",
-      "葉"
+      "住民",
+      "アラジン",
+      "サルタン王",
+      "ジーニー"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q024",
     "keyword": "",
-    "category": "食",
-    "question": "「クーヘン」はドイツ語でどの意味でしょう？",
+    "category": "ディズニー",
+    "question": "東京ディズニーランドのエインエントランスの建築様式は何？",
     "choice": [
-      "ケーキ",
-      "樹木",
-      "スポンジ",
-      "バームクーヘン"
+      "チューダー朝様式",
+      "スチュアート様式",
+      "ジョージ王朝様式",
+      "ヴィクトリア朝様式"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q025",
     "keyword": "",
-    "category": "食",
-    "question": "「エクレア」はフランス語でどんな意味？",
+    "category": "ディズニー",
+    "question": "スプラッシュ・マウンテンのかつての呼び名は何？",
     "choice": [
-      "稲妻",
-      "チョコレート",
-      "お菓子",
-      "クリーム"
+      "テンピンヒル",
+      "テンヒンンヒル",
+      "チカヒンヒル",
+      "チカピンヒル"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q026",
     "keyword": "",
-    "category": "食",
-    "question": "「ずんだ」は何をすりつぶしたもの？",
+    "category": "ディズニー",
+    "question": "ロストリバーデルタのジャングルに物資を運んでいたパイロットたちは自分たちをなんと呼んでいた？",
     "choice": [
-      "枝豆",
-      "インゲン",
-      "大豆",
-      "エンドウ豆"
+      "ピラニア航空",
+      "ジャガー航空",
+      "オラウータン航空",
+      "コウモリ航空"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q027",
     "keyword": "",
-    "category": "食",
-    "question": "「ほうとう」は何県の郷土料理ですか",
+    "category": "ディズニー",
+    "question": "ウエスタンランドにある自然保護区行きのキャンプ場、キャンプ・ウッドチャックに生息している非常に珍しい鳥の名前は何？",
     "choice": [
-      "山梨県",
-      "静岡県",
-      "愛知県",
-      "長野県"
+      "テッタートイル・バード",
+      "ティッタートゥイル・バード",
+      "テイタートゥーイル・バード",
+      "ティッタ・トーイル・バード"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q028",
     "keyword": "",
-    "category": "食",
-    "question": "賞味期限が５秒の有馬温泉にあるグルメを何という？",
+    "category": "ディズニー",
+    "question": "ミッキーマウスが宇宙探査中に発見した小さな惑星の名前は何？",
     "choice": [
-      "元祖なま炭酸せんべい",
-      "水信玄餅",
-      "ごっそ玉",
-      "ゆげたち"
+      "プラネットK",
+      "プラネットL",
+      "プラネットM",
+      "プラネットN"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q029",
     "keyword": "",
-    "category": "食",
-    "question": "スチューベンの原産地は？",
+    "category": "ディズニー",
+    "question": "キャラバンカルーセルのジーニーの色にない色はどれ？",
     "choice": [
-      "アメリカ",
-      "イタリア",
-      "フランス",
-      "中国"
+      "青",
+      "紫",
+      "緑",
+      "赤"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q030",
     "keyword": "",
-    "category": "食",
-    "question": "「アシュレ」はどこの国の料理？",
+    "category": "ディズニー",
+    "question": "豪華客船S.S.コロンビア号を所有、運航する船会社U.S.スチームシップカンパニーのオーナーは誰？",
     "choice": [
-      "トルコ",
-      "アメリカ",
-      "ドイツ",
-      "フランス"
+      "コーネリ・エンディコ三世",
+      "コーネリアス・エンディコット三世",
+      "コーネリアス・エンディコット二世",
+      "コーネリアス・エンディコット一世"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q031",
     "keyword": "",
-    "category": "食",
-    "question": "チュロスの本場はどこの国？",
+    "category": "ディズニー",
+    "question": "ネモ船長が海底探査の際に使用する専用の小型潜水艇の名前は何？",
     "choice": [
-      "スペイン",
-      "韓国",
-      "フランス",
-      "イタリア"
+      "ネプチューン号",
+      "ノーチラス号",
+      "アルバトロス号",
+      "ネモ号"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q032",
     "keyword": "",
-    "category": "食",
-    "question": "この中で日本発祥の食べ物は",
+    "category": "ディズニー",
+    "question": "ネモ船長のモットーである「モビリス、イン、モビリ」はどういう意味？",
     "choice": [
-      "天津飯",
-      "春巻き",
-      "チャーハン",
-      "マーボー豆腐"
+      "変化を持って進歩する。",
+      "変化を持って進歩する。",
+      "変化を持って変化する。",
+      "変化を持って発展する。"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q033",
     "keyword": "",
-    "category": "食",
-    "question": "おいしいみかんの見分け方は次のうちどれでしょう",
+    "category": "ディズニー",
+    "question": "トゥーンタウン・ベビーセンターは誰が作った？",
     "choice": [
-      "表面のつぶつぶが多い",
-      "へたが大きい",
-      "形がデコボコしている",
-      "房の数が少ない"
+      "ドナルド",
+      "エルヴァイラ",
+      "スクルージー・マクダック",
+      "デイジー"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q034",
     "keyword": "",
-    "category": "食",
-    "question": "2003年にさくらんぼの生産量が１位の国は？",
+    "category": "ディズニー",
+    "question": "ボン・ヴォヤージュは何の形？",
     "choice": [
-      "トルコ",
-      "アメリカ",
-      "中国",
-      "イラン"
+      "スーツケース",
+      "ボストンバッグ",
+      "リュックサック",
+      "ポシェット"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q035",
     "keyword": "",
-    "category": "食",
-    "question": "この中で、りんごを使ったお菓子はどれでしょう？",
+    "category": "ディズニー",
+    "question": "アラビアンコーストの海辺近くに作られた、ジャスミンのお気に入りの宮殿の庭園そっくりな庭園の名前は何？",
     "choice": [
-      "タルトタタン",
-      "パリブレスト",
-      "クロカンブッシュ",
-      "クイニーアマン"
+      "ジャスミンガーデン",
+      "プリンセスガーデン",
+      "ゴールドガーデン",
+      "ロイヤルガーデン"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q036",
     "keyword": "",
-    "category": "食",
-    "question": "アサイーという果物のスムージーに、フルーツやグラノーラ、はちみつなどをトッピングしたスイーツは？",
+    "category": "ディズニー",
+    "question": "アメリカンウォーターフロントの地面にあるレールは何が走る？",
     "choice": [
-      "アサイーボウル",
-      "アサイージュース",
-      "アサイーボール",
-      "アサイーノーラ"
+      "車",
+      "トロリー",
+      "汽車",
+      "船"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q037",
     "keyword": "",
-    "category": "食",
-    "question": "昔は毒があると言われていたものは？",
+    "category": "ディズニー",
+    "question": "アメリカンウォーターフロントで直接見ることは出来ないが、走っている乗り物は何？",
     "choice": [
-      "トマト",
-      "リンゴ",
-      "タマネギ",
-      "ピーマン"
+      "飛行機",
+      "タクシー",
+      "地下鉄",
+      "トラック"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q038",
     "keyword": "",
-    "category": "食",
-    "question": "「チュロス」というスイーツの名前は日本のなんという企業が商標権を持っている？",
+    "category": "ディズニー",
+    "question": "東京ディズニーランドにある美女と野獣のお城の煙突の先にある希望を象徴するかのようにある彫刻は何？",
     "choice": [
-      "日清製粉",
-      "味の素",
-      "明治",
-      "オリエンタルランド"
+      "鳩",
+      "鶴",
+      "梟",
+      "龍"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q039",
     "keyword": "",
-    "category": "食",
-    "question": "ローマ発祥のブリオッシュ生地を半分に切り、生クリームとフルーツをたっぷりと挟んだデザートは？？",
+    "category": "ディズニー",
+    "question": "れすとらん北齋に飾られている葛飾北齋の代表作は何？",
     "choice": [
-      "マリトッツォ",
-      "モリトッツォ",
-      "パリトッツォ",
-      "マリオット"
+      "神奈川沖浪裏",
+      "凱風快晴",
+      "尾州不二見原",
+      "駿州江尻"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q040",
     "keyword": "",
-    "category": "食",
-    "question": "関あじ・関さば最中は何県の銘菓？",
+    "category": "ディズニー",
+    "question": "レストラン櫻のオーナーは誰？",
     "choice": [
-      "大分県",
-      "福岡県",
-      "宮城県",
-      "鹿児島県"
+      "スズキさん",
+      "サトウさん",
+      "タナカさん",
+      "ヤマダさん"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q041",
     "keyword": "",
-    "category": "食",
-    "question": "「十万石まんじゅう」は何県の銘菓？",
+    "category": "ディズニー",
+    "question": "S.S.コロンビア号のタグボートの名前は何？",
     "choice": [
-      "埼玉県",
-      "群馬県",
-      "栃木県",
-      "神奈川県"
+      "ガストン",
+      "ヘラクレス",
+      "ピート",
+      "ミスター・インクレディブル"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q042",
     "keyword": "",
-    "category": "食",
-    "question": "エッグタルト発祥の地はどこ?",
+    "category": "ディズニー",
+    "question": "アメリカンウォーターフロントのニューヨーク・デリへと続く小さな遠オリの名前は何？",
     "choice": [
-      "ポルトガル",
-      "日本",
-      "韓国",
-      "ギリシャ"
+      "パンパト",
+      "ティンヴェーク",
+      "アリーガッセ",
+      "ティンパンアリー"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q043",
     "keyword": "",
-    "category": "食",
-    "question": "宮城県の気仙沼で珍味として食べられている食べ物は何？",
+    "category": "ディズニー",
+    "question": "シンドバッド・ストーリーブック・ヴォヤッジの巨大な鳥の名前は何？",
     "choice": [
-      "サメの心臓",
-      "犬の肉",
-      "カンガルーの尻尾",
-      "ゾウの鼻"
+      "ラク",
+      "リク",
+      "ルク",
+      "レク"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q044",
     "keyword": "",
-    "category": "食",
-    "question": "レアチーズケーキの「レア」はどんな意味？",
+    "category": "ディズニー",
+    "question": "シンドバッドの故郷はどこ？",
     "choice": [
-      "生",
-      "やわらかい",
-      "とろける",
-      "高級"
+      "ハスラ",
+      "パスラ",
+      "パズラ",
+      "バズラ"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q045",
     "keyword": "",
-    "category": "食",
-    "question": "アサイーの原産国はどこ?",
+    "category": "ディズニー",
+    "question": "トイ・ステーションでヒューイ、デューイ、ルーイが乗っている乗り物は何？",
     "choice": [
-      "ブラジル",
-      "韓国",
-      "日本",
-      "フィリピン"
+      "ロケット",
+      "ボート",
+      "電車",
+      "一輪車"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q046",
     "keyword": "",
-    "category": "食",
-    "question": "この中でスペイン発祥の食べ物は？",
+    "category": "ディズニー",
+    "question": "トイ・ステーションでプルートが乗っている乗り物は何？",
     "choice": [
-      "チュロス",
-      "カヌレ",
-      "マドレーヌ",
-      "モンブラン"
+      "ロケット",
+      "ボート",
+      "電車",
+      "一輪車"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q047",
     "keyword": "",
-    "category": "食",
-    "question": "韓国料理「チュクミ」の〆に食べる、とびこをトッピングした焼き飯の料理名は何？",
+    "category": "ディズニー",
+    "question": "トイ・ステーションでグーフィーが乗っている乗り物は何？",
     "choice": [
-      "アルマニチャーハン",
-      "アニマルチャーハン",
-      "トビコチャーハン",
-      "辛チャーハン"
+      "ロケット",
+      "ボート",
+      "電車",
+      "一輪車"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q048",
     "keyword": "",
-    "category": "食",
-    "question": "かっぱえびせんの日はいつ？",
+    "category": "ディズニー",
+    "question": "ケープコッドのエリアには風見鶏ならぬ風見〇〇がある。その生き物は何？",
     "choice": [
-      "8月10日",
-      "5月8日",
-      "5月18日",
-      "8月8日"
+      "イヌ",
+      "サカナ",
+      "ネコ",
+      "ウサギ"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q049",
     "keyword": "",
-    "category": "食",
-    "question": "フィッシュ・アンド・チップスの発祥の地は？",
+    "category": "ディズニー",
+    "question": "レイジングスピリッツは元々どんな場所だった？",
     "choice": [
-      "イギリス",
-      "フランス",
-      "ドイツ",
-      "スイス"
+      "発掘場",
+      "祭祀場",
+      "道具置き場",
+      "休憩所"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q050",
     "keyword": "",
-    "category": "食",
-    "question": "メレンゲは何から作られている？",
+    "category": "ディズニー",
+    "question": "東京ディズニーランドのオムニバスは元々の大きさのどれぐらいのサイズ感で再現されている？",
     "choice": [
-      "卵白",
-      "ゼラチン",
-      "牛乳",
-      "大豆"
+      "8分の5",
+      "8分の6",
+      "8分の7",
+      "8分の8"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q051",
     "keyword": "",
-    "category": "食",
-    "question": "マカロンの発祥の地はどこですか？",
+    "category": "ディズニー",
+    "question": "東京ディズニーシー20周年を記念して期間限定で販売されたミッキー型のドーナットの中身のメインは何？",
     "choice": [
-      "イタリア",
-      "フランス",
-      "日本",
-      "オーストリア"
+      "アップル",
+      "オレンジ",
+      "ピーチ",
+      "メロン"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q052",
     "keyword": "",
-    "category": "食",
-    "question": "ビビンバの「ビビム」とは韓国語でどういう意味か",
+    "category": "ディズニー",
+    "question": "パン・ギャラクティック・ピザ・ポートのマネージャーのトニー・ソラローニは過去に何店舗お店を潰した？",
     "choice": [
-      "混ぜる",
-      "焼く",
-      "食べる",
-      "辛い"
+      "10",
+      "50",
+      "100",
+      "1000"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q053",
     "keyword": "",
-    "category": "食",
-    "question": "インドの主食は何か",
+    "category": "ディズニー",
+    "question": "ディズニー映画「ピノキオ」でなまけものの子どもたちをロバに変えてしまう遊園地の名前は？",
     "choice": [
-      "チャパティ",
-      "米",
-      "パン",
-      "ナン"
+      "ハッピーアイランド",
+      "ハピネスアミューズメント",
+      "プレジャーアミューズメント",
+      "プレジャーアイランド"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q054",
     "keyword": "",
-    "category": "食",
-    "question": "シナモンなどのスパイスが効いたインド式のミルクティーは何か？",
+    "category": "ディズニー",
+    "question": "東京ディズニーシーのアメリカーウォーターフロントにある遊園地の名前は何？",
     "choice": [
-      "チャイ",
-      "チョイ",
-      "テイ",
-      "チュイ"
+      "トイビル・トローリーパーク",
+      "トイビル・トロリーパーク",
+      "トイ・トロリーパーク",
+      "トイ・トロパーク"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q055",
     "keyword": "",
-    "category": "食",
-    "question": "サムギョプサルの「サム」とは韓国語でどういう意味か",
+    "category": "ディズニー",
+    "question": "東京ディズニーランドのクリッターカントリーで暮らすクリッターの子供たちの間で使われている合言葉「フート」と聞こえたらなんと返す？",
     "choice": [
-      "3",
-      "肉",
-      "包む",
-      "森"
+      "ガラー",
+      "ハラー",
+      "マラー",
+      "タラー"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q056",
     "keyword": "",
-    "category": "食",
-    "question": "骨の中心部の周りにお肉がついた料理で、人類の夢と言われている料理の名前は何？",
+    "category": "ディズニー",
+    "question": "トゥーンタウンにあるロジャーラビットの噴水はどういう経緯で建てられた物？",
     "choice": [
-      "マンガ肉",
-      "ステーキ",
-      "手羽先",
-      "あぶりカルビ"
+      "ロジャーラビットを称えるため",
+      "ロジャーラビットを拝めるため",
+      "ロジャーラビットを祟るため",
+      "ロジャーラビットを忘れないため"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q057",
     "keyword": "",
-    "category": "食",
-    "question": "シュークリームの「シュー」はどんな意味？",
+    "category": "ディズニー",
+    "question": "ホライズンベイ・レストランの入り口に吊るされているマンボウの形の潜水艇の名前は何？",
     "choice": [
-      "キャベツ",
-      "ジャガイモ",
-      "レタス",
-      "タマネギ"
+      "フィッシュ・サブ",
+      "フィッシュ・ザブ",
+      "サンフィッシュ・サブ",
+      "サンフィッシュ・ザブ"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q058",
     "keyword": "",
-    "category": "食",
-    "question": "イチゴの品種「あまりん」「かおりん」「べにたま」は何県の品種？",
+    "category": "ディズニー",
+    "question": "タウンセンターファッションの裁縫エリアは誰専用？",
     "choice": [
-      "埼玉県",
-      "栃木県",
-      "長野県",
-      "神奈川県"
+      "デイジー",
+      "クラリス",
+      "クララベル",
+      "ミニー"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q059",
     "keyword": "",
-    "category": "食",
-    "question": "群馬県にあるのは？",
+    "category": "ディズニー",
+    "question": "タウンセンターファッションでデイジーが制作中の帽子は誰と誰の帽子？",
     "choice": [
-      "こんにゃくパーク",
-      "まんじゅうパーク",
-      "いちごランド",
-      "うどんランド"
+      "ドナルドとデイジー",
+      "ミッキーとミニー",
+      "アリエルとアリス",
+      "ベルとシンデレラ"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q060",
     "keyword": "",
-    "category": "食",
-    "question": "サイゼリアのメニューの材料に使われている昆虫は？？",
+    "category": "ディズニー",
+    "question": "東京ディズニーシーにあるミッキーとウォルトの象のウォルトは何歳の時を表している？",
     "choice": [
-      "カタツムリ",
-      "ナメクジ",
-      "アリ",
-      "イナゴ"
+      "19歳",
+      "20歳",
+      "21歳",
+      "22歳"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q061",
     "keyword": "",
-    "category": "食",
-    "question": "「グラコロ」や「三角チョコパイ」などの人気メニューがあるチェーン店の名前は？",
+    "category": "ディズニー",
+    "question": "ディズニーの短編アニメーション『三匹の子ぶた』の長男の名前は何？",
     "choice": [
-      "マクドナルド",
-      "ピザハット",
-      "タコベル",
-      "ミスタードーナツ"
+      "ファイファー",
+      "フィドラー",
+      "プラクティカル",
+      "ビッグ・バッド・ウルフ"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q062",
     "keyword": "",
-    "category": "食",
-    "question": "お正月に食べる料理は何ですか？",
+    "category": "ディズニー",
+    "question": "ディズニーの短編アニメーション『三匹の子ぶた』の次男の名前は何？",
     "choice": [
-      "おせち料理",
-      "精進料理",
-      "ハンバーガー",
-      "肉まん"
+      "ファイファー",
+      "フィドラー",
+      "プラクティカル",
+      "ビッグ・バッド・ウルフ"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
   },
   {
     "questionID": "Q063",
-    "keyword": "ぴよりん",
-    "category": "日本の食文化(現代)",
-    "question": "藤井聡太二冠が対局中に食べたことで話題になり、 販売数が急増した名古屋名物のスイーツはどれでしょう？",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ディズニーの短編アニメーション『三匹の子ぶた』の三男の名前は何？",
     "choice": [
-      "しろくま",
-      "ぴよりん",
-      "わらびもちドリンク",
-      "バスクチーズケーキ"
-    ],
-    "year": "2021",
-    "reference_url": "https://news.yahoo.co.jp/expert/articles/e71419d6746faaeb1290f2ef562070eca1cf08a2",
-    "authored_by": "claude"
-  },
-  {
-    "questionID": "Q064",
-    "keyword": "ぴよりん",
-    "category": "日本の食文化(現代)",
-    "question": "「ぴよりん」は“配送ができない”とされています。 その主な理由として最も適切なものはどれでしょう？",
-    "choice": [
-      "使用している卵が希少なため",
-      "柔らかくて形が崩れやすいため",
-      "要冷蔵商品のため",
-      "販売地域が限定されているため"
-    ],
-    "year": "2021",
-    "reference_url": "https://news.yahoo.co.jp/expert/articles/e71419d6746faaeb1290f2ef562070eca1cf08a2",
-    "authored_by": "claude"
-  },
-  {
-    "questionID": "Q065",
-    "keyword": "ぴよりん",
-    "category": "日本の食文化(現代)",
-    "question": "「自宅まで無事に持ち帰れたら成功！」というSNS投稿で話題になった、 名古屋発のスイーツはどれでしょう？",
-    "choice": [
-      "ぴよりん",
-      "しろくま",
-      "ういろう",
-      "生ドーナツ"
-    ],
-    "year": "2021",
-    "reference_url": "https://studio.persol-group.co.jp/nama/240628-1",
-    "authored_by": "claude"
-  },
-  {
-    "questionID": "Q066",
-    "keyword": "瞬間グルメ",
-    "category": "日本の食文化(現代)",
-    "question": "賞味期限が極端に短く、「食べるタイミング＝体験の価値」の 要素をもつ食べ物を指す呼び名はどれでしょう？",
-    "choice": [
-      "ロングライフスイーツ",
-      "ミニマルグルメ",
-      "瞬間グルメ",
-      "レガシーフード"
-    ],
-    "year": "2020~2025",
-    "reference_url": "https://www.olive-hitomawashi.com/column/2021/02/post-13708.html",
-    "authored_by": "claude"
-  },
-  {
-    "questionID": "Q067",
-    "keyword": "瞬間グルメ",
-    "category": "日本の食文化(現代)",
-    "question": "チョコアイスとバニラアイスに温かいチョコソースをかけ、 固まる前に食べる必要がある「賞味期限10秒」のパフェのように、 “一瞬の美味しさ”を売りにした食べ物を指す言葉はどれでしょう？",
-    "choice": [
-      "スローフード",
-      "瞬間グルメ",
-      "ご当地スイーツ",
-      "ハイブリッドスイーツ"
-    ],
-    "year": "2020~2025",
-    "reference_url": "https://news.yahoo.co.jp/expert/articles/129628d64b4d4b654db4681af43033546b7310a0",
-    "authored_by": "claude"
-  },
-  {
-    "questionID": "Q068",
-    "keyword": "瞬間グルメ",
-    "category": "日本の食文化(現代)",
-    "question": "エクチュア からほり『蔵』本店」の“賞味期限10秒パフェ”が 「瞬間グルメ」と呼ばれる理由として最も適切なものはどれでしょう？",
-    "choice": [
-      "注文してから提供までの時間が\n非常に短いため",
-      "食べる時間が制限されている\nイベント限定商品であるため",
-      "温かいチョコソースがすぐに固まってしまい、\n美味しさのピークが一瞬だから",
-      "SNS投稿用にタイマー演出を\nするため"
-    ],
-    "year": "2020~2025",
-    "reference_url": "https://news.yahoo.co.jp/expert/articles/129628d64b4d4b654db4681af43033546b7310a0",
-    "authored_by": "claude"
-  },
-  {
-    "questionID": "Q069",
-    "keyword": "生ドーナツ",
-    "category": "日本の食文化(現代)",
-    "question": "福岡発のベーカリーブランド「I’m donut?」が人気を集めた、 “もっちり感”と“しゅわっと軽やかな口溶け”が特徴の新食感スイーツはどれでしょう？",
-    "choice": [
-      "生ドーナツ",
-      "焼きドーナツ",
-      "クロナッツ",
-      "冷やしドーナツ"
-    ],
-    "year": "2023",
-    "reference_url": "https://www.fujisan.co.jp/trends/gourmet/40336/",
-    "authored_by": "claude"
-  },
-  {
-    "questionID": "Q070",
-    "keyword": "生ドーナツ",
-    "category": "日本の食文化(現代)",
-    "question": "「生ドーナツ」がSNSで流行した主な理由として最も適切なものはどれでしょう？",
-    "choice": [
-      "値段が安く、保存性が高いため",
-      "映える見た目と“食べたい気持ちを\n刺激する”演出があったため",
-      "通販限定で手に入りにくかったため",
-      "テレビで紹介されたことが少なかったため"
-    ],
-    "year": "2023",
-    "reference_url": "https://www.cotta.jp/special/article/?p=66139&srsltid=AfmBOor0PlQX7cK1UR5nlYa9Ni7KGloTH0fDUrd9t0-aaLJachCQ9u2o",
-    "authored_by": "claude"
-  },
-  {
-    "questionID": "Q071",
-    "keyword": "生ドーナツ",
-    "category": "日本の食文化(現代)",
-    "question": "SNSで「断面のとろける生クリーム」や「ふわっとした生地」が話題となり、 InstagramやTikTokでも人気を集めたスイーツはどれでしょう？",
-    "choice": [
-      "マリトッツォ",
-      "生ドーナツ",
-      "バスクチーズケーキ",
-      "生カヌレ"
-    ],
-    "year": "2023",
-    "reference_url": "https://www.cotta.jp/special/article/?p=66139&srsltid=AfmBOor0PlQX7cK1UR5nlYa9Ni7KGloTH0fDUrd9t0-aaLJachCQ9u2o",
-    "authored_by": "claude"
-  },
-  {
-    "questionID": "Q072",
-    "keyword": "パンケーキ",
-    "category": "日本の食文化(現代)",
-    "question": "大阪生まれで、20分かけて焼き上げる “ふわふわ食感”が特徴の人気スイーツはどれでしょう？",
-    "choice": [
-      "バスクチーズケーキ",
-      "幸せのパンケーキ",
-      "マリトッツォ",
-      "生ドーナツ"
-    ],
-    "year": "2017",
-    "reference_url": "https://rtrp.jp/articles/94026/",
-    "authored_by": "claude"
-  },
-  {
-    "questionID": "Q073",
-    "keyword": "パンケーキ",
-    "category": "日本の食文化(現代)",
-    "question": "オーブンで焼き上げる“シュー生地風”のパンケーキとして注目されているスイーツはどれでしょう？",
-    "choice": [
-      "スフレパンケーキ",
-      "ダッチベイビーパンケーキ",
-      "ホットケーキ",
-      "フルーツサンド"
-    ],
-    "year": "2023",
-    "reference_url": "https://vansan-ltd.jp/column/%E6%96%B0%E5%AE%9A%E7%95%AA%E3%83%80%E3%83%83%E3%83%81%E3%83%99%E3%82%A4%E3%83%93%E3%83%BC%E3%83%91%E3%83%B3%E3%82%B1%E3%83%BC%E3%82%AD%E3%81%A8%E3%81%AF/",
-    "authored_by": "claude"
-  },
-  {
-    "questionID": "Q074",
-    "keyword": "パンケーキ",
-    "category": "日本の食文化(現代)",
-    "question": "日本では「ホットケーキ」という言葉が使われることが多いが、海外では一般的に「_________」と呼ばれている。",
-    "choice": [
-      "フライケーキ",
-      "パンケーキ",
-      "クレープ",
-      "トーストケーキ"
-    ],
-    "year": "2023",
-    "reference_url": "https://web.hh-online.jp/hankyu-food/blog/lifestyle/detail/000846.html",
-    "authored_by": "claude"
-  },
-  {
-    "questionID": "Q075",
-    "keyword": "抹茶",
-    "category": "日本の食文化(現代)",
-    "question": "抹茶が世界で人気になった主な理由として最も近いものはどれでしょう？",
-    "choice": [
-      "洋菓子の流行",
-      "健康志向や日本食への関心の高まり",
-      "和紙文化の広がり",
-      "SNSの影響で日本語が人気になった"
-    ],
-    "year": "2025",
-    "reference_url": "https://news.yahoo.co.jp/articles/6887521c07467e516552597c2532d8b12b80a68d",
-    "authored_by": "claude"
-  },
-  {
-    "questionID": "Q076",
-    "keyword": "抹茶",
-    "category": "日本の食文化(現代)",
-    "question": "健康志向や日本食への関心の高まりを背景に、世界で人気が高まっている日本の食文化はどれでしょう？",
-    "choice": [
-      "抹茶",
-      "寿司",
-      "味噌汁",
-      "醤油"
-    ],
-    "year": "2025",
-    "reference_url": "https://news.yahoo.co.jp/articles/6887521c07467e516552597c2532d8b12b80a68d",
-    "authored_by": "claude"
-  },
-  {
-    "questionID": "Q077",
-    "keyword": "抹茶",
-    "category": "日本の食文化(現代)",
-    "question": "抹茶を点てるときに大切にされてきた、日本文化の精神を表す言葉はどれでしょう？",
-    "choice": [
-      "一期一会（いちごいちえ）",
-      "花鳥風月（かちょうふうげつ）",
-      "和敬清寂（わけいせいじゃく）",
-      "温故知新（おんこちしん）"
-    ],
-    "year": "2025",
-    "reference_url": "https://note.com/kichidenseiken/n/nadfece75a34f",
-    "authored_by": "claude"
-  },
-  {
-    "questionID": "Q078",
-    "keyword": "レインボーフード",
-    "category": "日本の食文化(現代)",
-    "question": "カラフルで写真映えする見た目が人気の、SNSで話題になっている食べ物を何と呼ぶでしょう？",
-    "choice": [
-      "カラフルスイーツ",
-      "レインボーフード",
-      "フォトケーキ",
-      "スイートカラー"
-    ],
-    "year": "2020",
-    "reference_url": "https://macaro-ni.jp/32777",
-    "authored_by": "claude"
-  },
-  {
-    "questionID": "Q079",
-    "keyword": "レインボーフード",
-    "category": "日本の食文化(現代)",
-    "question": "「レインボーフード」と呼ばれる理由として、正しいものはどれでしょう？",
-    "choice": [
-      "食べると虹が見えるから",
-      "食材に7種類の味があるから",
-      "虹のようにカラフルな色合いだから",
-      "雨の日に食べる料理だから"
-    ],
-    "year": "2020",
-    "reference_url": "https://macaro-ni.jp/32777",
-    "authored_by": "claude"
-  },
-  {
-    "questionID": "Q080",
-    "keyword": "レインボーフード",
-    "category": "日本の食文化(現代)",
-    "question": "レインボーフードが人気になった主なきっかけとして、記事で紹介されているものはどれでしょう？",
-    "choice": [
-      "InstagramなどのSNSで写真が映えるから",
-      "栄養バランスが良いから",
-      "和食の伝統を守っているから",
-      "値段が安いから"
-    ],
-    "year": "2020",
-    "reference_url": "https://macaro-ni.jp/32777",
-    "authored_by": "claude"
-  },
-  {
-    "questionID": "Q081",
-    "keyword": "わらび餅",
-    "category": "日本の食文化(現代)",
-    "question": "タピオカの次に人気が出ている、日本の伝統的なスイーツはどれでしょう？",
-    "choice": [
-      "どら焼き",
-      "みたらし団子",
-      "わらび餅",
-      "大福"
-    ],
-    "year": "",
-    "reference_url": "https://note.com/kei_honbo/n/n1c8cff64eb5f",
-    "authored_by": "claude"
-  },
-  {
-    "questionID": "Q082",
-    "keyword": "わらび餅",
-    "category": "日本の食文化(現代)",
-    "question": "最近のわらび餅は、伝統的な黒蜜やきな粉だけでなく、どんな特徴で人気を集めていますか？",
-    "choice": [
-      "スパイシーな味つけ",
-      "カラフルで洋風なアレンジ",
-      "冷凍して食べる新食感",
-      "塩味のある和風アレンジ"
-    ],
-    "year": "",
-    "reference_url": "https://note.com/kei_honbo/n/n1c8cff64eb5f",
-    "authored_by": "claude"
-  },
-  {
-    "questionID": "Q083",
-    "keyword": "わらび餅",
-    "category": "日本の食文化(現代)",
-    "question": "わらび餅が若者の間でも話題になっている理由として、最も当てはまるものはどれでしょう？",
-    "choice": [
-      "SNSで「写真映えする」と話題になったから",
-      "海外でしか食べられないから",
-      "音楽番組で紹介されたから",
-      "コンビニで売られなくなったから"
-    ],
-    "year": "",
-    "reference_url": "https://note.com/kei_honbo/n/n1c8cff64eb5f",
-    "authored_by": "claude"
-  },
-  {
-    "questionID": "Q084",
-    "keyword": "バナナジュース",
-    "category": "日本の食文化(現代)",
-    "question": "コロナ禍で「ヘルシーで体にやさしい」と人気が高まった飲み物はどれでしょう？",
-    "choice": [
-      "コーヒー",
-      "バナナジュース",
-      "抹茶ラテ",
-      "野菜スープ"
-    ],
-    "year": "2021",
-    "reference_url": "https://www.pack-kimura.net/useful/dessert/article111800/",
-    "authored_by": "claude"
-  },
-  {
-    "questionID": "Q085",
-    "keyword": "バナナジュース",
-    "category": "日本の食文化(現代)",
-    "question": "バナナジュースの人気が高まった理由として、記事の内容と最も近いものはどれでしょう？",
-    "choice": [
-      "外出自粛で運動不足になった人が増えたから",
-      "スポーツ大会が増えたから",
-      "夏の気温が下がったから",
-      "バナナの値段が上がったから"
-    ],
-    "year": "2021",
-    "reference_url": "https://www.pack-kimura.net/useful/dessert/article111800/",
-    "authored_by": "claude"
-  },
-  {
-    "questionID": "Q086",
-    "keyword": "バナナジュース",
-    "category": "日本の食文化(現代)",
-    "question": "バナナジュースの人気が「現代の日本の食文化」を表している点として、最も正しいものはどれでしょう？",
-    "choice": [
-      "手軽さと健康の両立を求める食文化になっている",
-      "伝統的な料理が完全に消えている",
-      "海外の食べ物しか人気がない",
-      "若者は甘い飲み物を飲まなくなっている"
-    ],
-    "year": "2021",
-    "reference_url": "https://www.pack-kimura.net/useful/dessert/article111800/",
-    "authored_by": "claude"
-  },
-  {
-    "questionID": "Q087",
-    "keyword": "純喫茶",
-    "category": "日本の食文化(現代)",
-    "question": "純喫茶の人気が示している、現代の日本の食文化の傾向として最も近いものはどれでしょう？",
-    "choice": [
-      "新しいものより、懐かしさや雰囲気を楽しむ傾向がある",
-      "コーヒーよりも紅茶の文化が広まっている",
-      "洋風ファストフードが主流になっている",
-      "昭和の文化がすべて消えつつある"
-    ],
-    "year": "",
-    "reference_url": "https://toyokeizai.net/articles/-/714545?page=4",
-    "authored_by": "claude"
-  },
-  {
-    "questionID": "Q088",
-    "keyword": "純喫茶",
-    "category": "日本の食文化(現代)",
-    "question": "昭和レトロブームの中で純喫茶が注目されている理由として、最も適切なものはどれでしょう？",
-    "choice": [
-      "最新のデジタル機器が使えるから",
-      "早くて安いファストフードだから",
-      "懐かしさと写真映えする雰囲気があるから",
-      "海外からの輸入文化だから"
-    ],
-    "year": "",
-    "reference_url": "https://www.yomiuri.co.jp/national/20240411-OYT1T50121/",
-    "authored_by": "claude"
-  },
-  {
-    "questionID": "Q089",
-    "keyword": "純喫茶",
-    "category": "日本の食文化(現代)",
-    "question": "2010年代に出版された『純喫茶コレクション』をきっかけに人気が再燃した、昔ながらの喫茶店を何というでしょう？",
-    "choice": [
-      "カフェ",
-      "ネオ喫茶",
-      "純喫茶",
-      "コーヒースタンド"
-    ],
-    "year": "",
-    "reference_url": "https://www.yomiuri.co.jp/national/20240411-OYT1T50121/",
-    "authored_by": "claude"
-  },
-  {
-    "questionID": "Q090",
-    "keyword": "萌え断",
-    "category": "日本の食文化(現代)",
-    "question": "フルーツサンドなどで、断面の美しさに思わず“ときめく”ような食べ物を表す言葉はどれでしょう？",
-    "choice": [
-      "断面映え",
-      "フルーツショット",
-      "萌え断",
-      "美断サンド"
-    ],
-    "year": "",
-    "reference_url": "https://foods-labo.com/column/oyakudachi35",
-    "authored_by": "claude"
-  },
-  {
-    "questionID": "Q091",
-    "keyword": "萌え断",
-    "category": "日本の食文化(現代)",
-    "question": "「萌え断」の“萌え”とは、もともとどんな意味の言葉から来ているでしょう？",
-    "choice": [
-      "花が咲くようにきれいという意味",
-      "アニメ・キャラクターなどに感じる「かわいい・ときめく」という感情",
-      "食欲がわくという意味",
-      "切ることを意味する古語"
-    ],
-    "year": "",
-    "reference_url": "https://foods-labo.com/column/oyakudachi35",
-    "authored_by": "claude"
-  },
-  {
-    "questionID": "Q092",
-    "keyword": "萌え断",
-    "category": "日本の食文化(現代)",
-    "question": "「萌え断」が流行した背景として、特に大きな影響を与えたのはどれでしょう？",
-    "choice": [
-      "写真共有SNSの普及",
-      "テレビ番組での紹介",
-      "和菓子職人の伝統技術の復活",
-      "高級フルーツの値下がり"
-    ],
-    "year": "",
-    "reference_url": "https://foods-labo.com/column/oyakudachi35",
-    "authored_by": "claude"
-  },
-  {
-    "questionID": "Q093",
-    "keyword": "出汁",
-    "category": "日本の食文化(現代)",
-    "question": "脂肪分や塩分を抑えながら、うまみをしっかり感じられる日本の伝統的な調味の基本となるものはどれでしょう？",
-    "choice": [
-      "醤油",
-      "味噌",
-      "出汁",
-      "みりん"
-    ],
-    "year": "",
-    "reference_url": "https://urbanlife.tokyo/post/33304/",
-    "authored_by": "claude"
-  },
-  {
-    "questionID": "Q094",
-    "keyword": "出汁",
-    "category": "日本の食文化(現代)",
-    "question": "出汁を使うことで得られる健康面でのメリットとして正しいものはどれ？",
-    "choice": [
-      "カロリーが高くなる",
-      "塩分を減らしてもおいしく感じられる",
-      "脂肪分が増える",
-      "食材の味が薄くなる"
-    ],
-    "year": "",
-    "reference_url": "https://urbanlife.tokyo/post/33304/",
-    "authored_by": "claude"
-  },
-  {
-    "questionID": "Q095",
-    "keyword": "出汁",
-    "category": "日本の食文化(現代)",
-    "question": "出汁が「第2次ブーム」と言われる理由として、最も関係が深いものはどれでしょう？",
-    "choice": [
-      "出汁の作り方がSNSで紹介され、若者にも親しまれるようになったから",
-      "出汁が外国では手に入らなくなったから",
-      "出汁がカロリーの高い食材として人気になったから",
-      "出汁を使う料理が減ったから"
-    ],
-    "year": "",
-    "reference_url": "https://urbanlife.tokyo/post/33304/",
-    "authored_by": "claude"
-  },
-  {
-    "questionID": "Q096",
-    "keyword": "駄菓子",
-    "category": "日本の食文化(現代)",
-    "question": "コロナ禍で“おうち時間”が増えたことにより、大人にも再び人気が高まった昔ながらのお菓子はどれでしょう？",
-    "choice": [
-      "駄菓子",
-      "生菓子",
-      "洋菓子",
-      "和菓子"
-    ],
-    "year": "",
-    "reference_url": "https://jocr.jp/raditopi/2022/04/23/424614/",
-    "authored_by": "claude"
-  },
-  {
-    "questionID": "Q097",
-    "keyword": "駄菓子",
-    "category": "日本の食文化(現代)",
-    "question": "「おうちで駄菓子屋さん」という商品が発売された目的として、最も近いものはどれ？",
-    "choice": [
-      "駄菓子を高級品として販売するため",
-      "外出制限の中でも家庭で楽しめるようにするため",
-      "駄菓子の歴史を学ぶための教材として",
-      "海外輸出を目的とした商品として"
-    ],
-    "year": "",
-    "reference_url": "https://jocr.jp/raditopi/2022/04/23/424614/",
-    "authored_by": "claude"
-  },
-  {
-    "questionID": "Q098",
-    "keyword": "駄菓子",
-    "category": "日本の食文化(現代)",
-    "question": "「駄菓子が注目されている」という表現の背景として、最も関係の深いものはどれ？",
-    "choice": [
-      "若者の間で“昭和レトロ”ブームが広がっている",
-      "外国のお菓子の人気が下がった",
-      "駄菓子の種類が減って希少になった",
-      "学校給食で出されるようになった"
-    ],
-    "year": "",
-    "reference_url": "https://jocr.jp/raditopi/2022/04/23/424614/",
-    "authored_by": "claude"
-  },
-  {
-    "questionID": "Q099",
-    "keyword": "2Dケーキ",
-    "category": "日本の食文化(現代)",
-    "question": "モノクロの空間にいるように見える「絵の中のカフェ」で人気の、まるでイラストのようなケーキを何と呼ぶでしょう？",
-    "choice": [
-      "3Dケーキ",
-      "フォトジェニックケーキ",
-      "2Dケーキ",
-      "デジタルケーキ"
-    ],
-    "year": "2024",
-    "reference_url": "https://magazine.itsnap.jp/gourmet/48901/",
-    "authored_by": "claude"
-  },
-  {
-    "questionID": "Q100",
-    "keyword": "2Dケーキ",
-    "category": "日本の食文化(現代)",
-    "question": "「2Dケーキ」が人気になった主な理由として、最も正しいものはどれでしょう？",
-    "choice": [
-      "味が伝統的で懐かしいから",
-      "白黒の空間とカラフルなケーキの対比がSNS映えするから",
-      "素材がすべて日本産だから",
-      "ケーキの形が毎回変わるから"
-    ],
-    "year": "2024",
-    "reference_url": "https://magazine.itsnap.jp/gourmet/48901/",
-    "authored_by": "claude"
-  },
-  {
-    "questionID": "Q101",
-    "keyword": "2Dケーキ",
-    "category": "日本の食文化(現代)",
-    "question": "「2Dケーキ」や「絵の中のカフェ」が人気を集めている背景として、最も関係が深いのはどれ？",
-    "choice": [
-      "視覚的に楽しむ“体験型スイーツ”の広がり",
-      "甘さ控えめのスイーツブーム",
-      "昭和レトロ喫茶の復活",
-      "コーヒー文化の発展"
-    ],
-    "year": "2024",
-    "reference_url": "https://magazine.itsnap.jp/gourmet/48901/",
-    "authored_by": "claude"
-  },
-  {
-    "questionID": "Q102",
-    "keyword": "米",
-    "category": "日本の食文化(現代)",
-    "question": "「令和の米騒動」と呼ばれている現象は、どのような理由で起こったでしょうか？",
-    "choice": [
-      "日本の米の輸出が急増したから",
-      "コメ不足が続き、入手が難しくなったから",
-      "新しい米の品種が人気を集めたから",
-      "外国産米の輸入が増えすぎたから"
-    ],
-    "year": "",
-    "reference_url": "https://www.tbsradio.jp/articles/97052/",
-    "authored_by": "claude"
-  },
-  {
-    "questionID": "Q103",
-    "keyword": "米",
-    "category": "日本の食文化(現代)",
-    "question": "「備蓄米」とは、どのような目的で保管されているお米でしょうか？",
-    "choice": [
-      "お正月など特別な日に食べるためのお米",
-      "災害や不作などに備えて保管されているお米",
-      "新しい米の品種が人気を集めたから",
-      "外国産米の輸入が増えすぎたから"
-    ],
-    "year": "",
-    "reference_url": "https://www.tbsradio.jp/articles/97052/",
-    "authored_by": "claude"
-  },
-  {
-    "questionID": "Q104",
-    "keyword": "米",
-    "category": "日本の食文化(現代)",
-    "question": "高度経済成長期以前のお米の位置づけとして、最も正しいものはどれでしょう？",
-    "choice": [
-      "いつでも食べられる一般的な食べ物だった",
-      "外国から輸入される珍しい食品だった",
-      "特別な日にしか食べられない貴重な食べ物だった",
-      "主にお菓子やデザートに使われていた"
-    ],
-    "year": "",
-    "reference_url": "https://www.tbsradio.jp/articles/97052/",
-    "authored_by": "claude"
-  },
-  {
-    "questionID": "Q105",
-    "keyword": "JKケーキ",
-    "category": "日本の食文化(現代)",
-    "question": "女子高生発の、スポンジケーキに好きなお菓子を自由にトッピングして作るスイーツを何と呼ぶでしょう？",
-    "choice": [
-      "プリンケーキ",
-      "JKケーキ",
-      "おうちケーキ",
-      "カフェケーキ"
-    ],
-    "year": "",
-    "reference_url": "https://weknowledge.jp/column/gourmet/post_11457",
-    "authored_by": "claude"
-  },
-  {
-    "questionID": "Q106",
-    "keyword": "JKケーキ",
-    "category": "日本の食文化(現代)",
-    "question": "「JKケーキ」が人気になった理由として、最も正しいものはどれでしょう？",
-    "choice": [
-      "プロのケーキ職人が作る高級スイーツだから",
-      "放課後などに手軽に作れて、見た目も可愛いから",
-      "健康志向で砂糖を使わないから",
-      "和菓子の要素を取り入れているから"
-    ],
-    "year": "",
-    "reference_url": "https://weknowledge.jp/column/gourmet/post_11457",
-    "authored_by": "claude"
-  },
-  {
-    "questionID": "Q107",
-    "keyword": "JKケーキ",
-    "category": "日本の食文化(現代)",
-    "question": "「JKケーキ」が生まれた背景として、最も関係が深いのはどれでしょう？",
-    "choice": [
-      "手軽に作れる“おうちスイーツ”ブーム",
-      "フードロス削減運動",
-      "ヴィーガンスイーツの流行",
-      "大人のチョコレートブーム"
-    ],
-    "year": "",
-    "reference_url": "https://weknowledge.jp/column/gourmet/post_11457",
-    "authored_by": "claude"
-  },
-  {
-    "questionID": "Q108",
-    "keyword": "フードテック",
-    "category": "日本の食文化(現代)",
-    "question": "「フードテック」とは、どのような意味を持つ言葉でしょうか？",
-    "choice": [
-      "食に関する伝統的な文化のこと",
-      "食とテクノロジーを組み合わせた新しい技術や仕組みのこと",
-      "高級レストランで使われる調理法のこと",
-      "食品を輸入するビジネスのこと"
+      "ファイファー",
+      "フィドラー",
+      "プラクティカル",
+      "ビッグ・バッド・ウルフ"
     ],
     "year": "",
     "reference_url": "",
-    "authored_by": "claude"
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q064",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "東京ディズニーランドのトゥーンタウンにあるドナルドのおうち「ドナルドのボート」の名前は何？",
+    "choice": [
+      "ミスター・ドナルド号",
+      "ミス・デイジー号",
+      "プリンス号",
+      "キング号"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q065",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ドナルドのおうち「ドナルドのボート」が浮いている湖の名前は何？",
+    "choice": [
+      "タウンレイク",
+      "トゥーン池",
+      "タウン池",
+      "トゥーンレイク"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q066",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "フォートレスを本拠地として活動する\"探検家・冒険家学会\"の通称は何？",
+    "choice": [
+      "S.E.A",
+      "E.A.S",
+      "A.S.E",
+      "S.A.E"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q067",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ウエスタンリバー鉄道のコロラド号の車体番号は何番？",
+    "choice": [
+      "51",
+      "52",
+      "53",
+      "54"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q068",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ウエスタンリバー鉄道のミズーリ号の車体番号は何番？",
+    "choice": [
+      "25",
+      "26",
+      "27",
+      "28"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q069",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ウエスタンリバー鉄道のリオ・グランデ号の車体番号は何番？",
+    "choice": [
+      "25",
+      "26",
+      "27",
+      "28"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q070",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ウエスタンリバー鉄道のミシシッピ号に書かれている動物は何？",
+    "choice": [
+      "グリズリーベア",
+      "バッファロー",
+      "雄ジカ",
+      "雌ジカ"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q071",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "スター・ツアーズ：ザ・アドベンチャーズ・コンティニューでゲストが乗る乗り物の名前は何？",
+    "choice": [
+      "スタースピーダー1",
+      "スタースピーダー10",
+      "スタースピーダー100",
+      "スタースピーダー1000"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q072",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "1975年にフロリダのウォルト・ディズニー・ワールド・リゾートに誕生した「スペース・マウンテン」は、アメリカ人宇宙飛行士の誰がコンサルタントとしてプロジェクトに参加していたか？",
+    "choice": [
+      "ゴードン・クーパー",
+      "アラン・ビーン",
+      "ウイリアム・ボーグ",
+      "サリー・ライド"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q073",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "アリスのティーパーティーは昔どこにあった？",
+    "choice": [
+      "ファンタジーランドとトゥモローランドの境",
+      "トゥーンタウンとトゥモローランドの境",
+      "ファンタジーランドとトゥモローランドの境",
+      "ウエスタンランドとファンタジーランドの境"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q074",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "モンスターズ・インク・カンパニーストアのサリーの写真の下にあるピンクの縁のメガネにある逸話は何？",
+    "choice": [
+      "祝勝会の余興で、マイク・ワゾウスキがかけたメガネ",
+      "倒すべきピンがよく見えるよう、球にかけさせたメガネ",
+      "ただのおしゃれ",
+      "ロズがボウリングの時だけかけるメガネ"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q075",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "東京ディズニーシーのフォトグラフィカのオーナーは誰？",
+    "choice": [
+      "ロレンゾ・カルツォーネ",
+      "ローレンス・カルデローネ",
+      "ロレンゾ・カルデローネ",
+      "ロレゾン・カルデローネ"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q076",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "トムソーヤのツリーハウスの裏手にある沼の名前は何？",
+    "choice": [
+      "ハックルベリー沼",
+      "バックルベリー沼",
+      "ハックルペリー沼",
+      "バックルペリー沼"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q077",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "トムソーヤ島にあるお城のような形の岩の名前は何？",
+    "choice": [
+      "キャロットロック",
+      "キャッスルロック",
+      "キャッスルイワ",
+      "シロロック"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q078",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "アメリカンウォーターフロントにあるウォーターフロントパークの水しぶきの出所の名前は何？",
+    "choice": [
+      "ウォーターフロントパーク・マウンテン",
+      "フロントパーク・ファウンテン",
+      "ウォーターパーク・ファウンテン",
+      "ウォーターフロントパーク・ファウンテン"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q079",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "東京ディズニーランドのグランドオープン当時のアトラクションの数はいくつ？",
+    "choice": [
+      "29",
+      "30",
+      "31",
+      "32"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q080",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ウォルト・ディズニー自身が監修した最後のアトラクションは何？",
+    "choice": [
+      "ホーンテッドマンション",
+      "カリブの海賊",
+      "白雪姫と七人の小人",
+      "蒸気船マークトウェイン号"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q081",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "アメリカンウォーターフロントのホテルハイタワーの特徴である建物の側面に見られる２つの張り出し部分は何を連想させるためにこの形にした？",
+    "choice": [
+      "ハンマー",
+      "十字架",
+      "釘",
+      "手"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q082",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "マンマ・ビスコッティーズ・ベーカリーで腕を振るっている夫人の名前は何？",
+    "choice": [
+      "オアリーナ・ビスコッティー",
+      "オワリーナ・ビスコッティー",
+      "オリアーナ・ビスコッティー",
+      "オリアナ・ビスコッティー"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q083",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "S.S.コロンビア号の前にある広場の名前は何？",
+    "choice": [
+      "ホレイショースクエア",
+      "ホエールショースクエア",
+      "ホワイトショースクエア",
+      "アルジャースクエア"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q084",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "蒸気船マークトウェイン号の船着場の建物の様式は何？",
+    "choice": [
+      "コロニアル様式",
+      "フェデラル様式",
+      "アーリー・アメリカン様式",
+      "クイーンアンスタイル様式"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q085",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "カニのセバスチャンがこよなく愛する\"カリプソ\"のお長くは何拍子の音楽？",
+    "choice": [
+      "4分の3拍子",
+      "2分の3拍子",
+      "4分の2拍子",
+      "4分の4拍子"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q086",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ロストリバーデルタにある「トロピック・アルズ」の日除に書かれている鳥のニックネームは何？",
+    "choice": [
+      "トゥーカン",
+      "トロピー",
+      "アルズ",
+      "アル"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q087",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "リトルグリーンメンの言葉で、「うれしい！」という意味の言葉は何？",
+    "choice": [
+      "アアアア！",
+      "ウウウウ！",
+      "オオオオ！",
+      "ウォウォウォウォ！"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q088",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "「イッツ・ア・スモールワールド」が、初めてお披露目された場所はどこ？",
+    "choice": [
+      "東京ディズニーランド",
+      "カリフォルニアディズニーランド",
+      "ニューヨーク世界博覧会",
+      "ロサンゼルス"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q089",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "バンビが初めて話した言葉は何？",
+    "choice": [
+      "とり",
+      "はな",
+      "お母さん",
+      "雨"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q090",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "「おしゃれキャット」の中でマリーが話した日本語は何？",
+    "choice": [
+      "こんにちは",
+      "ありがとう",
+      "こんばんは",
+      "さよなら"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q091",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "スティッチが犬のふりをしているときに体内にどの部分を隠している",
+    "choice": [
+      "角と手２本",
+      "鼻と足２本",
+      "触覚と中足２本",
+      "牙と触覚"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q092",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "グーフィーの奥さんは誰？",
+    "choice": [
+      "クララベル・カウ",
+      "マックス",
+      "ミス・グーフィー",
+      "ミセス・グーフィー"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q093",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ベルが友情出演しているディズニー映画は何？",
+    "choice": [
+      "レミーのおいしいレストラン",
+      "ノートルダムの鐘",
+      "プリンセスと魔法のキス",
+      "アナと雪の女王"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q094",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "モンスターズインクでサリーがブーをモンスターに変装させるために使った材料は何？",
+    "choice": [
+      "椅子のカバー",
+      "クッション",
+      "マフラー",
+      "毛布"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q095",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "「トイ・ストーリー２」に登場する、ペンギン人形のウィージーがヤード・セールで付けられた値段はいくら？",
+    "choice": [
+      "10セント",
+      "15セント",
+      "25セント",
+      "50セント"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q096",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ピーターパンのダーリング家の長女、ウェンディのフルネームは何？",
+    "choice": [
+      "ウェンディ・モイラ・アンジェラ・ダーリング",
+      "ウェンディ・モイラ・アンジー・ダーリング",
+      "ウェンディ・モイラ・キャサリン・ダーリング",
+      "ウェンディ・モイラ・ジェシー・ダーリング"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q097",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "プーさんの家の表札に書かれている名前は何？",
+    "choice": [
+      "ハニー",
+      "テイラー",
+      "ロバーツ",
+      "サンダース"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q098",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ピグレットが住んでいる木の種類は何？",
+    "choice": [
+      "スギ",
+      "クルミ",
+      "柳",
+      "ブナ"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q099",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ビッグサンダー・マウンテンの鉱山で落盤事故に合い、愛犬のディガーに助けられた人物の名前は何？",
+    "choice": [
+      "チャーリー・サム",
+      "セドナ・サム",
+      "アダム・サム",
+      "ホワイト・サム"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q100",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "インディ・ジョーンズアドベンチャーのアトラクションの待ち列にある新聞に載ってる日本人の名前は何？",
+    "choice": [
+      "矢野恒太",
+      "長瀬富郎",
+      "松下幸之助",
+      "井畑田一"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q101",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "蒸気船マークトウェイン号のマークトウェインはどんな意味？",
+    "choice": [
+      "映画のタイトル",
+      "地名",
+      "小説家の名前",
+      "川の名前"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q102",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "シンデレラ城の中央にある時計は何を示している？",
+    "choice": [
+      "星座",
+      "ウォルト・ディズニーが生まれた場所",
+      "カリフォルニアのディズニーランドの場所",
+      "日付"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q103",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "アメリカンウォーターフロントにある赤い橋の名前は何？",
+    "choice": [
+      "ハドソン・リバー",
+      "ハドソン・リバー・ブリッジ",
+      "レッド・リバー・ブリッジ",
+      "レッド・ブリッジ"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q104",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "海底2万マイルのアトラクションの待ち列で聞こえる楽器は何？",
+    "choice": [
+      "ピアノ",
+      "サックス",
+      "フルート",
+      "パイプオルガン"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q105",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ケープコッドから見たプロメテウス火山の特徴は何？",
+    "choice": [
+      "溶岩流が固まったものが見れる",
+      "花崗岩がある",
+      "草が生い茂っている",
+      "溶岩が流れている"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q106",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ポートディスカバリーから見たプロメテウス火山の特徴は何？",
+    "choice": [
+      "溶岩流が固まったものが見れる",
+      "花崗岩がある",
+      "草が生い茂っている",
+      "溶岩が流れている"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q107",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ハイタワー3世がアジアを探検したのはいつ？",
+    "choice": [
+      "1875年",
+      "1899年",
+      "1922年",
+      "1963年"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q108",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "シリキ・ウトゥンドゥの所有者はいくつのルールを守る必要がある？",
+    "choice": [
+      "5つ",
+      "6つ",
+      "7つ",
+      "8つ"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q109",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "タワー・オブ・テラーのホテルの庭園の2つの名前は何？",
+    "choice": [
+      "魔法の庭園・呪いの庭園",
+      "魔宮の庭園・スピリッツの庭園",
+      "瞑想の中庭・インドの中庭",
+      "瞑想の庭園・インドの庭園"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q110",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "タワー・オブ・テラーの瞑想の庭園にある書きかけの女性と銅像の絵の女性の名前は何？",
+    "choice": [
+      "ベアトリス・ローズ・エンディコット",
+      "ベアトリス・フラワー・エンディコット",
+      "ベアト・ロー・エンディ",
+      "ベアトリス・ローズ・エンディコ"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q111",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "インディ・ジョーンズ・アドベンチャー：クリスタルスカルの魔宮の骸骨が落ちていたり、壁画が崩れている部屋の名前は何？",
+    "choice": [
+      "骸骨の間",
+      "生贄の間",
+      "髑髏の間",
+      "呪いの間"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q112",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "フローズンキングダムでお店が全て閉まっている理由は何？",
+    "choice": [
+      "国民の休日",
+      "山に逃げている",
+      "パーティーが開かれる",
+      "寝ている"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q113",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "トゥーンタウンのミニーの家の冷蔵庫の中身は何？",
+    "choice": [
+      "ケーキ",
+      "野菜",
+      "チーズ",
+      "空っぽ"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q114",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "トゥーンタウンのドナルドの家に飾られているドナルドと2ショットで写っているのは誰？",
+    "choice": [
+      "ウォルト・ディズニー",
+      "デイジー",
+      "ミッキー",
+      "グーフィー"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q115",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ホーンテッドマンションの風見鶏は実は何の動物？",
+    "choice": [
+      "鶏",
+      "コウモリ",
+      "犬",
+      "猫"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q116",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "プルートの首輪のネームプレートに書かれている言葉は何？",
+    "choice": [
+      "僕、プルート",
+      "ご飯ちょうだい",
+      "一緒に遊ぼう",
+      "もし見つけたらミッキーまで"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q117",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "プルートが唯一話したことのある言葉は何？",
+    "choice": [
+      "キスして",
+      "撫でて",
+      "ご飯ちょうだい",
+      "助けて"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q118",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "プルートの名前の由来になったものは何？",
+    "choice": [
+      "食べ物",
+      "犬種",
+      "星",
+      "声優"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q119",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ミニーの姪っ子のミリーのリボンの色は何色？",
+    "choice": [
+      "黄色",
+      "ピンク",
+      "緑",
+      "青"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
+  },
+  {
+    "questionID": "Q120",
+    "keyword": "",
+    "category": "ディズニー",
+    "question": "ミニーの姪っ子のメロディのリボンの色は何色？",
+    "choice": [
+      "黄色",
+      "ピンク",
+      "緑",
+      "青"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "disney"
   }
 ]

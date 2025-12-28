@@ -1,0 +1,1622 @@
+[
+  {
+    "questionID": "Q001",
+    "keyword": "",
+    "category": "食",
+    "question": "ある田舎の寂れた無人駅を見た時の感情を表現するのは？",
+    "choice": [
+      "エモい",
+      "痛い",
+      "悲しい",
+      "楽しい"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q002",
+    "keyword": "",
+    "category": "食",
+    "question": "バスクチーズケーキの名前にもなっているバスク地方がある国はどこ？",
+    "choice": [
+      "スペイン",
+      "ドイツ",
+      "タイ",
+      "インド"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q003",
+    "keyword": "",
+    "category": "食",
+    "question": "マカロンを進化させた「トゥンカロン」はどこの国の発祥？",
+    "choice": [
+      "韓国",
+      "日本",
+      "フランス",
+      "中国"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q004",
+    "keyword": "",
+    "category": "食",
+    "question": "1969年に設立した、国内に692店舗、海外に28店舗ある焼肉食べ放題チェーン店のなまえは？",
+    "choice": [
+      "焼肉きんぐ",
+      "焼肉くいーん",
+      "焼肉えーす",
+      "焼肉じゃっく"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q005",
+    "keyword": "",
+    "category": "食",
+    "question": "おにぎりがいつの時代から食べられるようになったか",
+    "choice": [
+      "弥生時代",
+      "江戸時代",
+      "飛鳥時代",
+      "奈良時代"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q006",
+    "keyword": "",
+    "category": "食",
+    "question": "牛肉の部位で実際にはないものはどれ？",
+    "choice": [
+      "ゼンマイ",
+      "エンピツ",
+      "ネクタイ",
+      "メガネ"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q007",
+    "keyword": "",
+    "category": "食",
+    "question": "名古屋名物スイーツの「ぴよりん」のモチーフとなっている動物は何？",
+    "choice": [
+      "ヒヨコ",
+      "アヒル",
+      "スズメ",
+      "ハト"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q008",
+    "keyword": "",
+    "category": "食",
+    "question": "焼きまんじゅうは何県の郷土料理？",
+    "choice": [
+      "群馬県",
+      "埼玉県",
+      "栃木県",
+      "茨城県"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q009",
+    "keyword": "",
+    "category": "食",
+    "question": "ナポリタンはどこの国の料理？",
+    "choice": [
+      "日本",
+      "イギリス",
+      "フランス",
+      "スペイン"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q010",
+    "keyword": "",
+    "category": "食",
+    "question": "クロワッサン生地をワッフルメーカーで焼いたものを何という",
+    "choice": [
+      "クロッフル",
+      "クロワッフル",
+      "ワッフルサン",
+      "ワッフサン"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q011",
+    "keyword": "",
+    "category": "食",
+    "question": "七五三の時に食べる飴は何という？",
+    "choice": [
+      "千歳飴",
+      "金太郎飴",
+      "りんご飴",
+      "鶴飴"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q012",
+    "keyword": "",
+    "category": "食",
+    "question": "うまい棒にない味は何でしょう",
+    "choice": [
+      "唐揚げ味",
+      "焼き鳥味",
+      "シュガーラスク味",
+      "納豆味"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q013",
+    "keyword": "",
+    "category": "食",
+    "question": "この中で「ガリガリ君」の味にないものは何でしょう？",
+    "choice": [
+      "味噌ラーメン味",
+      "ナポリタン味",
+      "塩ちんすこう味",
+      "温泉まんじゅう味"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q014",
+    "keyword": "",
+    "category": "食",
+    "question": "タピオカの原料は何のデンプン？",
+    "choice": [
+      "キャッサバ",
+      "サツマイモ",
+      "ジャガイモ",
+      "山芋"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q015",
+    "keyword": "",
+    "category": "食",
+    "question": "讃岐うどんのは何県の郷土料理？",
+    "choice": [
+      "香川県",
+      "埼玉県",
+      "群馬県",
+      "沖縄県"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q016",
+    "keyword": "",
+    "category": "食",
+    "question": "信玄餅を製造しているメーカーがある都道府県は？",
+    "choice": [
+      "山梨県",
+      "千葉県",
+      "栃木県",
+      "群馬県"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q017",
+    "keyword": "",
+    "category": "食",
+    "question": "「彩果の宝石」は何県の銘菓？",
+    "choice": [
+      "埼玉県",
+      "長野県",
+      "山梨県",
+      "山形県"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q018",
+    "keyword": "",
+    "category": "食",
+    "question": "この中でコメダ珈琲の発祥の地は？",
+    "choice": [
+      "愛知県",
+      "東京都",
+      "鳥取県",
+      "神奈川県"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q019",
+    "keyword": "",
+    "category": "食",
+    "question": "TKGで有名な料理はなんでしょう？",
+    "choice": [
+      "卵かけごはん",
+      "卵かけごぼう",
+      "とろろキムチ玄米",
+      "チキンクリームグラタン"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q020",
+    "keyword": "",
+    "category": "食",
+    "question": "出雲そばは何県の郷土料理でしょうか",
+    "choice": [
+      "長野県",
+      "新潟県",
+      "島根県",
+      "埼玉県"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q021",
+    "keyword": "",
+    "category": "食",
+    "question": "料理の「さしすせそ」の「そ」はなんでしょう？",
+    "choice": [
+      "味噌",
+      "そばつゆ",
+      "ソース",
+      "醤油"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q022",
+    "keyword": "",
+    "category": "食",
+    "question": "千葉県船橋市で有名なフルーツはなんですか？",
+    "choice": [
+      "なし",
+      "ぶどう",
+      "りんご",
+      "いちご"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q023",
+    "keyword": "",
+    "category": "食",
+    "question": "大根のどの部分を使うと辛みが少ないでしょう？",
+    "choice": [
+      "葉に近いほう",
+      "先端",
+      "真ん中",
+      "葉"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q024",
+    "keyword": "",
+    "category": "食",
+    "question": "「クーヘン」はドイツ語でどの意味でしょう？",
+    "choice": [
+      "ケーキ",
+      "樹木",
+      "スポンジ",
+      "バームクーヘン"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q025",
+    "keyword": "",
+    "category": "食",
+    "question": "「エクレア」はフランス語でどんな意味？",
+    "choice": [
+      "稲妻",
+      "チョコレート",
+      "お菓子",
+      "クリーム"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q026",
+    "keyword": "",
+    "category": "食",
+    "question": "「ずんだ」は何をすりつぶしたもの？",
+    "choice": [
+      "枝豆",
+      "インゲン",
+      "大豆",
+      "エンドウ豆"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q027",
+    "keyword": "",
+    "category": "食",
+    "question": "「ほうとう」は何県の郷土料理ですか",
+    "choice": [
+      "山梨県",
+      "静岡県",
+      "愛知県",
+      "長野県"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q028",
+    "keyword": "",
+    "category": "食",
+    "question": "賞味期限が５秒の有馬温泉にあるグルメを何という？",
+    "choice": [
+      "元祖なま炭酸せんべい",
+      "水信玄餅",
+      "ごっそ玉",
+      "ゆげたち"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q029",
+    "keyword": "",
+    "category": "食",
+    "question": "スチューベンの原産地は？",
+    "choice": [
+      "アメリカ",
+      "イタリア",
+      "フランス",
+      "中国"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q030",
+    "keyword": "",
+    "category": "食",
+    "question": "「アシュレ」はどこの国の料理？",
+    "choice": [
+      "トルコ",
+      "アメリカ",
+      "ドイツ",
+      "フランス"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q031",
+    "keyword": "",
+    "category": "食",
+    "question": "チュロスの本場はどこの国？",
+    "choice": [
+      "スペイン",
+      "韓国",
+      "フランス",
+      "イタリア"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q032",
+    "keyword": "",
+    "category": "食",
+    "question": "この中で日本発祥の食べ物は",
+    "choice": [
+      "天津飯",
+      "春巻き",
+      "チャーハン",
+      "マーボー豆腐"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q033",
+    "keyword": "",
+    "category": "食",
+    "question": "おいしいみかんの見分け方は次のうちどれでしょう",
+    "choice": [
+      "表面のつぶつぶが多い",
+      "へたが大きい",
+      "形がデコボコしている",
+      "房の数が少ない"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q034",
+    "keyword": "",
+    "category": "食",
+    "question": "2003年にさくらんぼの生産量が１位の国は？",
+    "choice": [
+      "トルコ",
+      "アメリカ",
+      "中国",
+      "イラン"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q035",
+    "keyword": "",
+    "category": "食",
+    "question": "この中で、りんごを使ったお菓子はどれでしょう？",
+    "choice": [
+      "タルトタタン",
+      "パリブレスト",
+      "クロカンブッシュ",
+      "クイニーアマン"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q036",
+    "keyword": "",
+    "category": "食",
+    "question": "アサイーという果物のスムージーに、フルーツやグラノーラ、はちみつなどをトッピングしたスイーツは？",
+    "choice": [
+      "アサイーボウル",
+      "アサイージュース",
+      "アサイーボール",
+      "アサイーノーラ"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q037",
+    "keyword": "",
+    "category": "食",
+    "question": "昔は毒があると言われていたものは？",
+    "choice": [
+      "トマト",
+      "リンゴ",
+      "タマネギ",
+      "ピーマン"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q038",
+    "keyword": "",
+    "category": "食",
+    "question": "「チュロス」というスイーツの名前は日本のなんという企業が商標権を持っている？",
+    "choice": [
+      "日清製粉",
+      "味の素",
+      "明治",
+      "オリエンタルランド"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q039",
+    "keyword": "",
+    "category": "食",
+    "question": "ローマ発祥のブリオッシュ生地を半分に切り、生クリームとフルーツをたっぷりと挟んだデザートは？？",
+    "choice": [
+      "マリトッツォ",
+      "モリトッツォ",
+      "パリトッツォ",
+      "マリオット"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q040",
+    "keyword": "",
+    "category": "食",
+    "question": "関あじ・関さば最中は何県の銘菓？",
+    "choice": [
+      "大分県",
+      "福岡県",
+      "宮城県",
+      "鹿児島県"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q041",
+    "keyword": "",
+    "category": "食",
+    "question": "「十万石まんじゅう」は何県の銘菓？",
+    "choice": [
+      "埼玉県",
+      "群馬県",
+      "栃木県",
+      "神奈川県"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q042",
+    "keyword": "",
+    "category": "食",
+    "question": "エッグタルト発祥の地はどこ?",
+    "choice": [
+      "ポルトガル",
+      "日本",
+      "韓国",
+      "ギリシャ"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q043",
+    "keyword": "",
+    "category": "食",
+    "question": "宮城県の気仙沼で珍味として食べられている食べ物は何？",
+    "choice": [
+      "サメの心臓",
+      "犬の肉",
+      "カンガルーの尻尾",
+      "ゾウの鼻"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q044",
+    "keyword": "",
+    "category": "食",
+    "question": "レアチーズケーキの「レア」はどんな意味？",
+    "choice": [
+      "生",
+      "やわらかい",
+      "とろける",
+      "高級"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q045",
+    "keyword": "",
+    "category": "食",
+    "question": "アサイーの原産国はどこ?",
+    "choice": [
+      "ブラジル",
+      "韓国",
+      "日本",
+      "フィリピン"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q046",
+    "keyword": "",
+    "category": "食",
+    "question": "この中でスペイン発祥の食べ物は？",
+    "choice": [
+      "チュロス",
+      "カヌレ",
+      "マドレーヌ",
+      "モンブラン"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q047",
+    "keyword": "",
+    "category": "食",
+    "question": "韓国料理「チュクミ」の〆に食べる、とびこをトッピングした焼き飯の料理名は何？",
+    "choice": [
+      "アルマニチャーハン",
+      "アニマルチャーハン",
+      "トビコチャーハン",
+      "辛チャーハン"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q048",
+    "keyword": "",
+    "category": "食",
+    "question": "かっぱえびせんの日はいつ？",
+    "choice": [
+      "8月10日",
+      "5月8日",
+      "5月18日",
+      "8月8日"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q049",
+    "keyword": "",
+    "category": "食",
+    "question": "フィッシュ・アンド・チップスの発祥の地は？",
+    "choice": [
+      "イギリス",
+      "フランス",
+      "ドイツ",
+      "スイス"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q050",
+    "keyword": "",
+    "category": "食",
+    "question": "メレンゲは何から作られている？",
+    "choice": [
+      "卵白",
+      "ゼラチン",
+      "牛乳",
+      "大豆"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q051",
+    "keyword": "",
+    "category": "食",
+    "question": "マカロンの発祥の地はどこですか？",
+    "choice": [
+      "イタリア",
+      "フランス",
+      "日本",
+      "オーストリア"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q052",
+    "keyword": "",
+    "category": "食",
+    "question": "ビビンバの「ビビム」とは韓国語でどういう意味か",
+    "choice": [
+      "混ぜる",
+      "焼く",
+      "食べる",
+      "辛い"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q053",
+    "keyword": "",
+    "category": "食",
+    "question": "インドの主食は何か",
+    "choice": [
+      "チャパティ",
+      "米",
+      "パン",
+      "ナン"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q054",
+    "keyword": "",
+    "category": "食",
+    "question": "シナモンなどのスパイスが効いたインド式のミルクティーは何か？",
+    "choice": [
+      "チャイ",
+      "チョイ",
+      "テイ",
+      "チュイ"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q055",
+    "keyword": "",
+    "category": "食",
+    "question": "サムギョプサルの「サム」とは韓国語でどういう意味か",
+    "choice": [
+      "3",
+      "肉",
+      "包む",
+      "森"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q056",
+    "keyword": "",
+    "category": "食",
+    "question": "骨の中心部の周りにお肉がついた料理で、人類の夢と言われている料理の名前は何？",
+    "choice": [
+      "マンガ肉",
+      "ステーキ",
+      "手羽先",
+      "あぶりカルビ"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q057",
+    "keyword": "",
+    "category": "食",
+    "question": "シュークリームの「シュー」はどんな意味？",
+    "choice": [
+      "キャベツ",
+      "ジャガイモ",
+      "レタス",
+      "タマネギ"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q058",
+    "keyword": "",
+    "category": "食",
+    "question": "イチゴの品種「あまりん」「かおりん」「べにたま」は何県の品種？",
+    "choice": [
+      "埼玉県",
+      "栃木県",
+      "長野県",
+      "神奈川県"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q059",
+    "keyword": "",
+    "category": "食",
+    "question": "群馬県にあるのは？",
+    "choice": [
+      "こんにゃくパーク",
+      "まんじゅうパーク",
+      "いちごランド",
+      "うどんランド"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q060",
+    "keyword": "",
+    "category": "食",
+    "question": "サイゼリアのメニューの材料に使われている昆虫は？？",
+    "choice": [
+      "カタツムリ",
+      "ナメクジ",
+      "アリ",
+      "イナゴ"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q061",
+    "keyword": "",
+    "category": "食",
+    "question": "「グラコロ」や「三角チョコパイ」などの人気メニューがあるチェーン店の名前は？",
+    "choice": [
+      "マクドナルド",
+      "ピザハット",
+      "タコベル",
+      "ミスタードーナツ"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q062",
+    "keyword": "",
+    "category": "食",
+    "question": "お正月に食べる料理は何ですか？",
+    "choice": [
+      "おせち料理",
+      "精進料理",
+      "ハンバーガー",
+      "肉まん"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q063",
+    "keyword": "ぴよりん",
+    "category": "日本の食文化(現代)",
+    "question": "藤井聡太二冠が対局中に食べたことで話題になり、 販売数が急増した名古屋名物のスイーツはどれでしょう？",
+    "choice": [
+      "しろくま",
+      "ぴよりん",
+      "わらびもちドリンク",
+      "バスクチーズケーキ"
+    ],
+    "year": "2021",
+    "reference_url": "https://news.yahoo.co.jp/expert/articles/e71419d6746faaeb1290f2ef562070eca1cf08a2",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q064",
+    "keyword": "ぴよりん",
+    "category": "日本の食文化(現代)",
+    "question": "「ぴよりん」は“配送ができない”とされています。 その主な理由として最も適切なものはどれでしょう？",
+    "choice": [
+      "使用している卵が希少なため",
+      "柔らかくて形が崩れやすいため",
+      "要冷蔵商品のため",
+      "販売地域が限定されているため"
+    ],
+    "year": "2021",
+    "reference_url": "https://news.yahoo.co.jp/expert/articles/e71419d6746faaeb1290f2ef562070eca1cf08a2",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q065",
+    "keyword": "ぴよりん",
+    "category": "日本の食文化(現代)",
+    "question": "「自宅まで無事に持ち帰れたら成功！」というSNS投稿で話題になった、 名古屋発のスイーツはどれでしょう？",
+    "choice": [
+      "ぴよりん",
+      "しろくま",
+      "ういろう",
+      "生ドーナツ"
+    ],
+    "year": "2021",
+    "reference_url": "https://studio.persol-group.co.jp/nama/240628-1",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q066",
+    "keyword": "瞬間グルメ",
+    "category": "日本の食文化(現代)",
+    "question": "賞味期限が極端に短く、「食べるタイミング＝体験の価値」の 要素をもつ食べ物を指す呼び名はどれでしょう？",
+    "choice": [
+      "ロングライフスイーツ",
+      "ミニマルグルメ",
+      "瞬間グルメ",
+      "レガシーフード"
+    ],
+    "year": "2020~2025",
+    "reference_url": "https://www.olive-hitomawashi.com/column/2021/02/post-13708.html",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q067",
+    "keyword": "瞬間グルメ",
+    "category": "日本の食文化(現代)",
+    "question": "チョコアイスとバニラアイスに温かいチョコソースをかけ、 固まる前に食べる必要がある「賞味期限10秒」のパフェのように、 “一瞬の美味しさ”を売りにした食べ物を指す言葉はどれでしょう？",
+    "choice": [
+      "スローフード",
+      "瞬間グルメ",
+      "ご当地スイーツ",
+      "ハイブリッドスイーツ"
+    ],
+    "year": "2020~2025",
+    "reference_url": "https://news.yahoo.co.jp/expert/articles/129628d64b4d4b654db4681af43033546b7310a0",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q068",
+    "keyword": "瞬間グルメ",
+    "category": "日本の食文化(現代)",
+    "question": "エクチュア からほり『蔵』本店」の“賞味期限10秒パフェ”が 「瞬間グルメ」と呼ばれる理由として最も適切なものはどれでしょう？",
+    "choice": [
+      "注文してから提供までの時間が\n非常に短いため",
+      "食べる時間が制限されている\nイベント限定商品であるため",
+      "温かいチョコソースがすぐに固まってしまい、\n美味しさのピークが一瞬だから",
+      "SNS投稿用にタイマー演出を\nするため"
+    ],
+    "year": "2020~2025",
+    "reference_url": "https://news.yahoo.co.jp/expert/articles/129628d64b4d4b654db4681af43033546b7310a0",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q069",
+    "keyword": "生ドーナツ",
+    "category": "日本の食文化(現代)",
+    "question": "福岡発のベーカリーブランド「I’m donut?」が人気を集めた、 “もっちり感”と“しゅわっと軽やかな口溶け”が特徴の新食感スイーツはどれでしょう？",
+    "choice": [
+      "生ドーナツ",
+      "焼きドーナツ",
+      "クロナッツ",
+      "冷やしドーナツ"
+    ],
+    "year": "2023",
+    "reference_url": "https://www.fujisan.co.jp/trends/gourmet/40336/",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q070",
+    "keyword": "生ドーナツ",
+    "category": "日本の食文化(現代)",
+    "question": "「生ドーナツ」がSNSで流行した主な理由として最も適切なものはどれでしょう？",
+    "choice": [
+      "値段が安く、保存性が高いため",
+      "映える見た目と“食べたい気持ちを\n刺激する”演出があったため",
+      "通販限定で手に入りにくかったため",
+      "テレビで紹介されたことが少なかったため"
+    ],
+    "year": "2023",
+    "reference_url": "https://www.cotta.jp/special/article/?p=66139&srsltid=AfmBOor0PlQX7cK1UR5nlYa9Ni7KGloTH0fDUrd9t0-aaLJachCQ9u2o",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q071",
+    "keyword": "生ドーナツ",
+    "category": "日本の食文化(現代)",
+    "question": "SNSで「断面のとろける生クリーム」や「ふわっとした生地」が話題となり、 InstagramやTikTokでも人気を集めたスイーツはどれでしょう？",
+    "choice": [
+      "マリトッツォ",
+      "生ドーナツ",
+      "バスクチーズケーキ",
+      "生カヌレ"
+    ],
+    "year": "2023",
+    "reference_url": "https://www.cotta.jp/special/article/?p=66139&srsltid=AfmBOor0PlQX7cK1UR5nlYa9Ni7KGloTH0fDUrd9t0-aaLJachCQ9u2o",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q072",
+    "keyword": "パンケーキ",
+    "category": "日本の食文化(現代)",
+    "question": "大阪生まれで、20分かけて焼き上げる “ふわふわ食感”が特徴の人気スイーツはどれでしょう？",
+    "choice": [
+      "バスクチーズケーキ",
+      "幸せのパンケーキ",
+      "マリトッツォ",
+      "生ドーナツ"
+    ],
+    "year": "2017",
+    "reference_url": "https://rtrp.jp/articles/94026/",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q073",
+    "keyword": "パンケーキ",
+    "category": "日本の食文化(現代)",
+    "question": "オーブンで焼き上げる“シュー生地風”のパンケーキとして注目されているスイーツはどれでしょう？",
+    "choice": [
+      "スフレパンケーキ",
+      "ダッチベイビーパンケーキ",
+      "ホットケーキ",
+      "フルーツサンド"
+    ],
+    "year": "2023",
+    "reference_url": "https://vansan-ltd.jp/column/%E6%96%B0%E5%AE%9A%E7%95%AA%E3%83%80%E3%83%83%E3%83%81%E3%83%99%E3%82%A4%E3%83%93%E3%83%BC%E3%83%91%E3%83%B3%E3%82%B1%E3%83%BC%E3%82%AD%E3%81%A8%E3%81%AF/",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q074",
+    "keyword": "パンケーキ",
+    "category": "日本の食文化(現代)",
+    "question": "日本では「ホットケーキ」という言葉が使われることが多いが、海外では一般的に「_________」と呼ばれている。",
+    "choice": [
+      "フライケーキ",
+      "パンケーキ",
+      "クレープ",
+      "トーストケーキ"
+    ],
+    "year": "2023",
+    "reference_url": "https://web.hh-online.jp/hankyu-food/blog/lifestyle/detail/000846.html",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q075",
+    "keyword": "抹茶",
+    "category": "日本の食文化(現代)",
+    "question": "抹茶が世界で人気になった主な理由として最も近いものはどれでしょう？",
+    "choice": [
+      "洋菓子の流行",
+      "健康志向や日本食への関心の高まり",
+      "和紙文化の広がり",
+      "SNSの影響で日本語が人気になった"
+    ],
+    "year": "2025",
+    "reference_url": "https://news.yahoo.co.jp/articles/6887521c07467e516552597c2532d8b12b80a68d",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q076",
+    "keyword": "抹茶",
+    "category": "日本の食文化(現代)",
+    "question": "健康志向や日本食への関心の高まりを背景に、世界で人気が高まっている日本の食文化はどれでしょう？",
+    "choice": [
+      "抹茶",
+      "寿司",
+      "味噌汁",
+      "醤油"
+    ],
+    "year": "2025",
+    "reference_url": "https://news.yahoo.co.jp/articles/6887521c07467e516552597c2532d8b12b80a68d",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q077",
+    "keyword": "抹茶",
+    "category": "日本の食文化(現代)",
+    "question": "抹茶を点てるときに大切にされてきた、日本文化の精神を表す言葉はどれでしょう？",
+    "choice": [
+      "一期一会（いちごいちえ）",
+      "花鳥風月（かちょうふうげつ）",
+      "和敬清寂（わけいせいじゃく）",
+      "温故知新（おんこちしん）"
+    ],
+    "year": "2025",
+    "reference_url": "https://note.com/kichidenseiken/n/nadfece75a34f",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q078",
+    "keyword": "レインボーフード",
+    "category": "日本の食文化(現代)",
+    "question": "カラフルで写真映えする見た目が人気の、SNSで話題になっている食べ物を何と呼ぶでしょう？",
+    "choice": [
+      "カラフルスイーツ",
+      "レインボーフード",
+      "フォトケーキ",
+      "スイートカラー"
+    ],
+    "year": "2020",
+    "reference_url": "https://macaro-ni.jp/32777",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q079",
+    "keyword": "レインボーフード",
+    "category": "日本の食文化(現代)",
+    "question": "「レインボーフード」と呼ばれる理由として、正しいものはどれでしょう？",
+    "choice": [
+      "食べると虹が見えるから",
+      "食材に7種類の味があるから",
+      "虹のようにカラフルな色合いだから",
+      "雨の日に食べる料理だから"
+    ],
+    "year": "2020",
+    "reference_url": "https://macaro-ni.jp/32777",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q080",
+    "keyword": "レインボーフード",
+    "category": "日本の食文化(現代)",
+    "question": "レインボーフードが人気になった主なきっかけとして、記事で紹介されているものはどれでしょう？",
+    "choice": [
+      "InstagramなどのSNSで写真が映えるから",
+      "栄養バランスが良いから",
+      "和食の伝統を守っているから",
+      "値段が安いから"
+    ],
+    "year": "2020",
+    "reference_url": "https://macaro-ni.jp/32777",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q081",
+    "keyword": "わらび餅",
+    "category": "日本の食文化(現代)",
+    "question": "タピオカの次に人気が出ている、日本の伝統的なスイーツはどれでしょう？",
+    "choice": [
+      "どら焼き",
+      "みたらし団子",
+      "わらび餅",
+      "大福"
+    ],
+    "year": "",
+    "reference_url": "https://note.com/kei_honbo/n/n1c8cff64eb5f",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q082",
+    "keyword": "わらび餅",
+    "category": "日本の食文化(現代)",
+    "question": "最近のわらび餅は、伝統的な黒蜜やきな粉だけでなく、どんな特徴で人気を集めていますか？",
+    "choice": [
+      "スパイシーな味つけ",
+      "カラフルで洋風なアレンジ",
+      "冷凍して食べる新食感",
+      "塩味のある和風アレンジ"
+    ],
+    "year": "",
+    "reference_url": "https://note.com/kei_honbo/n/n1c8cff64eb5f",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q083",
+    "keyword": "わらび餅",
+    "category": "日本の食文化(現代)",
+    "question": "わらび餅が若者の間でも話題になっている理由として、最も当てはまるものはどれでしょう？",
+    "choice": [
+      "SNSで「写真映えする」と話題になったから",
+      "海外でしか食べられないから",
+      "音楽番組で紹介されたから",
+      "コンビニで売られなくなったから"
+    ],
+    "year": "",
+    "reference_url": "https://note.com/kei_honbo/n/n1c8cff64eb5f",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q084",
+    "keyword": "バナナジュース",
+    "category": "日本の食文化(現代)",
+    "question": "コロナ禍で「ヘルシーで体にやさしい」と人気が高まった飲み物はどれでしょう？",
+    "choice": [
+      "コーヒー",
+      "バナナジュース",
+      "抹茶ラテ",
+      "野菜スープ"
+    ],
+    "year": "2021",
+    "reference_url": "https://www.pack-kimura.net/useful/dessert/article111800/",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q085",
+    "keyword": "バナナジュース",
+    "category": "日本の食文化(現代)",
+    "question": "バナナジュースの人気が高まった理由として、記事の内容と最も近いものはどれでしょう？",
+    "choice": [
+      "外出自粛で運動不足になった人が増えたから",
+      "スポーツ大会が増えたから",
+      "夏の気温が下がったから",
+      "バナナの値段が上がったから"
+    ],
+    "year": "2021",
+    "reference_url": "https://www.pack-kimura.net/useful/dessert/article111800/",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q086",
+    "keyword": "バナナジュース",
+    "category": "日本の食文化(現代)",
+    "question": "バナナジュースの人気が「現代の日本の食文化」を表している点として、最も正しいものはどれでしょう？",
+    "choice": [
+      "手軽さと健康の両立を求める食文化になっている",
+      "伝統的な料理が完全に消えている",
+      "海外の食べ物しか人気がない",
+      "若者は甘い飲み物を飲まなくなっている"
+    ],
+    "year": "2021",
+    "reference_url": "https://www.pack-kimura.net/useful/dessert/article111800/",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q087",
+    "keyword": "純喫茶",
+    "category": "日本の食文化(現代)",
+    "question": "純喫茶の人気が示している、現代の日本の食文化の傾向として最も近いものはどれでしょう？",
+    "choice": [
+      "新しいものより、懐かしさや雰囲気を楽しむ傾向がある",
+      "コーヒーよりも紅茶の文化が広まっている",
+      "洋風ファストフードが主流になっている",
+      "昭和の文化がすべて消えつつある"
+    ],
+    "year": "",
+    "reference_url": "https://toyokeizai.net/articles/-/714545?page=4",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q088",
+    "keyword": "純喫茶",
+    "category": "日本の食文化(現代)",
+    "question": "昭和レトロブームの中で純喫茶が注目されている理由として、最も適切なものはどれでしょう？",
+    "choice": [
+      "最新のデジタル機器が使えるから",
+      "早くて安いファストフードだから",
+      "懐かしさと写真映えする雰囲気があるから",
+      "海外からの輸入文化だから"
+    ],
+    "year": "",
+    "reference_url": "https://www.yomiuri.co.jp/national/20240411-OYT1T50121/",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q089",
+    "keyword": "純喫茶",
+    "category": "日本の食文化(現代)",
+    "question": "2010年代に出版された『純喫茶コレクション』をきっかけに人気が再燃した、昔ながらの喫茶店を何というでしょう？",
+    "choice": [
+      "カフェ",
+      "ネオ喫茶",
+      "純喫茶",
+      "コーヒースタンド"
+    ],
+    "year": "",
+    "reference_url": "https://www.yomiuri.co.jp/national/20240411-OYT1T50121/",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q090",
+    "keyword": "萌え断",
+    "category": "日本の食文化(現代)",
+    "question": "フルーツサンドなどで、断面の美しさに思わず“ときめく”ような食べ物を表す言葉はどれでしょう？",
+    "choice": [
+      "断面映え",
+      "フルーツショット",
+      "萌え断",
+      "美断サンド"
+    ],
+    "year": "",
+    "reference_url": "https://foods-labo.com/column/oyakudachi35",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q091",
+    "keyword": "萌え断",
+    "category": "日本の食文化(現代)",
+    "question": "「萌え断」の“萌え”とは、もともとどんな意味の言葉から来ているでしょう？",
+    "choice": [
+      "花が咲くようにきれいという意味",
+      "アニメ・キャラクターなどに感じる「かわいい・ときめく」という感情",
+      "食欲がわくという意味",
+      "切ることを意味する古語"
+    ],
+    "year": "",
+    "reference_url": "https://foods-labo.com/column/oyakudachi35",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q092",
+    "keyword": "萌え断",
+    "category": "日本の食文化(現代)",
+    "question": "「萌え断」が流行した背景として、特に大きな影響を与えたのはどれでしょう？",
+    "choice": [
+      "写真共有SNSの普及",
+      "テレビ番組での紹介",
+      "和菓子職人の伝統技術の復活",
+      "高級フルーツの値下がり"
+    ],
+    "year": "",
+    "reference_url": "https://foods-labo.com/column/oyakudachi35",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q093",
+    "keyword": "出汁",
+    "category": "日本の食文化(現代)",
+    "question": "脂肪分や塩分を抑えながら、うまみをしっかり感じられる日本の伝統的な調味の基本となるものはどれでしょう？",
+    "choice": [
+      "醤油",
+      "味噌",
+      "出汁",
+      "みりん"
+    ],
+    "year": "",
+    "reference_url": "https://urbanlife.tokyo/post/33304/",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q094",
+    "keyword": "出汁",
+    "category": "日本の食文化(現代)",
+    "question": "出汁を使うことで得られる健康面でのメリットとして正しいものはどれ？",
+    "choice": [
+      "カロリーが高くなる",
+      "塩分を減らしてもおいしく感じられる",
+      "脂肪分が増える",
+      "食材の味が薄くなる"
+    ],
+    "year": "",
+    "reference_url": "https://urbanlife.tokyo/post/33304/",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q095",
+    "keyword": "出汁",
+    "category": "日本の食文化(現代)",
+    "question": "出汁が「第2次ブーム」と言われる理由として、最も関係が深いものはどれでしょう？",
+    "choice": [
+      "出汁の作り方がSNSで紹介され、若者にも親しまれるようになったから",
+      "出汁が外国では手に入らなくなったから",
+      "出汁がカロリーの高い食材として人気になったから",
+      "出汁を使う料理が減ったから"
+    ],
+    "year": "",
+    "reference_url": "https://urbanlife.tokyo/post/33304/",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q096",
+    "keyword": "駄菓子",
+    "category": "日本の食文化(現代)",
+    "question": "コロナ禍で“おうち時間”が増えたことにより、大人にも再び人気が高まった昔ながらのお菓子はどれでしょう？",
+    "choice": [
+      "駄菓子",
+      "生菓子",
+      "洋菓子",
+      "和菓子"
+    ],
+    "year": "",
+    "reference_url": "https://jocr.jp/raditopi/2022/04/23/424614/",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q097",
+    "keyword": "駄菓子",
+    "category": "日本の食文化(現代)",
+    "question": "「おうちで駄菓子屋さん」という商品が発売された目的として、最も近いものはどれ？",
+    "choice": [
+      "駄菓子を高級品として販売するため",
+      "外出制限の中でも家庭で楽しめるようにするため",
+      "駄菓子の歴史を学ぶための教材として",
+      "海外輸出を目的とした商品として"
+    ],
+    "year": "",
+    "reference_url": "https://jocr.jp/raditopi/2022/04/23/424614/",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q098",
+    "keyword": "駄菓子",
+    "category": "日本の食文化(現代)",
+    "question": "「駄菓子が注目されている」という表現の背景として、最も関係の深いものはどれ？",
+    "choice": [
+      "若者の間で“昭和レトロ”ブームが広がっている",
+      "外国のお菓子の人気が下がった",
+      "駄菓子の種類が減って希少になった",
+      "学校給食で出されるようになった"
+    ],
+    "year": "",
+    "reference_url": "https://jocr.jp/raditopi/2022/04/23/424614/",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q099",
+    "keyword": "2Dケーキ",
+    "category": "日本の食文化(現代)",
+    "question": "モノクロの空間にいるように見える「絵の中のカフェ」で人気の、まるでイラストのようなケーキを何と呼ぶでしょう？",
+    "choice": [
+      "3Dケーキ",
+      "フォトジェニックケーキ",
+      "2Dケーキ",
+      "デジタルケーキ"
+    ],
+    "year": "2024",
+    "reference_url": "https://magazine.itsnap.jp/gourmet/48901/",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q100",
+    "keyword": "2Dケーキ",
+    "category": "日本の食文化(現代)",
+    "question": "「2Dケーキ」が人気になった主な理由として、最も正しいものはどれでしょう？",
+    "choice": [
+      "味が伝統的で懐かしいから",
+      "白黒の空間とカラフルなケーキの対比がSNS映えするから",
+      "素材がすべて日本産だから",
+      "ケーキの形が毎回変わるから"
+    ],
+    "year": "2024",
+    "reference_url": "https://magazine.itsnap.jp/gourmet/48901/",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q101",
+    "keyword": "2Dケーキ",
+    "category": "日本の食文化(現代)",
+    "question": "「2Dケーキ」や「絵の中のカフェ」が人気を集めている背景として、最も関係が深いのはどれ？",
+    "choice": [
+      "視覚的に楽しむ“体験型スイーツ”の広がり",
+      "甘さ控えめのスイーツブーム",
+      "昭和レトロ喫茶の復活",
+      "コーヒー文化の発展"
+    ],
+    "year": "2024",
+    "reference_url": "https://magazine.itsnap.jp/gourmet/48901/",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q102",
+    "keyword": "米",
+    "category": "日本の食文化(現代)",
+    "question": "「令和の米騒動」と呼ばれている現象は、どのような理由で起こったでしょうか？",
+    "choice": [
+      "日本の米の輸出が急増したから",
+      "コメ不足が続き、入手が難しくなったから",
+      "新しい米の品種が人気を集めたから",
+      "外国産米の輸入が増えすぎたから"
+    ],
+    "year": "",
+    "reference_url": "https://www.tbsradio.jp/articles/97052/",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q103",
+    "keyword": "米",
+    "category": "日本の食文化(現代)",
+    "question": "「備蓄米」とは、どのような目的で保管されているお米でしょうか？",
+    "choice": [
+      "お正月など特別な日に食べるためのお米",
+      "災害や不作などに備えて保管されているお米",
+      "新しい米の品種が人気を集めたから",
+      "外国産米の輸入が増えすぎたから"
+    ],
+    "year": "",
+    "reference_url": "https://www.tbsradio.jp/articles/97052/",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q104",
+    "keyword": "米",
+    "category": "日本の食文化(現代)",
+    "question": "高度経済成長期以前のお米の位置づけとして、最も正しいものはどれでしょう？",
+    "choice": [
+      "いつでも食べられる一般的な食べ物だった",
+      "外国から輸入される珍しい食品だった",
+      "特別な日にしか食べられない貴重な食べ物だった",
+      "主にお菓子やデザートに使われていた"
+    ],
+    "year": "",
+    "reference_url": "https://www.tbsradio.jp/articles/97052/",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q105",
+    "keyword": "JKケーキ",
+    "category": "日本の食文化(現代)",
+    "question": "女子高生発の、スポンジケーキに好きなお菓子を自由にトッピングして作るスイーツを何と呼ぶでしょう？",
+    "choice": [
+      "プリンケーキ",
+      "JKケーキ",
+      "おうちケーキ",
+      "カフェケーキ"
+    ],
+    "year": "",
+    "reference_url": "https://weknowledge.jp/column/gourmet/post_11457",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q106",
+    "keyword": "JKケーキ",
+    "category": "日本の食文化(現代)",
+    "question": "「JKケーキ」が人気になった理由として、最も正しいものはどれでしょう？",
+    "choice": [
+      "プロのケーキ職人が作る高級スイーツだから",
+      "放課後などに手軽に作れて、見た目も可愛いから",
+      "健康志向で砂糖を使わないから",
+      "和菓子の要素を取り入れているから"
+    ],
+    "year": "",
+    "reference_url": "https://weknowledge.jp/column/gourmet/post_11457",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q107",
+    "keyword": "JKケーキ",
+    "category": "日本の食文化(現代)",
+    "question": "「JKケーキ」が生まれた背景として、最も関係が深いのはどれでしょう？",
+    "choice": [
+      "手軽に作れる“おうちスイーツ”ブーム",
+      "フードロス削減運動",
+      "ヴィーガンスイーツの流行",
+      "大人のチョコレートブーム"
+    ],
+    "year": "",
+    "reference_url": "https://weknowledge.jp/column/gourmet/post_11457",
+    "authored_by": "claude"
+  },
+  {
+    "questionID": "Q108",
+    "keyword": "フードテック",
+    "category": "日本の食文化(現代)",
+    "question": "「フードテック」とは、どのような意味を持つ言葉でしょうか？",
+    "choice": [
+      "食に関する伝統的な文化のこと",
+      "食とテクノロジーを組み合わせた新しい技術や仕組みのこと",
+      "高級レストランで使われる調理法のこと",
+      "食品を輸入するビジネスのこと"
+    ],
+    "year": "",
+    "reference_url": "",
+    "authored_by": "claude"
+  }
+]
