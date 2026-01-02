@@ -85,8 +85,19 @@ const QuizApp = {
             // 進捗があればそこから開始、なければ0から
             const progress = await StorageManager.getProgress(this.reviewerName, this.category);
             if (progress && progress.questionIndex >= 0 && progress.questionIndex < this.questions.length) {
-                this.currentIndex = progress.questionIndex;
-                console.log('進捗から再開:', this.currentIndex);
+                // 進捗が見つかった場合、ユーザーに確認
+                const nextQuestion = progress.questionIndex + 1;
+                const confirmMessage = `前回の続きから始めますか？\n\n問題${nextQuestion}/${this.questions.length}から再開します。\n\n「OK」= 続きから開始\n「キャンセル」= 最初から開始`;
+
+                const continueFromProgress = confirm(confirmMessage);
+
+                if (continueFromProgress) {
+                    this.currentIndex = progress.questionIndex;
+                    console.log('進捗から再開:', this.currentIndex);
+                } else {
+                    this.currentIndex = 0;
+                    console.log('最初から開始');
+                }
             } else {
                 this.currentIndex = 0;
             }
