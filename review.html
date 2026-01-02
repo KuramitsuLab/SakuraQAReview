@@ -39,6 +39,21 @@
                 <button class="btn btn-secondary" id="error-home-btn">ホームに戻る</button>
             </div>
 
+            <!-- 進捗再開確認モーダル -->
+            <div id="progress-resume-modal" class="modal" style="display: none;">
+                <div class="modal-overlay"></div>
+                <div class="modal-content">
+                    <div class="modal-icon">📚</div>
+                    <h2>前回の続きから始めますか？</h2>
+                    <p id="progress-resume-message" class="modal-message"></p>
+                    <div class="modal-buttons">
+                        <button class="btn btn-primary" id="resume-continue-btn">続きから開始</button>
+                        <button class="btn btn-secondary" id="resume-restart-btn">最初から開始</button>
+                        <button class="btn btn-text" id="resume-cancel-btn">キャンセル</button>
+                    </div>
+                </div>
+            </div>
+
             <!-- 問題表示エリア -->
             <div id="question-container" style="display: none;">
                 <section class="question-section">

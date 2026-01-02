@@ -85,18 +85,20 @@ const QuizApp = {
             // 進捗があればそこから開始、なければ0から
             const progress = await StorageManager.getProgress(this.reviewerName, this.category);
             if (progress && progress.questionIndex >= 0 && progress.questionIndex < this.questions.length) {
-                // 進捗が見つかった場合、ユーザーに確認
+                // 進捗が見つかった場合、ユーザーに確認（モーダル表示）
                 const nextQuestion = progress.questionIndex + 1;
-                const confirmMessage = `前回の続きから始めますか？\n\n問題${nextQuestion}/${this.questions.length}から再開します。\n\n「OK」= 続きから開始\n「キャンセル」= 最初から開始`;
+                const choice = await this.showProgressResumeModal(nextQuestion, this.questions.length);
 
-                const continueFromProgress = confirm(confirmMessage);
-
-                if (continueFromProgress) {
+                if (choice === 'continue') {
                     this.currentIndex = progress.questionIndex;
                     console.log('進捗から再開:', this.currentIndex);
-                } else {
+                } else if (choice === 'restart') {
                     this.currentIndex = 0;
                     console.log('最初から開始');
+                } else {
+                    // キャンセル: ホームに戻る
+                    window.location.href = 'index.html';
+                    return;
                 }
             } else {
                 this.currentIndex = 0;
@@ -425,6 +427,57 @@ const QuizApp = {
 
         // ホームに戻る
         window.location.href = 'index.html';
+    },
+
+    /**
+     * 進捗再開確認モーダルを表示
+     * @param {number} nextQuestion - 次の問題番号
+     * @param {number} totalQuestions - 総問題数
+     * @returns {Promise<string>} 'continue' | 'restart' | 'cancel'
+     */
+    showProgressResumeModal(nextQuestion, totalQuestions) {
+        return new Promise((resolve) => {
+            const modal = document.getElementById('progress-resume-modal');
+            const message = document.getElementById('progress-resume-message');
+            const continueBtn = document.getElementById('resume-continue-btn');
+            const restartBtn = document.getElementById('resume-restart-btn');
+            const cancelBtn = document.getElementById('resume-cancel-btn');
+
+            // メッセージを設定
+            message.textContent = `問題${nextQuestion}/${totalQuestions}から再開できます。`;
+
+            // モーダルを表示
+            modal.style.display = 'flex';
+
+            // ボタンのイベントリスナー（一度だけ実行）
+            const handleContinue = () => {
+                modal.style.display = 'none';
+                cleanup();
+                resolve('continue');
+            };
+
+            const handleRestart = () => {
+                modal.style.display = 'none';
+                cleanup();
+                resolve('restart');
+            };
+
+            const handleCancel = () => {
+                modal.style.display = 'none';
+                cleanup();
+                resolve('cancel');
+            };
+
+            const cleanup = () => {
+                continueBtn.removeEventListener('click', handleContinue);
+                restartBtn.removeEventListener('click', handleRestart);
+                cancelBtn.removeEventListener('click', handleCancel);
+            };
+
+            continueBtn.addEventListener('click', handleContinue);
+            restartBtn.addEventListener('click', handleRestart);
+            cancelBtn.addEventListener('click', handleCancel);
+        });
     },
 
     /**
