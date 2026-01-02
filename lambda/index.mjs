@@ -17,7 +17,7 @@ export const handler = async (event) => {
     const headers = {
         'Access-Control-Allow-Origin': '*', // 本番環境では特定のオリジンに制限してください
         'Access-Control-Allow-Headers': 'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token',
-        'Access-Control-Allow-Methods': 'POST,OPTIONS',
+        'Access-Control-Allow-Methods': 'GET,POST,OPTIONS',
         'Content-Type': 'application/json'
     };
 
@@ -29,6 +29,74 @@ export const handler = async (event) => {
             body: JSON.stringify({ message: 'CORS preflight successful' })
         };
     }
+
+    // GETリクエスト: レビュー結果を取得
+    if (event.httpMethod === 'GET' || event.requestContext?.http?.method === 'GET') {
+        return await handleGetReviews(headers);
+    }
+
+    // POSTリクエスト: レビュー結果を保存
+    return await handlePostReview(event, headers);
+};
+
+/**
+ * GETリクエスト処理: レビュー結果を取得
+ */
+async function handleGetReviews(headers) {
+    try {
+        // S3からreview.jsonを取得
+        const getCommand = new GetObjectCommand({
+            Bucket: BUCKET_NAME,
+            Key: FILE_KEY
+        });
+
+        const response = await s3Client.send(getCommand);
+        const bodyContents = await streamToString(response.Body);
+        const reviews = JSON.parse(bodyContents);
+
+        console.log(`Retrieved ${reviews.length} reviews`);
+
+        return {
+            statusCode: 200,
+            headers,
+            body: JSON.stringify({
+                success: true,
+                reviews: reviews,
+                total: reviews.length
+            })
+        };
+
+    } catch (error) {
+        if (error.name === 'NoSuchKey') {
+            // ファイルが存在しない場合は空配列を返す
+            console.log('review.json does not exist yet, returning empty array');
+            return {
+                statusCode: 200,
+                headers,
+                body: JSON.stringify({
+                    success: true,
+                    reviews: [],
+                    total: 0
+                })
+            };
+        }
+
+        console.error('Error retrieving reviews:', error);
+        return {
+            statusCode: 500,
+            headers,
+            body: JSON.stringify({
+                error: 'Internal server error',
+                message: error.message
+            })
+        };
+    }
+}
+
+/**
+ * POSTリクエスト処理: レビュー結果を保存
+ */
+async function handlePostReview(event, headers) {
 
     try {
         // リクエストボディの解析
@@ -145,7 +213,7 @@ export const handler = async (event) => {
             })
         };
     }
-};
+}
 
 /**
  * Streamを文字列に変換

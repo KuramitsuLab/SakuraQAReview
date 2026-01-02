@@ -47,67 +47,59 @@ const Analytics = {
     },
 
     /**
-     * レビュー結果を読み込み（S3 or localStorage）
+     * レビュー結果を読み込み（API or localStorage）
      */
     async loadReviews() {
-        // まずS3から取得を試みる
-        if (window.AWS_CONFIG && window.AWS_CONFIG.s3BucketName) {
+        // まずAPIから取得を試みる
+        if (window.AWS_CONFIG && window.AWS_CONFIG.apiEndpoint) {
             try {
-                const reviews = await this.loadFromS3();
+                const reviews = await this.loadFromAPI();
                 if (reviews.length > 0) {
+                    console.log(`APIから${reviews.length}件のレビュー結果を取得しました`);
                     return reviews;
                 }
             } catch (error) {
-                console.warn('S3からの読み込みに失敗しました:', error);
+                console.warn('APIからの読み込みに失敗しました:', error);
             }
         }
 
-        // localStorageから取得
+        // APIから取得できない場合はlocalStorageから取得
+        console.log('localStorageからレビュー結果を取得します');
         return StorageManager.getAllResults();
     },
 
     /**
-     * S3からレビュー結果を取得
+     * APIからレビュー結果を取得
      */
-    async loadFromS3() {
-        if (!window.AWS || !window.AWS_CONFIG) {
-            throw new Error('AWS設定が見つかりません');
+    async loadFromAPI() {
+        if (!window.AWS_CONFIG || !window.AWS_CONFIG.apiEndpoint) {
+            throw new Error('API設定が見つかりません');
         }
 
-        const s3 = new AWS.S3({
-            accessKeyId: AWS_CONFIG.accessKeyId,
-            secretAccessKey: AWS_CONFIG.secretAccessKey,
-            region: AWS_CONFIG.region
-        });
-
-        // S3バケット内のすべてのオブジェクトを取得
-        const params = {
-            Bucket: AWS_CONFIG.s3BucketName,
-            Prefix: AWS_CONFIG.s3KeyPrefix || ''
-        };
-
-        const data = await s3.listObjectsV2(params).promise();
-        const reviews = [];
-
-        // 各オブジェクトを取得してパース
-        for (const obj of data.Contents || []) {
-            if (obj.Key.endsWith('.json')) {
-                const getParams = {
-                    Bucket: AWS_CONFIG.s3BucketName,
-                    Key: obj.Key
-                };
-
-                try {
-                    const objData = await s3.getObject(getParams).promise();
-                    const review = JSON.parse(objData.Body.toString('utf-8'));
-                    reviews.push(review);
-                } catch (error) {
-                    console.warn(`ファイル ${obj.Key} の読み込みに失敗:`, error);
+        try {
+            const response = await fetch(AWS_CONFIG.apiEndpoint, {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json',
                 }
-            }
-        }
+            });
 
-        return reviews;
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+
+            const data = await response.json();
+
+            if (data.success && Array.isArray(data.reviews)) {
+                return data.reviews;
+            } else {
+                throw new Error('APIレスポンスの形式が不正です');
+            }
+
+        } catch (error) {
+            console.error('API取得エラー:', error);
+            throw error;
+        }
     },
 
     /**

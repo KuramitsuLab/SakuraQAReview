@@ -7,9 +7,9 @@
 
 const AWS_CONFIG = {
     region: 'ap-northeast-1',
-    bucketName: 'sakuraqa-food-review-results', // 実際のバケット名に置き換え
-    apiEndpoint: 'https://ogllpkngp1.execute-api.ap-northeast-1.amazonaws.com/review', // 実際のAPI GatewayのURLに置き換え
-    enableS3Upload: true
+    bucketName: 'sakuraqa-food-review-results', // Lambda関数で使用されるバケット名（参考用）
+    apiEndpoint: 'https://ogllpkngp1.execute-api.ap-northeast-1.amazonaws.com/review', // 実際のAPI GatewayのURL
+    enableS3Upload: true // レビュー保存時にAPIへ送信するかどうか
 };
 
 // グローバルスコープに公開
