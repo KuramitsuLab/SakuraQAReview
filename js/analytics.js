@@ -173,9 +173,24 @@ const Analytics = {
         const container = document.getElementById('reviewerFilterGrid');
         container.innerHTML = '';
 
+        // 総問題数を取得
+        const totalQuestions = this.questions.length;
+
         this.allReviewers.forEach(reviewer => {
+            // このレビュアーの回答数を取得
+            const reviewerAnswers = this.reviews.filter(r =>
+                (r.reviewer_name || r.reviewerName) === reviewer
+            );
+            const answerCount = reviewerAnswers.length;
+            const isCompleted = answerCount >= totalQuestions;
+
             const checkboxDiv = document.createElement('div');
             checkboxDiv.className = 'reviewer-checkbox';
+
+            // 全問解いている場合は特別なクラスを追加
+            if (isCompleted) {
+                checkboxDiv.classList.add('completed');
+            }
 
             const checkbox = document.createElement('input');
             checkbox.type = 'checkbox';
@@ -194,6 +209,14 @@ const Analytics = {
             const label = document.createElement('label');
             label.htmlFor = `reviewer-${reviewer}`;
             label.textContent = reviewer;
+
+            // 完了バッジを追加
+            if (isCompleted) {
+                const badge = document.createElement('span');
+                badge.className = 'completion-badge';
+                badge.textContent = '✓ 完了';
+                label.appendChild(badge);
+            }
 
             checkboxDiv.appendChild(checkbox);
             checkboxDiv.appendChild(label);

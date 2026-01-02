@@ -171,6 +171,28 @@
             cursor: pointer;
             user-select: none;
             flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .reviewer-checkbox.completed {
+            background: linear-gradient(135deg, #e8f5e9, #c8e6c9);
+            border: 2px solid #4caf50;
+        }
+
+        .reviewer-checkbox.completed:hover {
+            background: linear-gradient(135deg, #c8e6c9, #a5d6a7);
+        }
+
+        .completion-badge {
+            font-size: 0.75rem;
+            background: #4caf50;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 12px;
+            margin-left: 8px;
+            font-weight: 600;
         }
 
         .filter-controls {
