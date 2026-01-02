@@ -52,19 +52,17 @@
             <div class="error-message global-error" id="global-error"></div>
         </main>
 
-        <!-- 進捗確認ダイアログ -->
-        <div class="modal-overlay" id="progress-modal" style="display: none;">
-            <div class="modal-dialog">
-                <div class="modal-header">
-                    <h3>前回の続きがあります</h3>
-                </div>
-                <div class="modal-body">
-                    <p id="progress-message">問題 3 / 108 から再開できます。</p>
-                </div>
-                <div class="modal-footer">
-                    <button class="btn btn-primary" id="modal-resume-btn">続きから開始</button>
-                    <button class="btn btn-secondary" id="modal-restart-btn">最初から開始</button>
-                    <button class="btn btn-text" id="modal-cancel-btn">キャンセル</button>
+        <!-- 進捗再開確認モーダル -->
+        <div id="progress-resume-modal" class="modal" style="display: none;">
+            <div class="modal-overlay"></div>
+            <div class="modal-content">
+                <div class="modal-icon">📚</div>
+                <h2>前回の続きから始めますか？</h2>
+                <p id="progress-resume-message" class="modal-message"></p>
+                <div class="modal-buttons">
+                    <button class="btn btn-primary" id="resume-continue-btn">続きから開始</button>
+                    <button class="btn btn-secondary" id="resume-restart-btn">最初から開始</button>
+                    <button class="btn btn-text" id="resume-cancel-btn">キャンセル</button>
                 </div>
             </div>
         </div>
@@ -104,12 +102,19 @@
 
             const reviewerName = document.getElementById('reviewer-name').value.trim();
 
-            // 進捗があるかチェック
-            const progress = StorageManager.getProgress(reviewerName, category);
+            // 進捗があるかチェック（非同期）
+            const progress = await StorageManager.getProgress(reviewerName, category);
 
             if (progress && progress.questionIndex >= 0) {
                 // 進捗がある場合はダイアログを表示
-                showProgressDialog(reviewerName, category, questionCount, progress.questionIndex);
+                const choice = await showProgressDialog(reviewerName, category, questionCount, progress.questionIndex);
+
+                if (choice === 'continue') {
+                    startReview(reviewerName, category, true);
+                } else if (choice === 'restart') {
+                    startReview(reviewerName, category, false);
+                }
+                // cancel の場合は何もしない
             } else {
                 // 進捗がない場合は直接開始
                 startReview(reviewerName, category, false);
@@ -118,35 +123,48 @@
 
         // 進捗確認ダイアログを表示
         function showProgressDialog(reviewerName, category, questionCount, lastIndex) {
-            const modal = document.getElementById('progress-modal');
-            const message = document.getElementById('progress-message');
-            const nextQuestion = lastIndex + 1;
+            return new Promise((resolve) => {
+                const modal = document.getElementById('progress-resume-modal');
+                const message = document.getElementById('progress-resume-message');
+                const continueBtn = document.getElementById('resume-continue-btn');
+                const restartBtn = document.getElementById('resume-restart-btn');
+                const cancelBtn = document.getElementById('resume-cancel-btn');
 
-            message.textContent = `問題 ${nextQuestion} / ${questionCount} から再開できます。`;
-            modal.style.display = 'flex';
+                const nextQuestion = lastIndex + 1;
+                message.textContent = `問題${nextQuestion}/${questionCount}から再開できます。`;
 
-            // ボタンのイベントリスナー（一度だけ設定）
-            document.getElementById('modal-resume-btn').onclick = () => {
-                modal.style.display = 'none';
-                startReview(reviewerName, category, true);
-            };
+                // モーダルを表示
+                modal.style.display = 'flex';
 
-            document.getElementById('modal-restart-btn').onclick = () => {
-                modal.style.display = 'none';
-                StorageManager.clearProgress(reviewerName, category);
-                startReview(reviewerName, category, false);
-            };
-
-            document.getElementById('modal-cancel-btn').onclick = () => {
-                modal.style.display = 'none';
-            };
-
-            // オーバーレイクリックで閉じる
-            modal.onclick = (e) => {
-                if (e.target === modal) {
+                // イベントハンドラー
+                const handleContinue = () => {
                     modal.style.display = 'none';
-                }
-            };
+                    cleanup();
+                    resolve('continue');
+                };
+
+                const handleRestart = () => {
+                    modal.style.display = 'none';
+                    cleanup();
+                    resolve('restart');
+                };
+
+                const handleCancel = () => {
+                    modal.style.display = 'none';
+                    cleanup();
+                    resolve('cancel');
+                };
+
+                const cleanup = () => {
+                    continueBtn.removeEventListener('click', handleContinue);
+                    restartBtn.removeEventListener('click', handleRestart);
+                    cancelBtn.removeEventListener('click', handleCancel);
+                };
+
+                continueBtn.addEventListener('click', handleContinue);
+                restartBtn.addEventListener('click', handleRestart);
+                cancelBtn.addEventListener('click', handleCancel);
+            });
         }
 
         // レビューを開始
