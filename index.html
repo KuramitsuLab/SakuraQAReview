@@ -94,7 +94,7 @@
         }
 
         // カテゴリ別問題セットの開始
-        function startQuiz(category, questionCount) {
+        async function startQuiz(category, questionCount) {
             if (!validateReviewerName()) {
                 document.getElementById('reviewer-name').focus();
                 return;
