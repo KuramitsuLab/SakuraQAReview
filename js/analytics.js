@@ -276,7 +276,7 @@ const Analytics = {
         const reviewers = Object.keys(this.reviewerStats);
 
         if (reviewers.length === 0) {
-            return { correct: 0, total: 0, accuracy: 0, reviewerCount: 0 };
+            return { accuracy: 0, reviewerCount: 0 };
         }
 
         // 各レビュアーの正答率を合計
@@ -287,17 +287,7 @@ const Analytics = {
         // 平均正答率を計算
         const accuracy = (totalAccuracy / reviewers.length).toFixed(1);
 
-        // 全レビュアーの正解数と総回答数を集計
-        let totalCorrect = 0;
-        let totalAnswers = 0;
-        reviewers.forEach(reviewer => {
-            totalCorrect += this.reviewerStats[reviewer].correct;
-            totalAnswers += this.reviewerStats[reviewer].total;
-        });
-
         return {
-            correct: totalCorrect,
-            total: totalAnswers,
             accuracy: accuracy,
             reviewerCount: reviewers.length
         };
@@ -309,6 +299,8 @@ const Analytics = {
     calculateByAuthor() {
         // 作成者×レビュアーごとにグループ化
         const authorReviewerStats = {};
+        // 作成者ごとの問題数をカウント
+        const authorQuestionCounts = {};
 
         this.enrichedReviews.forEach(review => {
             const author = review.question.authored_by;
@@ -336,6 +328,14 @@ const Analytics = {
             }
         });
 
+        // 作成者ごとの問題数をカウント（questions.jsonから）
+        this.questions.forEach(q => {
+            const author = q.authored_by;
+            if (author && author !== 'Unknown') {
+                authorQuestionCounts[author] = (authorQuestionCounts[author] || 0) + 1;
+            }
+        });
+
         // 各作成者について、レビュアーごとの正答率の平均を計算
         const stats = {};
 
@@ -356,17 +356,8 @@ const Analytics = {
             // 平均正答率を計算
             const avgAccuracy = accuracies.reduce((sum, acc) => sum + acc, 0) / accuracies.length;
 
-            // 全レビュアーの正解数と総回答数を集計
-            let totalCorrect = 0;
-            let totalAnswers = 0;
-            reviewers.forEach(reviewer => {
-                totalCorrect += reviewerStats[reviewer].correct;
-                totalAnswers += reviewerStats[reviewer].total;
-            });
-
             stats[author] = {
-                correct: totalCorrect,
-                total: totalAnswers,
+                questionCount: authorQuestionCounts[author] || 0,
                 accuracy: avgAccuracy.toFixed(1),
                 reviewerCount: reviewers.length
             };
@@ -479,8 +470,6 @@ const Analytics = {
      */
     renderOverallStats() {
         document.getElementById('overall-accuracy').textContent = `${this.overallStats.accuracy}%`;
-        document.getElementById('overall-correct').textContent = this.overallStats.correct;
-        document.getElementById('overall-total').textContent = this.overallStats.total;
     },
 
     /**
@@ -495,8 +484,7 @@ const Analytics = {
             const row = tbody.insertRow();
             row.innerHTML = `
                 <td>${author}</td>
-                <td>${stats.correct}</td>
-                <td>${stats.total}</td>
+                <td>${stats.questionCount}</td>
                 <td>
                     ${stats.accuracy}%
                     <div class="accuracy-bar" style="width: ${stats.accuracy}px"></div>
