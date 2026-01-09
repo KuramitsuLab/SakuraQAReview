@@ -304,33 +304,72 @@ const Analytics = {
     },
 
     /**
-     * authored_by別統計を計算
+     * authored_by別統計を計算（レビュアーの平均正答率）
      */
     calculateByAuthor() {
-        const stats = {};
+        // 作成者×レビュアーごとにグループ化
+        const authorReviewerStats = {};
 
         this.enrichedReviews.forEach(review => {
             const author = review.question.authored_by;
+            const reviewer = review.reviewer_name || review.reviewerName || 'Unknown';
 
             // Unknownまたはauthored_byがない場合はスキップ
             if (!author || author === 'Unknown') {
                 return;
             }
 
-            if (!stats[author]) {
-                stats[author] = { correct: 0, total: 0 };
+            if (!authorReviewerStats[author]) {
+                authorReviewerStats[author] = {};
             }
 
-            stats[author].total++;
+            if (!authorReviewerStats[author][reviewer]) {
+                authorReviewerStats[author][reviewer] = {
+                    correct: 0,
+                    total: 0
+                };
+            }
+
+            authorReviewerStats[author][reviewer].total++;
             if (review.is_correct || review.isCorrect) {
-                stats[author].correct++;
+                authorReviewerStats[author][reviewer].correct++;
             }
         });
 
-        // 正答率を計算
-        Object.keys(stats).forEach(author => {
-            const s = stats[author];
-            s.accuracy = s.total > 0 ? ((s.correct / s.total) * 100).toFixed(1) : 0;
+        // 各作成者について、レビュアーごとの正答率の平均を計算
+        const stats = {};
+
+        Object.keys(authorReviewerStats).forEach(author => {
+            const reviewerStats = authorReviewerStats[author];
+            const reviewers = Object.keys(reviewerStats);
+
+            if (reviewers.length === 0) {
+                return;
+            }
+
+            // 各レビュアーの正答率を計算
+            const accuracies = reviewers.map(reviewer => {
+                const s = reviewerStats[reviewer];
+                return s.total > 0 ? (s.correct / s.total) * 100 : 0;
+            });
+
+            // 平均正答率を計算
+            const avgAccuracy = accuracies.reduce((sum, acc) => sum + acc, 0) / accuracies.length;
+
+            // 全レビュアーの正解数と総回答数を集計
+            let totalCorrect = 0;
+            let totalAnswers = 0;
+            reviewers.forEach(reviewer => {
+                totalCorrect += reviewerStats[reviewer].correct;
+                totalAnswers += reviewerStats[reviewer].total;
+            });
+
+            stats[author] = {
+                correct: totalCorrect,
+                total: totalAnswers,
+                accuracy: avgAccuracy.toFixed(1),
+                reviewerCount: reviewers.length
+            };
         });
 
         return stats;
