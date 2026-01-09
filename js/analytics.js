@@ -135,9 +135,6 @@ const Analytics = {
             };
         });
 
-        // 全体統計
-        this.overallStats = this.calculateOverallStats();
-
         // authored_by別統計
         this.authorStats = this.calculateByAuthor();
 
@@ -146,6 +143,9 @@ const Analytics = {
 
         // 問題別統計
         this.questionStats = this.calculateByQuestion();
+
+        // 全体統計（レビュアー別統計の後に計算）
+        this.overallStats = this.calculateOverallStats();
     },
 
     /**
@@ -269,14 +269,38 @@ const Analytics = {
     },
 
     /**
-     * 全体統計を計算
+     * 全体統計を計算（レビュアーの平均正答率）
      */
     calculateOverallStats() {
-        const correct = this.enrichedReviews.filter(r => r.is_correct || r.isCorrect).length;
-        const total = this.questions.length; // 総問題数はquestions.jsonの問題数
-        const accuracy = total > 0 ? ((correct / total) * 100).toFixed(1) : 0;
+        // レビュアー別の正答率の平均を計算
+        const reviewers = Object.keys(this.reviewerStats);
 
-        return { correct, total, accuracy };
+        if (reviewers.length === 0) {
+            return { correct: 0, total: 0, accuracy: 0, reviewerCount: 0 };
+        }
+
+        // 各レビュアーの正答率を合計
+        const totalAccuracy = reviewers.reduce((sum, reviewer) => {
+            return sum + parseFloat(this.reviewerStats[reviewer].accuracy);
+        }, 0);
+
+        // 平均正答率を計算
+        const accuracy = (totalAccuracy / reviewers.length).toFixed(1);
+
+        // 全レビュアーの正解数と総回答数を集計
+        let totalCorrect = 0;
+        let totalAnswers = 0;
+        reviewers.forEach(reviewer => {
+            totalCorrect += this.reviewerStats[reviewer].correct;
+            totalAnswers += this.reviewerStats[reviewer].total;
+        });
+
+        return {
+            correct: totalCorrect,
+            total: totalAnswers,
+            accuracy: accuracy,
+            reviewerCount: reviewers.length
+        };
     },
 
     /**
