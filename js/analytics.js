@@ -234,7 +234,7 @@ const Analytics = {
                 // 240問目まで到達しているが、途中が抜けている場合
                 const badge = document.createElement('span');
                 badge.className = 'completion-badge warning-badge';
-                badge.textContent = `⚠️ ${missingCount}問未保存`;
+                badge.textContent = `${missingCount}問未保存`;
                 label.appendChild(badge);
             } else if (isCompleted) {
                 // 完全に完了している場合
