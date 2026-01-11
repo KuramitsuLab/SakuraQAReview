@@ -177,15 +177,25 @@ const Analytics = {
         const totalQuestions = this.questions.length;
 
         this.allReviewers.forEach(reviewer => {
-            // このレビュアーの回答数を取得（ユニークな問題IDのみ）
+            // このレビュアーのS3に保存されている回答数を取得（ユニークな問題インデックスのみ）
             const reviewerAnswers = this.reviews.filter(r =>
                 (r.reviewer_name || r.reviewerName) === reviewer
             );
-            const uniqueQuestionIds = new Set(
-                reviewerAnswers.map(r => r.question_id || r.questionId)
+            const uniqueQuestionIndexes = new Set(
+                reviewerAnswers.map(r => r.question_index !== undefined ? r.question_index : r.questionIndex)
             );
-            const answerCount = uniqueQuestionIds.size;
-            const isCompleted = answerCount >= totalQuestions;
+            const savedCount = uniqueQuestionIndexes.size;
+
+            // localStorageから進捗を取得して、240問目まで到達しているかチェック
+            const progressData = StorageManager.getAllProgress();
+            const progressKey = Object.keys(progressData).find(key => key.startsWith(`${reviewer}__`));
+            const progress = progressKey ? progressData[progressKey] : null;
+            const hasReachedEnd = progress && progress.questionIndex >= totalQuestions - 1;
+
+            // 未保存問題数を計算
+            const missingCount = hasReachedEnd ? totalQuestions - savedCount : 0;
+            const isCompleted = savedCount >= totalQuestions;
+            const hasUnfinished = hasReachedEnd && missingCount > 0;
 
             const checkboxDiv = document.createElement('div');
             checkboxDiv.className = 'reviewer-checkbox';
@@ -193,6 +203,8 @@ const Analytics = {
             // 全問解いている場合は特別なクラスを追加
             if (isCompleted) {
                 checkboxDiv.classList.add('completed');
+            } else if (hasUnfinished) {
+                checkboxDiv.classList.add('incomplete');
             }
 
             const checkbox = document.createElement('input');
@@ -213,8 +225,15 @@ const Analytics = {
             label.htmlFor = `reviewer-${reviewer}`;
             label.textContent = reviewer;
 
-            // 完了バッジを追加
-            if (isCompleted) {
+            // バッジを追加
+            if (hasUnfinished) {
+                // 240問目まで到達しているが、途中が抜けている場合
+                const badge = document.createElement('span');
+                badge.className = 'completion-badge warning-badge';
+                badge.textContent = `⚠️ ${missingCount}問未保存`;
+                label.appendChild(badge);
+            } else if (isCompleted) {
+                // 完全に完了している場合
                 const badge = document.createElement('span');
                 badge.className = 'completion-badge';
                 badge.textContent = '✓ 完了';

@@ -185,6 +185,15 @@
             background: linear-gradient(135deg, #c8e6c9, #a5d6a7);
         }
 
+        .reviewer-checkbox.incomplete {
+            background: linear-gradient(135deg, #fff3e0, #ffe0b2);
+            border: 2px solid #ff9800;
+        }
+
+        .reviewer-checkbox.incomplete:hover {
+            background: linear-gradient(135deg, #ffe0b2, #ffcc80);
+        }
+
         .completion-badge {
             font-size: 0.75rem;
             background: #4caf50;
@@ -193,6 +202,11 @@
             border-radius: 12px;
             margin-left: 8px;
             font-weight: 600;
+        }
+
+        .completion-badge.warning-badge {
+            background: #ff9800;
+            color: white;
         }
 
         .filter-controls {
