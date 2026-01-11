@@ -12,6 +12,9 @@ const QuizApp = {
     category: '',
     quizPath: '',
     currentReviewId: null, // 現在の回答のレビューID
+    missingQuestionsMode: false, // 未保存問題モードかどうか
+    missingQuestionIndexes: [], // 未保存問題のインデックス配列
+    currentMissingIndex: 0, // 未保存問題モードでの現在位置
 
     /**
      * アプリケーション初期化
@@ -21,6 +24,13 @@ const QuizApp = {
         this.reviewerName = localStorage.getItem('current_reviewer');
         this.category = localStorage.getItem('current_category');
         this.quizPath = localStorage.getItem('current_quiz_path');
+
+        // 未保存問題モードのチェック
+        const missingMode = sessionStorage.getItem('missing_questions_mode');
+        if (missingMode === 'true') {
+            this.missingQuestionsMode = true;
+            sessionStorage.removeItem('missing_questions_mode');
+        }
 
         // 必須情報がない場合はホームにリダイレクト
         if (!this.reviewerName || !this.category || !this.quizPath) {
@@ -82,13 +92,94 @@ const QuizApp = {
             // 問題はシャッフルしない（順番通り）
             this.questions = filteredQuestions;
 
-            // 進捗があればそこから開始、なければ0から
+            // 未保存問題モードの処理
+            if (this.missingQuestionsMode) {
+                console.log('未保存問題モード: S3に保存されていない問題を特定中...');
+                this.missingQuestionIndexes = await StorageManager.getMissingQuestions(
+                    this.reviewerName,
+                    this.category,
+                    this.questions
+                );
+
+                if (this.missingQuestionIndexes.length === 0) {
+                    alert('全ての問題がサーバーに保存されています！');
+                    window.location.href = 'index.html';
+                    return;
+                }
+
+                console.log(`未保存の問題: ${this.missingQuestionIndexes.length}問`);
+                alert(
+                    `⚠️ ${this.questions.length}問全てを解き終わっていますが、\n` +
+                    `途中の${this.missingQuestionIndexes.length}問がサーバーに保存されていません。\n\n` +
+                    `これらの問題を解き直してください。`
+                );
+
+                // 未保存問題モードでは最初の未保存問題から開始
+                this.currentMissingIndex = 0;
+                this.currentIndex = this.missingQuestionIndexes[0];
+
+                // 問題数の表示（未保存問題数）
+                document.getElementById('total-questions').textContent = this.missingQuestionIndexes.length;
+
+                // 最初の問題を表示
+                this.showQuestion();
+                this.hideLoading();
+                return;
+            }
+
+            // 通常モード: 進捗があればそこから開始、なければ0から
             const progress = await StorageManager.getProgress(this.reviewerName, this.category);
 
             // index.htmlから来た場合は既に確認済み（resume_confirmedフラグをチェック）
             const resumeConfirmed = sessionStorage.getItem('resume_confirmed');
 
-            if (progress && progress.questionIndex >= 0 && progress.questionIndex < this.questions.length) {
+            // 240問目まで到達している場合：未保存問題をチェック
+            if (progress && progress.questionIndex >= this.questions.length - 1 && resumeConfirmed !== 'true') {
+                console.log('240問目まで到達：未保存問題をチェック中...');
+
+                // 未保存問題をチェック
+                this.missingQuestionIndexes = await StorageManager.getMissingQuestions(
+                    this.reviewerName,
+                    this.category,
+                    this.questions
+                );
+
+                if (this.missingQuestionIndexes.length > 0) {
+                    // 未保存問題がある場合：専用モーダルを表示
+                    const choice = await this.showMissingQuestionsResumeModal(
+                        this.missingQuestionIndexes.length,
+                        this.questions.length
+                    );
+
+                    if (choice === 'solve-missing') {
+                        // 未保存問題モードで開始
+                        this.missingQuestionsMode = true;
+                        this.currentMissingIndex = 0;
+                        this.currentIndex = this.missingQuestionIndexes[0];
+
+                        // 問題数の表示（未保存問題数）
+                        document.getElementById('total-questions').textContent = this.missingQuestionIndexes.length;
+
+                        console.log(`未保存問題モードで開始: ${this.missingQuestionIndexes.length}問`);
+
+                        // 最初の問題を表示
+                        this.showQuestion();
+                        this.hideLoading();
+                        return;
+                    } else if (choice === 'cancel') {
+                        // キャンセル: ホームに戻る
+                        window.location.href = 'index.html';
+                        return;
+                    }
+                } else {
+                    // 未保存問題がない場合：完了メッセージを表示
+                    alert(`✅ 全ての問題を解き終わっています\n\n${this.questions.length}問全てがサーバーに保存されています。\n\nレビューは完了しています。`);
+                    window.location.href = 'index.html';
+                    return;
+                }
+            }
+            // 途中まで解いている場合
+            else if (progress && progress.questionIndex >= 0 && progress.questionIndex < this.questions.length) {
                 if (resumeConfirmed === 'true') {
                     // index.htmlで既に確認済み
                     this.currentIndex = progress.questionIndex;
@@ -111,7 +202,9 @@ const QuizApp = {
                         return;
                     }
                 }
-            } else {
+            }
+            // 進捗がない場合（はじめての人）
+            else {
                 this.currentIndex = 0;
             }
 
@@ -137,10 +230,18 @@ const QuizApp = {
         // 問題文の表示
         document.getElementById('question-text').textContent = question.question;
 
-        // 進捗の更新
-        document.getElementById('current-question').textContent = this.currentIndex + 1;
-        const progress = ((this.currentIndex + 1) / this.questions.length) * 100;
-        document.getElementById('progress-fill').style.width = `${progress}%`;
+        // 進捗の更新（未保存問題モードかどうかで表示を変える）
+        if (this.missingQuestionsMode) {
+            // 未保存問題モード: 未保存問題の中での位置を表示
+            document.getElementById('current-question').textContent = this.currentMissingIndex + 1;
+            const progress = ((this.currentMissingIndex + 1) / this.missingQuestionIndexes.length) * 100;
+            document.getElementById('progress-fill').style.width = `${progress}%`;
+        } else {
+            // 通常モード
+            document.getElementById('current-question').textContent = this.currentIndex + 1;
+            const progress = ((this.currentIndex + 1) / this.questions.length) * 100;
+            document.getElementById('progress-fill').style.width = `${progress}%`;
+        }
 
         // 状態のリセット
         this.selectedAnswer = null;
@@ -228,7 +329,7 @@ const QuizApp = {
     /**
      * 回答を提出
      */
-    submitAnswer() {
+    async submitAnswer() {
         if (this.selectedAnswer === null || this.correctAnswerIndex === null) {
             return;
         }
@@ -256,29 +357,7 @@ const QuizApp = {
             comment: '' // コメントは後で入力
         });
 
-        // APIに送信（非同期、エラーでも処理は継続）
-        const reviewData = {
-            review_id: this.currentReviewId,
-            question_id: question.questionID,
-            question_set: this.category,
-            question_index: this.currentIndex,
-            keyword: question.keyword || '',
-            category: question.category,
-            question_text: question.question,
-            reviewer_name: this.reviewerName,
-            answer: selectedText,
-            correct_answer: correctText,
-            is_correct: isCorrect,
-            timestamp: new Date().toISOString(),
-            comment: ''
-        };
-
-        StorageManager.saveReviewToAPI(reviewData).catch(error => {
-            console.warn('API送信に失敗しましたが、localStorageには保存されています:', error);
-        });
-
-        // 進捗を保存
-        StorageManager.saveProgress(this.reviewerName, this.category, this.currentIndex);
+        // === 先に結果を表示（ユーザーに即座にフィードバック） ===
 
         // 結果表示
         this.showResult(isCorrect, selectedText, correctText);
@@ -291,10 +370,20 @@ const QuizApp = {
         // ボタンの切り替え
         document.getElementById('submit-btn').style.display = 'none';
 
-        if (this.currentIndex < this.questions.length - 1) {
-            document.getElementById('next-btn').style.display = 'block';
+        // 未保存問題モードの場合
+        if (this.missingQuestionsMode) {
+            if (this.currentMissingIndex < this.missingQuestionIndexes.length - 1) {
+                document.getElementById('next-btn').style.display = 'block';
+            } else {
+                document.getElementById('complete-btn').style.display = 'block';
+            }
         } else {
-            document.getElementById('complete-btn').style.display = 'block';
+            // 通常モード
+            if (this.currentIndex < this.questions.length - 1) {
+                document.getElementById('next-btn').style.display = 'block';
+            } else {
+                document.getElementById('complete-btn').style.display = 'block';
+            }
         }
 
         // 選択肢を無効化
@@ -314,6 +403,67 @@ const QuizApp = {
                 document.getElementById('comment-input').focus();
             }, 500); // アニメーション後にフォーカス
         }, 800); // 結果表示と選択肢ハイライトの後
+
+        // 注意: サーバー送信は「次の問題へ」ボタンを押した時に行われます
+    },
+
+    /**
+     * サーバーへの保存（再試行付き）
+     * @param {Object} reviewData - レビューデータ
+     */
+    async saveToServerWithRetry(reviewData) {
+        const maxRetries = 3;
+        let saveSuccess = false;
+        let retryCount = 0;
+
+        while (!saveSuccess && retryCount < maxRetries) {
+            try {
+                const saveResult = await StorageManager.saveReviewToAPI(reviewData);
+                if (saveResult) {
+                    saveSuccess = true;
+                    console.log('サーバーへの保存に成功しました');
+                    return; // 成功したら終了
+                }
+            } catch (error) {
+                console.error(`API送信エラー (試行${retryCount + 1}回目):`, error);
+            }
+
+            retryCount++;
+
+            // 保存失敗時の処理
+            if (!saveSuccess) {
+                if (retryCount < maxRetries) {
+                    // まだ再試行できる場合
+                    const retry = confirm(
+                        `⚠️ 回答の保存に失敗しました（${retryCount}回目）\n\n` +
+                        `お使いのブラウザには保存されていますが、サーバーへの保存に失敗しています。\n\n` +
+                        `もう一度送信しますか？\n\n` +
+                        `OK: もう一度送信する\n` +
+                        `キャンセル: スキップ（後で解き直せます）`
+                    );
+
+                    if (!retry) {
+                        // ユーザーが「スキップ」を選択
+                        console.warn('ユーザーが再試行をキャンセルしました');
+                        break;
+                    }
+                    // retryがtrueの場合はループを続けて再試行
+                } else {
+                    // 最大試行回数に達した場合
+                    alert(
+                        `⚠️ 回答の保存に${maxRetries}回失敗しました\n\n` +
+                        `お使いのブラウザには保存されていますが、サーバーへの保存ができませんでした。\n\n` +
+                        `ネットワーク接続を確認してください。\n\n` +
+                        `この問題は後でまとめて解き直すことができます。`
+                    );
+                    break;
+                }
+            }
+        }
+
+        if (!saveSuccess) {
+            console.warn('サーバーへの保存に失敗しました。後で解き直してください。');
+        }
     },
 
     /**
@@ -372,27 +522,38 @@ const QuizApp = {
      * 次の問題へ
      */
     async nextQuestion() {
-        // コメントを保存
+        // コメントを保存してサーバーに送信
         if (this.currentReviewId) {
             const comment = document.getElementById('comment-input').value.trim();
             StorageManager.updateComment(this.currentReviewId, comment);
 
-            // コメントが入力されていればAPIにも送信（コメント更新）
-            if (comment) {
-                const results = StorageManager.getAllResults();
-                const reviewData = results.find(r => r.review_id === this.currentReviewId);
-                if (reviewData) {
-                    await StorageManager.saveReviewToAPI(reviewData).catch(error => {
-                        console.warn('コメントの同期に失敗しました:', error);
-                    });
-                }
+            // localStorageから最新のレビューデータを取得してサーバーに送信
+            const results = StorageManager.getAllResults();
+            const reviewData = results.find(r => r.review_id === this.currentReviewId);
+            if (reviewData) {
+                // サーバーに送信（再試行付き）
+                await this.saveToServerWithRetry(reviewData);
             }
         }
 
+        // 進捗を保存（未保存問題モードでは保存しない）
+        if (!this.missingQuestionsMode) {
+            await StorageManager.saveProgress(this.reviewerName, this.category, this.currentIndex);
+        }
+
+        // 未保存問題モードの場合
+        if (this.missingQuestionsMode) {
+            if (this.currentMissingIndex < this.missingQuestionIndexes.length - 1) {
+                this.currentMissingIndex++;
+                this.currentIndex = this.missingQuestionIndexes[this.currentMissingIndex];
+                this.showQuestion();
+            }
+            return;
+        }
+
+        // 通常モード
         if (this.currentIndex < this.questions.length - 1) {
             this.currentIndex++;
-            // 進捗を保存
-            StorageManager.saveProgress(this.reviewerName, this.category, this.currentIndex);
             this.showQuestion();
         }
     },
@@ -401,24 +562,33 @@ const QuizApp = {
      * レビュー完了
      */
     async completeReview() {
-        // コメントを保存
+        // 最後の問題のコメントを保存してサーバーに送信
         if (this.currentReviewId) {
             const comment = document.getElementById('comment-input').value.trim();
             StorageManager.updateComment(this.currentReviewId, comment);
 
-            // コメントが入力されていればAPIにも送信（コメント更新）
-            if (comment) {
-                const results = StorageManager.getAllResults();
-                const reviewData = results.find(r => r.review_id === this.currentReviewId);
-                if (reviewData) {
-                    await StorageManager.saveReviewToAPI(reviewData).catch(error => {
-                        console.warn('コメントの同期に失敗しました:', error);
-                    });
-                }
+            // localStorageから最新のレビューデータを取得してサーバーに送信
+            const results = StorageManager.getAllResults();
+            const reviewData = results.find(r => r.review_id === this.currentReviewId);
+            if (reviewData) {
+                // サーバーに送信（再試行付き）
+                await this.saveToServerWithRetry(reviewData);
             }
         }
 
-        // 進捗を削除（レビュー完了）
+        // 未保存問題モードの場合は異なるメッセージ
+        if (this.missingQuestionsMode) {
+            alert(
+                `✅ 未保存問題の解き直しが完了しました！\n\n` +
+                `途中の${this.missingQuestionIndexes.length}問をサーバーに保存しました。\n\n` +
+                `全ての問題を解き終わっています。\n\n` +
+                `お疲れさまでした！`
+            );
+            window.location.href = 'index.html';
+            return;
+        }
+
+        // 通常モード: 進捗を削除（レビュー完了）
         StorageManager.clearProgress(this.reviewerName, this.category);
 
         const stats = StorageManager.getStatistics();
@@ -441,6 +611,61 @@ const QuizApp = {
     },
 
     /**
+     * 未保存問題確認モーダルを表示（240問目まで到達したが途中が抜けている場合）
+     * @param {number} missingCount - 未保存問題数
+     * @param {number} totalQuestions - 総問題数
+     * @returns {Promise<string>} 'solve-missing' | 'cancel'
+     */
+    showMissingQuestionsResumeModal(missingCount, totalQuestions) {
+        return new Promise((resolve) => {
+            const modal = document.getElementById('progress-resume-modal');
+            const message = document.getElementById('progress-resume-message');
+            const continueBtn = document.getElementById('resume-continue-btn');
+            const restartBtn = document.getElementById('resume-restart-btn');
+            const cancelBtn = document.getElementById('resume-cancel-btn');
+
+            // メッセージを設定
+            message.textContent =
+                `⚠️ ${totalQuestions}問全てを解き終わっていますが、\n` +
+                `途中の${missingCount}問がサーバーに保存されていません。`;
+
+            // ボタンのラベルを変更
+            continueBtn.textContent = `未保存の${missingCount}問を解く`;
+            restartBtn.style.display = 'none'; // 「最初から開始」ボタンは非表示
+
+            // モーダルを表示
+            modal.style.display = 'flex';
+
+            // イベントハンドラー
+            const handleSolveMissing = () => {
+                modal.style.display = 'none';
+                // ボタンのラベルを元に戻す
+                continueBtn.textContent = '続きから開始';
+                restartBtn.style.display = 'inline-block';
+                cleanup();
+                resolve('solve-missing');
+            };
+
+            const handleCancel = () => {
+                modal.style.display = 'none';
+                // ボタンのラベルを元に戻す
+                continueBtn.textContent = '続きから開始';
+                restartBtn.style.display = 'inline-block';
+                cleanup();
+                resolve('cancel');
+            };
+
+            const cleanup = () => {
+                continueBtn.removeEventListener('click', handleSolveMissing);
+                cancelBtn.removeEventListener('click', handleCancel);
+            };
+
+            continueBtn.addEventListener('click', handleSolveMissing);
+            cancelBtn.addEventListener('click', handleCancel);
+        });
+    },
+
+    /**
      * 進捗再開確認モーダルを表示
      * @param {number} nextQuestion - 次の問題番号
      * @param {number} totalQuestions - 総問題数
@@ -455,7 +680,11 @@ const QuizApp = {
             const cancelBtn = document.getElementById('resume-cancel-btn');
 
             // メッセージを設定
-            message.textContent = `問題${nextQuestion}/${totalQuestions}から再開できます。`;
+            if (nextQuestion > totalQuestions) {
+                message.textContent = `全ての問題を解き終わっています。`;
+            } else {
+                message.textContent = `問題${nextQuestion}/${totalQuestions}から再開できます。`;
+            }
 
             // モーダルを表示
             modal.style.display = 'flex';

@@ -105,20 +105,89 @@
             // 進捗があるかチェック（非同期）
             const progress = await StorageManager.getProgress(reviewerName, category);
 
-            if (progress && progress.questionIndex >= 0) {
+            // 進捗が最後まで到達している場合のみ、未保存問題をチェック
+            const hasCompletedAll = progress && progress.questionIndex >= questionCount - 1;
+
+            if (hasCompletedAll) {
+                // 全問解き終わった人のみ：未保存問題をチェック
+                try {
+                    // 問題データを読み込む
+                    const response = await fetch(QUESTIONS_PATH);
+                    if (!response.ok) {
+                        throw new Error('問題データの読み込みに失敗しました');
+                    }
+                    const allQuestions = await response.json();
+                    const categoryQuestions = allQuestions.filter(q => q.category === category);
+
+                    // 未保存問題をチェック
+                    const missingIndexes = await StorageManager.getMissingQuestions(
+                        reviewerName,
+                        category,
+                        categoryQuestions
+                    );
+
+                    if (missingIndexes.length > 0) {
+                        // 未保存問題がある場合はダイアログを表示
+                        const choice = await showMissingQuestionsDialog(missingIndexes.length, questionCount);
+
+                        if (choice === 'missing') {
+                            // 未保存問題モードで開始
+                            startReview(reviewerName, category, false, true);
+                            return;
+                        } else if (choice === 'cancel') {
+                            // キャンセル
+                            return;
+                        }
+                        // 'normal' の場合は通常モードで続行
+                    } else {
+                        // 未保存問題がない場合
+                        alert(`✅ 全ての問題を解き終わっています\n\n${questionCount}問全てがサーバーに保存されています。\n\nレビューは完了しています。`);
+                        return;
+                    }
+                } catch (error) {
+                    console.error('未保存問題チェックエラー:', error);
+                    // エラーが発生しても通常モードで続行
+                }
+            }
+
+            // 途中まで解いている人、またははじめての人：通常の進捗チェック
+            if (progress && progress.questionIndex >= 0 && progress.questionIndex < questionCount - 1) {
                 // 進捗がある場合はダイアログを表示
                 const choice = await showProgressDialog(reviewerName, category, questionCount, progress.questionIndex);
 
                 if (choice === 'continue') {
-                    startReview(reviewerName, category, true);
+                    startReview(reviewerName, category, true, false);
                 } else if (choice === 'restart') {
-                    startReview(reviewerName, category, false);
+                    startReview(reviewerName, category, false, false);
                 }
                 // cancel の場合は何もしない
-            } else {
-                // 進捗がない場合は直接開始
-                startReview(reviewerName, category, false);
+            } else if (!progress) {
+                // 進捗がない場合（はじめての人）は直接開始
+                startReview(reviewerName, category, false, false);
             }
+        }
+
+        // 未保存問題ダイアログを表示
+        function showMissingQuestionsDialog(missingCount, totalCount) {
+            return new Promise((resolve) => {
+                const message =
+                    `⚠️ ${totalCount}問全てを解き終わっていますが、\n` +
+                    `途中の${missingCount}問がサーバーに保存されていません。\n\n` +
+                    `どうしますか？`;
+                const userChoice = confirm(message + '\n\nOK: 未保存の問題だけを解き直す\nキャンセル: 通常通り全ての問題を解く');
+
+                if (userChoice) {
+                    resolve('missing');
+                } else {
+                    // 2つ目の確認: 本当に通常モードで続行するか
+                    const confirmNormal = confirm('通常モードで続行しますか？\n\nOK: 通常モードで続行\nキャンセル: 何もしない');
+                    if (confirmNormal) {
+                        resolve('normal');
+                    } else {
+                        resolve('cancel');
+                    }
+                }
+            });
         }
 
         // 進捗確認ダイアログを表示
@@ -130,8 +199,13 @@
                 const restartBtn = document.getElementById('resume-restart-btn');
                 const cancelBtn = document.getElementById('resume-cancel-btn');
 
-                const nextQuestion = lastIndex + 1;
-                message.textContent = `問題${nextQuestion}/${questionCount}から再開できます。`;
+                // 全問解き終わっているかチェック
+                if (lastIndex >= questionCount - 1) {
+                    message.textContent = `全ての問題を解き終わっています。`;
+                } else {
+                    const nextQuestion = lastIndex + 1;
+                    message.textContent = `問題${nextQuestion}/${questionCount}から再開できます。`;
+                }
 
                 // モーダルを表示
                 modal.style.display = 'flex';
@@ -168,7 +242,7 @@
         }
 
         // レビューを開始
-        function startReview(reviewerName, category, resume) {
+        function startReview(reviewerName, category, resume, missingMode) {
             // localStorageに保存
             localStorage.setItem('current_reviewer', reviewerName);
             localStorage.setItem('current_category', category);
@@ -179,6 +253,13 @@
                 sessionStorage.setItem('resume_confirmed', 'true');
             } else {
                 sessionStorage.removeItem('resume_confirmed');
+            }
+
+            // 未保存問題モードのフラグを設定
+            if (missingMode) {
+                sessionStorage.setItem('missing_questions_mode', 'true');
+            } else {
+                sessionStorage.removeItem('missing_questions_mode');
             }
 
             // レビュー画面に遷移

@@ -540,6 +540,84 @@ const StorageManager = {
             // エラーでもlocalStorageには保存されているので、falseを返すだけ
             return false;
         }
+    },
+
+    /**
+     * S3からレビューデータを取得
+     * @returns {Promise<Array>} レビューデータの配列
+     */
+    async getReviewsFromAPI() {
+        // AWS_CONFIGが定義されていない、またはS3アップロードが無効の場合
+        if (typeof AWS_CONFIG === 'undefined' || !AWS_CONFIG.enableS3Upload) {
+            console.log('API取得機能は無効です');
+            return [];
+        }
+
+        // APIエンドポイントが設定されているか確認
+        if (!AWS_CONFIG.apiEndpoint) {
+            console.warn('APIエンドポイントが設定されていません');
+            return [];
+        }
+
+        try {
+            const response = await fetch(AWS_CONFIG.apiEndpoint, {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json',
+                }
+            });
+
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+
+            const result = await response.json();
+            console.log('S3からレビューデータを取得:', result);
+            return result.success && result.reviews ? result.reviews : [];
+
+        } catch (error) {
+            console.error('S3レビューデータ取得エラー:', error);
+            return [];
+        }
+    },
+
+    /**
+     * 特定のレビュアー・カテゴリでS3に保存されていない問題を特定
+     * @param {string} reviewerName - レビュアー名
+     * @param {string} category - カテゴリ
+     * @param {Array} allQuestions - 全問題の配列
+     * @returns {Promise<Array>} 未保存の問題インデックスの配列
+     */
+    async getMissingQuestions(reviewerName, category, allQuestions) {
+        try {
+            // S3からレビューデータを取得
+            const s3Reviews = await this.getReviewsFromAPI();
+
+            // 該当レビュアー・カテゴリのレビューをフィルタリング
+            const relevantReviews = s3Reviews.filter(r =>
+                r.reviewer_name === reviewerName && r.category === category
+            );
+
+            console.log(`${reviewerName}の${category}カテゴリ: S3に${relevantReviews.length}問保存済み`);
+
+            // S3に保存されている問題インデックスのセット
+            const savedIndexes = new Set(relevantReviews.map(r => r.question_index));
+
+            // 全問題のインデックスから、保存されていないものを抽出
+            const missingIndexes = [];
+            for (let i = 0; i < allQuestions.length; i++) {
+                if (!savedIndexes.has(i)) {
+                    missingIndexes.push(i);
+                }
+            }
+
+            console.log('未保存の問題インデックス:', missingIndexes);
+            return missingIndexes;
+
+        } catch (error) {
+            console.error('未保存問題の特定エラー:', error);
+            return [];
+        }
     }
 };
 
