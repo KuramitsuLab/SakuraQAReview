@@ -177,25 +177,29 @@ const Analytics = {
         const totalQuestions = this.questions.length;
 
         this.allReviewers.forEach(reviewer => {
-            // このレビュアーのS3に保存されている回答数を取得（ユニークな問題インデックスのみ）
+            // このレビュアーのS3に保存されている回答を取得
             const reviewerAnswers = this.reviews.filter(r =>
                 (r.reviewer_name || r.reviewerName) === reviewer
             );
+
+            // ユニークな問題インデックスを取得
             const uniqueQuestionIndexes = new Set(
                 reviewerAnswers.map(r => r.question_index !== undefined ? r.question_index : r.questionIndex)
             );
             const savedCount = uniqueQuestionIndexes.size;
 
-            // localStorageから進捗を取得して、240問目まで到達しているかチェック
-            const progressData = StorageManager.getAllProgress();
-            const progressKey = Object.keys(progressData).find(key => key.startsWith(`${reviewer}__`));
-            const progress = progressKey ? progressData[progressKey] : null;
-            const hasReachedEnd = progress && progress.questionIndex >= totalQuestions - 1;
+            // 最大の問題インデックスを取得して、240問目まで到達しているかチェック
+            const maxQuestionIndex = Math.max(
+                ...reviewerAnswers.map(r => r.question_index !== undefined ? r.question_index : r.questionIndex)
+            );
+            const hasReachedEnd = maxQuestionIndex >= totalQuestions - 1;
 
             // 未保存問題数を計算
             const missingCount = hasReachedEnd ? totalQuestions - savedCount : 0;
             const isCompleted = savedCount >= totalQuestions;
             const hasUnfinished = hasReachedEnd && missingCount > 0;
+
+            console.log(`${reviewer}: savedCount=${savedCount}, maxIndex=${maxQuestionIndex}, hasReachedEnd=${hasReachedEnd}, missingCount=${missingCount}`);
 
             const checkboxDiv = document.createElement('div');
             checkboxDiv.className = 'reviewer-checkbox';
